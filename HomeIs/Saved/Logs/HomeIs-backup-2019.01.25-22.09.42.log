@@ -1,0 +1,1089 @@
+﻿Log file open, 01/25/19 21:54:52
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HomeIs
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.441394
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.328s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.006s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.25-21.54.52:690][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-21.54.52:690][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.25-21.54.52:709][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.25-21.54.52:709][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.25-21.54.52:709][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.25-21.54.52:710][  0]LogInit: Computer: D102-11
+[2019.01.25-21.54.52:710][  0]LogInit: User: w014100h
+[2019.01.25-21.54.52:710][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.25-21.54.52:710][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.01.25-21.54.52:711][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.25-21.54.52:711][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.25-21.54.52:711][  0]LogMemory: Process Physical Memory: 100.42 MB used, 100.42 MB peak
+[2019.01.25-21.54.52:711][  0]LogMemory: Process Virtual Memory: 91.02 MB used, 91.02 MB peak
+[2019.01.25-21.54.52:711][  0]LogMemory: Physical Memory: 6940.73 MB used,  9359.50 MB free, 16300.24 MB total
+[2019.01.25-21.54.52:711][  0]LogMemory: Virtual Memory: 4640.35 MB used,  9359.50 MB free, 134217728.00 MB total
+[2019.01.25-21.54.52:845][  0]LogInit: Using OS detected language (en-US).
+[2019.01.25-21.54.52:846][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.25-21.54.52:847][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.25-21.54.53:280][  0]LogStreaming: Display: Took  0.435s to InitEngineTextLocalization.
+[2019.01.25-21.54.53:281][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.25-21.54.53:344][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.25-21.54.53:344][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.25-21.54.53:691][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-21.54.53:692][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.25-21.54.53:793][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.25-21.54.53:793][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.25-21.54.53:798][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.25-21.54.53:798][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.25-21.54.53:798][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.25-21.54.53:819][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.25-21.54.53:819][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.25-21.54.53:819][  0]LogWindows: EnumDisplayDevices:
+[2019.01.25-21.54.53:819][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.25-21.54.53:819][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.25-21.54.53:820][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-21.54.53:820][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-21.54.53:820][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.25-21.54.53:821][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.25-21.54.53:821][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.25-21.54.53:821][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.25-21.54.53:821][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.25-21.54.53:875][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.25-21.54.53:893][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.25-21.54.53:896][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Intermediate/Shaders/WorkingDirectory/16656/).
+[2019.01.25-21.54.53:897][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w014100h/AppData/Local/Temp/UnrealShaderWorkingDir/22D54CB54749B406FD75D9837B59ADCC/'.
+[2019.01.25-21.54.54:236][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.25-21.54.54:254][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.25-21.54.54:272][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.25-21.54.54:289][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.25-21.54.54:308][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.25-21.54.54:326][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.25-21.54.54:344][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.25-21.54.54:362][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.25-21.54.54:373][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.25-21.54.54:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:460][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:461][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-21.54.54:470][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.25-21.54.54:554][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-21.54.54:554][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-21.54.54:582][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-21.54.54:582][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-21.54.54:598][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.25-21.54.54:615][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.25-21.54.54:645][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.25-21.54.54:668][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.25-21.54.54:697][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.25-21.54.54:698][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.25-21.54.54:911][  0]LogXGEController: Cleaning working directory: C:/Users/w014100h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-21.54.54:912][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.25-21.54.54:912][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.25-21.54.54:912][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.25-21.54.56:036][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.25-21.54.56:134][  0]LogDerivedDataCache: Loaded boot cache 0.10s 73MB C:/Users/w014100h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-21.54.56:135][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w014100h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.25-21.54.56:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.25-21.54.56:135][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.25-21.54.56:135][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.25-21.54.56:135][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.25-21.54.56:152][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.25-21.54.56:166][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w014100h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.25-21.54.56:166][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.25-21.54.56:166][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.25-21.54.56:186][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.25-21.54.56:187][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.25-21.54.56:188][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.25-21.54.56:276][  0]LogAssetRegistry: FAssetRegistry took 0.0292 seconds to start up
+[2019.01.25-21.54.56:695][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-21.54.56:870][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.25-21.54.56:880][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.25-21.54.56:881][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.25-21.54.56:881][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.25-21.54.56:881][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.25-21.54.56:902][  0]LogNetVersion: HomeIs 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4178729889)
+[2019.01.25-21.54.57:624][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.242838 seconds
+[2019.01.25-21.54.57:632][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.25-21.54.57:632][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.25-21.54.57:632][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.25-21.54.58:793][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.25-21.54.58:811][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.25-21.54.59:399][  0]SourceControl: Source control is disabled
+[2019.01.25-21.54.59:399][  0]SourceControl: Source control is disabled
+[2019.01.25-21.54.59:403][  0]SourceControl: Source control is disabled
+[2019.01.25-21.54.59:407][  0]SourceControl: Source control is disabled
+[2019.01.25-21.54.59:749][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.25-21.54.59:853][  0]LogOcInput: OculusInput pre-init called
+[2019.01.25-21.54.59:935][  0]LogEngine: Initializing Engine...
+[2019.01.25-21.54.59:936][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-21.54.59:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-21.54.59:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-21.54.59:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-21.54.59:937][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-21.55.00:177][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.25-21.55.00:205][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.25-21.55.00:220][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-21.55.00:248][  0]LogInit: FAudioDevice initialized.
+[2019.01.25-21.55.00:249][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.25-21.55.00:345][  0]LogDerivedDataCache: Saved boot cache 0.10s 73MB C:/Users/w014100h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-21.55.00:349][  0]LogInit: Texture streaming: Enabled
+[2019.01.25-21.55.00:387][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.25-21.55.00:405][  0]LogInit: Transaction tracking system initialized
+[2019.01.25-21.55.00:459][  0]BlueprintLog: New page: Editor Load
+[2019.01.25-21.55.00:702][  0]LocalizationService: Localization service is disabled
+[2019.01.25-21.55.01:067][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.25-21.55.01:067][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.25-21.55.01:068][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.25-21.55.01:068][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-21.55.01:068][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-21.55.01:068][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-21.55.01:068][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-21.55.01:316][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/' took 0.03s
+[2019.01.25-21.55.01:316][  0]SourceControl: Source control is disabled
+[2019.01.25-21.55.01:317][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-21.55.01:318][  0]LightingResults: New page: Lighting Build
+[2019.01.25-21.55.01:323][  0]MapCheck: New page: Map Check
+[2019.01.25-21.55.01:324][  0]LightingResults: New page: Lighting Build
+[2019.01.25-21.55.01:571][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-21.55.01:585][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-21.55.01:612][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-21.55.01:848][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 235.341ms to complete.
+[2019.01.25-21.55.01:848][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.532
+[2019.01.25-21.55.01:999][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.55.02:006][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.55.02:014][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.55.02:022][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.55.02:036][  0]LogCollectionManager: Loaded 0 collections in 0.004344 seconds
+[2019.01.25-21.55.02:092][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/Collections/' took 0.01s
+[2019.01.25-21.55.02:092][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/Developers/w014100h/Collections/' took 0.01s
+[2019.01.25-21.55.02:092][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/Collections/' took 0.01s
+[2019.01.25-21.55.02:092][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.01.25-21.55.02:103][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2577 classes and 605 folders.
+[2019.01.25-21.55.02:115][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-21.55.02:199][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-21.55.02:209][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.01.25-21.55.02:225][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.25-21.55.02:228][  0]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.25-21.55.02:234][  0]LogSlate: Took 0.000234 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.25-21.55.02:321][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-21.55.02:381][  0]LogSlate: Took 0.000233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-21.55.02:492][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-21.55.02:508][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.25-21.55.02:550][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.25-21.55.02:550][  0]LogLoad: (Engine Initialization) Total time: 13.27 seconds
+[2019.01.25-21.55.02:550][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.25-21.55.02:561][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-21.55.02:588][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.25-21.55.02:630][  1]LogAssetRegistry: Asset discovery search completed in 6.3779 seconds
+[2019.01.25-21.55.02:632][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.25-21.55.02:632][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000127 seconds (updated 0 objects)
+[2019.01.25-21.55.06:128][410]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.55.06:186][417]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.55.06:202][417]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.55.06:203][417]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.55.06:217][417]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 21:55:06)
+[2019.01.25-21.55.06:217][417]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-21.55.06:243][417]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026679s)
+[2019.01.25-21.55.06:244][417]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-21.55.06:245][417]LogPlayLevel: PIE: World Init took: (0.001191s)
+[2019.01.25-21.55.06:245][417]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028358s)
+[2019.01.25-21.55.06:276][417]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-21.55.06:290][417]LogInit: FAudioDevice initialized.
+[2019.01.25-21.55.06:339][417]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-21.55.06:343][417]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-21.55.06
+[2019.01.25-21.55.06:344][417]LogWorld: Bringing up level for play took: 0.002676
+[2019.01.25-21.55.06:367][417]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 10 classes and 0 folders.
+[2019.01.25-21.55.06:368][417]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.331
+[2019.01.25-21.55.06:368][417]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.55.31:937][469]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.55.31:938][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.55.31:977][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.55.31:978][469]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.55.32:019][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.55.32:045][470]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2019.01.25-21.55.56:225][795]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.55.56:291][803]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.55.56:310][803]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.55.56:310][803]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.55.56:310][803]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 21:55:56)
+[2019.01.25-21.55.56:310][803]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-21.55.56:326][803]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016141s)
+[2019.01.25-21.55.56:328][803]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-21.55.56:328][803]LogPlayLevel: PIE: World Init took: (0.001188s)
+[2019.01.25-21.55.56:328][803]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017789s)
+[2019.01.25-21.55.56:365][803]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-21.55.56:381][803]LogInit: FAudioDevice initialized.
+[2019.01.25-21.55.56:414][803]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-21.55.56:417][803]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-21.55.56
+[2019.01.25-21.55.56:417][803]LogWorld: Bringing up level for play took: 0.002239
+[2019.01.25-21.55.56:431][803]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.394
+[2019.01.25-21.55.56:432][803]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.56.24:564][843]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.56.24:565][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.56.24:613][843]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.56.24:613][843]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.56.24:639][843]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.56.24:664][844]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.01.25-21.57.50:410][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.57.50:451][344]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-21.57.50:472][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.57.50:472][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-21.57.50:472][344]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 21:57:50)
+[2019.01.25-21.57.50:473][344]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-21.57.50:491][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018367s)
+[2019.01.25-21.57.50:492][344]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-21.57.50:493][344]LogPlayLevel: PIE: World Init took: (0.001405s)
+[2019.01.25-21.57.50:493][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020325s)
+[2019.01.25-21.57.50:529][344]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-21.57.50:545][344]LogInit: FAudioDevice initialized.
+[2019.01.25-21.57.50:586][344]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-21.57.50:589][344]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-21.57.50
+[2019.01.25-21.57.50:589][344]LogWorld: Bringing up level for play took: 0.002219
+[2019.01.25-21.57.50:603][344]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.569
+[2019.01.25-21.57.50:604][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.58.19:619][799]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.58.19:619][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.58.19:658][799]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-21.58.19:659][799]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-21.58.19:702][799]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-21.58.19:730][800]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.25-21.58.22:005][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.58.34:269][326]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-21.58.34:277][326]LogAssetEditorManager: Opening Asset editor for Class /Script/HomeIs.Turret
+[2019.01.25-21.58.34:365][326]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Source/HomeIs/Turret.h'
+[2019.01.25-21.58.34:443][326]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Source/HomeIs/Turret.cpp'
+[2019.01.25-21.58.45:281][405]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyTurret.MyTurret
+[2019.01.25-21.58.45:738][405]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 116 classes and 0 folders.
+[2019.01.25-21.58.46:701][405]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.25-21.58.48:297][544]LogSlate: Window 'MyTurret' being destroyed
+[2019.01.25-21.58.48:301][544]LogSlate: Window 'MyTurret' being destroyed
+[2019.01.25-21.58.53:403][920]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.25-21.59.04:728][264]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TurretStand.TurretStand
+[2019.01.25-21.59.08:113][576]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:314).
+[2019.01.25-21.59.09:069][664]LogSlate: Took 0.000341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.25-21.59.25:266][105]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.59.31:848][692]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-21.59.36:350][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-21.59.39:481][374]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.25-21.59.42:200][630]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.25-21.59.51:798][502]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.00.03:828][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.00.21:427][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.00.38:173][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.00.50:231][861]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.01.08:383][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.01.20:376][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.01.29:959][446]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.01.43:905][654]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.01.47:048][932]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.01.56:987][803]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.01.57:020][806]BlueprintLog: New page: Compile TurretStand
+[2019.01.25-22.01.57:613][833]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretStand" FILE="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/TurretStand.uasset" SILENT=true
+[2019.01.25-22.01.57:649][833]LogSavePackage: Moving '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/TurretStand74E24FBE4AF787056C8D7AA5D325084B.tmp' to '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/TurretStand.uasset'
+[2019.01.25-22.01.58:645][913]LogSlate: Window 'TurretStand' being destroyed
+[2019.01.25-22.01.58:649][913]LogSlate: Window 'TurretStand' being destroyed
+[2019.01.25-22.02.00:616][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.02.07:758][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.02.12:541][495]Cmd: TRANSACTION UNDO
+[2019.01.25-22.02.12:541][495]LogEditorTransaction: Undo Set Scale
+[2019.01.25-22.02.25:925][992]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.02.26:057][  5]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TurretStand.TurretStand
+[2019.01.25-22.02.35:859][762]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.02.35:935][768]BlueprintLog: New page: Compile TurretStand
+[2019.01.25-22.02.36:540][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretStand" FILE="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/TurretStand.uasset" SILENT=true
+[2019.01.25-22.02.36:581][792]LogSavePackage: Moving '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/TurretStand048E8EE0457D39BC683DCBA13582A03D.tmp' to '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/TurretStand.uasset'
+[2019.01.25-22.02.37:802][877]LogSlate: Window 'TurretStand' being destroyed
+[2019.01.25-22.02.37:806][877]LogSlate: Window 'TurretStand' being destroyed
+[2019.01.25-22.02.40:798][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.02.40:955][221]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TurretStand.TurretStand
+[2019.01.25-22.02.47:760][725]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.02.55:003][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.02.59:821][666]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.03.08:241][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.03.08:300][308]BlueprintLog: New page: Compile TurretStand
+[2019.01.25-22.03.08:855][332]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretStand" FILE="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/TurretStand.uasset" SILENT=true
+[2019.01.25-22.03.08:886][332]LogSavePackage: Moving '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/TurretStandF238B28C4CC3C710E8E8CCA9F788C8BA.tmp' to '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/TurretStand.uasset'
+[2019.01.25-22.03.11:612][537]LogSlate: Window 'TurretStand' being destroyed
+[2019.01.25-22.03.11:616][537]LogSlate: Window 'TurretStand' being destroyed
+[2019.01.25-22.03.15:876][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.03.28:194][451]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.01.25-22.03.28:256][451]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-22.03.28:817][509]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-22.03.32:800][950]LogEditorViewport: Clicking on Actor (LMB): TurretStand_C (TurretStand)
+[2019.01.25-22.03.36:753][406]LogEditorViewport: Clicking on Actor (LMB): TurretStand_C (TurretStand)
+[2019.01.25-22.03.36:842][414]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh1)
+[2019.01.25-22.03.39:641][733]LogEditorViewport: Clicking on Actor (LMB): MyTurret_C (MyTurret)
+[2019.01.25-22.03.40:532][835]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-22.03.41:116][898]LogEditorViewport: Clicking on Actor (LMB): TurretStand_C (TurretStand)
+[2019.01.25-22.03.41:473][936]LogEditorViewport: Clicking on Actor (LMB): TurretStand_C (TurretStand)
+[2019.01.25-22.03.43:168][128]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.03.43:307][143]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TurretStand.TurretStand
+[2019.01.25-22.03.48:804][558]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.03.48:870][563]BlueprintLog: New page: Compile TurretStand
+[2019.01.25-22.03.49:338][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TurretStand" FILE="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/TurretStand.uasset" SILENT=true
+[2019.01.25-22.03.49:370][581]LogSavePackage: Moving '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/TurretStandFB1B568E436FA13705C21F9602431121.tmp' to '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/TurretStand.uasset'
+[2019.01.25-22.03.50:250][652]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.03.50:301][656]LogSlate: Window 'TurretStand' being destroyed
+[2019.01.25-22.03.50:305][656]LogSlate: Window 'TurretStand' being destroyed
+[2019.01.25-22.03.51:786][822]Cmd: DELETE
+[2019.01.25-22.03.51:787][822]Cmd: ACTOR DELETE
+[2019.01.25-22.03.51:789][822]LogEditorActor: Deleted Actor: TurretStand_C
+[2019.01.25-22.03.51:821][822]LogEditorActor: Deleted 1 Actors (0.034 secs)
+[2019.01.25-22.03.52:523][905]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.03.56:474][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.03.56:626][357]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyTurret.MyTurret
+[2019.01.25-22.04.02:529][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.04.07:796][194]BlueprintLog: New page: Compile MyTurret
+[2019.01.25-22.04.08:254][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTurret" FILE="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/MyTurret.uasset" SILENT=true
+[2019.01.25-22.04.08:290][212]LogSavePackage: Moving '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/MyTurret504877344FCCB8AEDB7AFF9540A79C71.tmp' to '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/MyTurret.uasset'
+[2019.01.25-22.04.09:191][281]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-22.04.12:090][507]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.04.12:141][511]LogSlate: Window 'MyTurret' being destroyed
+[2019.01.25-22.04.12:144][511]LogSlate: Window 'MyTurret' being destroyed
+[2019.01.25-22.04.14:010][721]LogEditorViewport: Clicking on Actor (LMB): MyTurret_C (MyTurret)
+[2019.01.25-22.04.39:743][626]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.04.40:028][630]LogSavePackage: Moving '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/FirstPersonExampleMap537F1A52480CDF09FB1B3D903B990F2F.tmp' to '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.01.25-22.04.40:473][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.04.40:535][679]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.04.40:559][679]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.04.40:559][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.04.40:559][679]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 22:04:40)
+[2019.01.25-22.04.40:559][679]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-22.04.40:577][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017317s)
+[2019.01.25-22.04.40:578][679]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-22.04.40:579][679]LogPlayLevel: PIE: World Init took: (0.001742s)
+[2019.01.25-22.04.40:579][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019485s)
+[2019.01.25-22.04.40:620][679]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-22.04.40:637][679]LogInit: FAudioDevice initialized.
+[2019.01.25-22.04.40:677][679]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-22.04.40:681][679]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-22.04.40
+[2019.01.25-22.04.40:682][679]LogWorld: Bringing up level for play took: 0.004069
+[2019.01.25-22.04.40:698][679]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.669
+[2019.01.25-22.04.40:698][679]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.04.45:354][232]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-139.018 Y=800.914 Z=259.064] for [FirstPersonProjectile_C]
+[2019.01.25-22.04.56:389][554]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.04.56:389][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.04.56:428][554]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.04.56:428][554]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.04.56:487][554]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.04.56:517][555]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.25-22.04.59:438][869]LogEditorViewport: Clicking on Actor (LMB): MyTurret_C (MyTurret)
+[2019.01.25-22.05.02:573][195]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.01.25-22.05.02:626][195]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-22.05.03:288][260]Candidate modules for hot reload:
+[2019.01.25-22.05.03:288][260]  HomeIs
+[2019.01.25-22.05.03:288][260]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HomeIs,7708 Win64 Development -TargetType=Editor -Project="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/HomeIs.uproject" -canskiplink "C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/HomeIs.uproject" ]
+[2019.01.25-22.05.03:297][260]Warning: Starting HotReload took  0.0s.
+[2019.01.25-22.05.05:071][444]CompilerResultsLog: New page: Compilation - 25 Jan 2019 22:05:05
+[2019.01.25-22.05.05:071][444]LogMainFrame: MainFrame: Module compiling took 1.792 seconds
+[2019.01.25-22.05.05:071][444]Warning: HotReload failed, recompile failed
+[2019.01.25-22.05.05:944][546]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.05.05:961][546]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.05:961][546]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.05.05:961][546]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 22:05:05)
+[2019.01.25-22.05.05:961][546]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-22.05.05:977][546]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015954s)
+[2019.01.25-22.05.05:978][546]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-22.05.05:979][546]LogPlayLevel: PIE: World Init took: (0.000968s)
+[2019.01.25-22.05.05:979][546]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017299s)
+[2019.01.25-22.05.06:012][546]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-22.05.06:028][546]LogInit: FAudioDevice initialized.
+[2019.01.25-22.05.06:066][546]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-22.05.06:068][546]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-22.05.06
+[2019.01.25-22.05.06:069][546]LogWorld: Bringing up level for play took: 0.002015
+[2019.01.25-22.05.06:082][546]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.053
+[2019.01.25-22.05.06:082][546]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.09:497][948]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.09:497][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.05.09:532][948]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.05.09:532][948]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.09:584][948]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.05.09:608][949]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.25-22.05.24:944][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.05.25:002][768]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.05.25:023][768]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.25:023][768]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.05.25:024][768]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 22:05:25)
+[2019.01.25-22.05.25:024][768]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-22.05.25:038][768]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014450s)
+[2019.01.25-22.05.25:039][768]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-22.05.25:040][768]LogPlayLevel: PIE: World Init took: (0.001292s)
+[2019.01.25-22.05.25:040][768]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016168s)
+[2019.01.25-22.05.25:076][768]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-22.05.25:091][768]LogInit: FAudioDevice initialized.
+[2019.01.25-22.05.25:126][768]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-22.05.25:129][768]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-22.05.25
+[2019.01.25-22.05.25:129][768]LogWorld: Bringing up level for play took: 0.002047
+[2019.01.25-22.05.25:142][768]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.114
+[2019.01.25-22.05.25:143][768]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.28:501][167]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.28:502][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.05.28:540][167]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.05.28:541][167]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.28:568][167]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.05.28:607][170]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.25-22.05.29:617][290]LogEditorViewport: Clicking on Actor (LMB): MyTurret_C (MyTurret)
+[2019.01.25-22.05.33:227][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.05.33:271][703]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.05.33:288][703]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.33:288][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.05.33:288][703]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 22:05:33)
+[2019.01.25-22.05.33:288][703]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-22.05.33:300][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011469s)
+[2019.01.25-22.05.33:301][703]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-22.05.33:301][703]LogPlayLevel: PIE: World Init took: (0.000973s)
+[2019.01.25-22.05.33:301][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.012817s)
+[2019.01.25-22.05.33:333][703]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-22.05.33:347][703]LogInit: FAudioDevice initialized.
+[2019.01.25-22.05.33:382][703]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-22.05.33:386][703]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-22.05.33
+[2019.01.25-22.05.33:387][703]LogWorld: Bringing up level for play took: 0.004345
+[2019.01.25-22.05.33:404][703]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.624
+[2019.01.25-22.05.33:404][703]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.36:336][ 43]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.36:337][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.05.36:377][ 43]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.05.36:377][ 43]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.36:405][ 43]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.05.36:434][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.01.25-22.05.37:739][201]LogEditorViewport: Clicking on Actor (LMB): MyTurret_C (MyTurret)
+[2019.01.25-22.05.40:588][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.05.40:754][520]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyTurret.MyTurret
+[2019.01.25-22.05.48:051][ 65]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.05.48:124][ 71]BlueprintLog: New page: Compile MyTurret
+[2019.01.25-22.05.48:564][ 87]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTurret" FILE="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/MyTurret.uasset" SILENT=true
+[2019.01.25-22.05.48:592][ 87]LogSavePackage: Moving '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/MyTurretB1710CB645A2D97BC51D62AE6DA5BBC3.tmp' to '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/MyTurret.uasset'
+[2019.01.25-22.05.49:592][162]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.05.49:653][166]LogSlate: Window 'MyTurret' being destroyed
+[2019.01.25-22.05.49:657][166]LogSlate: Window 'MyTurret' being destroyed
+[2019.01.25-22.05.56:547][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.05.56:615][960]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.05.56:633][960]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.56:633][960]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.05.56:633][960]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 22:05:56)
+[2019.01.25-22.05.56:633][960]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-22.05.56:648][960]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015243s)
+[2019.01.25-22.05.56:649][960]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-22.05.56:650][960]LogPlayLevel: PIE: World Init took: (0.001123s)
+[2019.01.25-22.05.56:650][960]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016827s)
+[2019.01.25-22.05.56:689][960]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-22.05.56:703][960]LogInit: FAudioDevice initialized.
+[2019.01.25-22.05.56:738][960]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-22.05.56:741][960]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-22.05.56
+[2019.01.25-22.05.56:741][960]LogWorld: Bringing up level for play took: 0.002244
+[2019.01.25-22.05.56:755][960]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.727
+[2019.01.25-22.05.56:755][960]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.05.58:417][156]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-229.657 Y=651.444 Z=246.364] for [FirstPersonProjectile_C]
+[2019.01.25-22.05.58:817][204]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-242.813 Y=652.790 Z=240.335] for [FirstPersonProjectile_C]
+[2019.01.25-22.06.10:338][580]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.06.10:338][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.06.10:380][580]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.06.10:380][580]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.06.10:409][580]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.06.10:439][582]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.01.25-22.06.14:684][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.06.33:687][145]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/TurretStand.TurretStand
+[2019.01.25-22.06.38:374][518]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-22.06.45:404][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.06.53:888][697]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-22.06.57:568][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.06.57:647][988]BlueprintLog: New page: Compile TurretStand
+[2019.01.25-22.06.59:207][110]LogSlate: Window 'TurretStand*' being destroyed
+[2019.01.25-22.06.59:211][110]LogSlate: Window 'TurretStand*' being destroyed
+[2019.01.25-22.07.00:137][207]LogEditorViewport: Clicking on Actor (LMB): MyTurret_C (MyTurret)
+[2019.01.25-22.07.00:934][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.07.01:068][303]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/MyTurret.MyTurret
+[2019.01.25-22.07.05:933][630]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-22.07.14:072][176]BlueprintLog: New page: Compile MyTurret
+[2019.01.25-22.07.14:555][193]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/MyTurret" FILE="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/MyTurret.uasset" SILENT=true
+[2019.01.25-22.07.14:585][193]LogSavePackage: Moving '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/MyTurret19A7E57347E885683F2F5CAAE380DEDB.tmp' to '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/MyTurret.uasset'
+[2019.01.25-22.07.15:174][238]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.07.15:235][243]LogSlate: Window 'MyTurret' being destroyed
+[2019.01.25-22.07.15:238][243]LogSlate: Window 'MyTurret' being destroyed
+[2019.01.25-22.07.16:129][328]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.07.16:413][333]LogSavePackage: Moving '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/FirstPersonExampleMap8F20A04B445355A93BB8A4BD7BE532C7.tmp' to '../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.01.25-22.07.16:840][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.07.16:890][382]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.07.16:908][382]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.07.16:909][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.07.16:909][382]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 22:07:16)
+[2019.01.25-22.07.16:909][382]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-22.07.16:924][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014966s)
+[2019.01.25-22.07.16:925][382]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-22.07.16:925][382]LogPlayLevel: PIE: World Init took: (0.001151s)
+[2019.01.25-22.07.16:925][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016473s)
+[2019.01.25-22.07.16:964][382]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-22.07.16:980][382]LogInit: FAudioDevice initialized.
+[2019.01.25-22.07.17:014][382]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-22.07.17:016][382]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-22.07.17
+[2019.01.25-22.07.17:017][382]LogWorld: Bringing up level for play took: 0.002141
+[2019.01.25-22.07.17:031][382]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.004
+[2019.01.25-22.07.17:031][382]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.07.20:293][770]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-207.856 Y=854.320 Z=278.026] for [FirstPersonProjectile_C]
+[2019.01.25-22.07.20:493][794]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-139.081 Y=831.741 Z=259.308] for [FirstPersonProjectile_C]
+[2019.01.25-22.07.21:498][914]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-285.030 Y=720.087 Z=278.527] for [FirstPersonProjectile_C]
+[2019.01.25-22.07.24:368][258]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.07.24:368][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.07.24:408][258]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.07.24:408][258]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.07.24:458][258]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.07.24:485][259]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.01.25-22.07.25:557][386]LogEditorViewport: Clicking on Actor (LMB): TurretStand_C (TurretStand)
+[2019.01.25-22.07.28:640][741]LogEditorViewport: Clicking on Actor (LMB): MyTurret_C (MyTurret)
+[2019.01.25-22.07.30:297][930]LogEditorViewport: Clicking on Actor (LMB): TurretStand_C (TurretStand)
+[2019.01.25-22.07.31:312][ 45]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-22.07.32:025][119]LogEditorViewport: Clicking on Actor (LMB): MyTurret_C (MyTurret)
+[2019.01.25-22.07.33:654][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.07.33:682][306]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.07.33:698][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.07.33:699][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.07.33:699][306]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 22:07:33)
+[2019.01.25-22.07.33:699][306]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-22.07.33:712][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012681s)
+[2019.01.25-22.07.33:713][306]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-22.07.33:713][306]LogPlayLevel: PIE: World Init took: (0.001030s)
+[2019.01.25-22.07.33:713][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.014131s)
+[2019.01.25-22.07.33:746][306]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-22.07.33:761][306]LogInit: FAudioDevice initialized.
+[2019.01.25-22.07.33:793][306]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-22.07.33:796][306]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-22.07.33
+[2019.01.25-22.07.33:796][306]LogWorld: Bringing up level for play took: 0.002173
+[2019.01.25-22.07.33:809][306]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.217
+[2019.01.25-22.07.33:809][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.07.38:093][816]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-192.524 Y=843.598 Z=228.558] for [FirstPersonProjectile_C]
+[2019.01.25-22.07.38:294][840]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-116.978 Y=826.127 Z=255.229] for [FirstPersonProjectile_C]
+[2019.01.25-22.07.51:133][375]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.07.51:133][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.07.51:176][375]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.07.51:177][375]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.07.51:228][375]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.07.51:253][376]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.01.25-22.07.52:216][491]LogEditorViewport: Clicking on Actor (LMB): MyTurret_C (MyTurret)
+[2019.01.25-22.07.54:034][703]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-22.07.56:909][ 43]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-22.07.56:926][ 43]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.07.56:927][ 43]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-22.07.56:927][ 43]PIE: New page: PIE session: FirstPersonExampleMap (25 Jan 2019 22:07:56)
+[2019.01.25-22.07.56:927][ 43]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.25-22.07.56:939][ 43]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012035s)
+[2019.01.25-22.07.56:940][ 43]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-22.07.56:941][ 43]LogPlayLevel: PIE: World Init took: (0.001392s)
+[2019.01.25-22.07.56:941][ 43]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.013900s)
+[2019.01.25-22.07.56:976][ 43]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.25-22.07.56:991][ 43]LogInit: FAudioDevice initialized.
+[2019.01.25-22.07.57:030][ 43]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-22.07.57:033][ 43]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.25-22.07.57
+[2019.01.25-22.07.57:033][ 43]LogWorld: Bringing up level for play took: 0.002331
+[2019.01.25-22.07.57:047][ 43]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.02
+[2019.01.25-22.07.57:047][ 43]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.08.04:534][935]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-176.470 Y=658.903 Z=235.675] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.06:946][223]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-316.601 Y=760.701 Z=267.343] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.07:347][271]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-290.627 Y=786.220 Z=279.406] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.07:548][295]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-289.428 Y=789.666 Z=255.184] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.07:749][319]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-292.459 Y=801.252 Z=281.963] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.07:949][343]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-302.020 Y=848.783 Z=252.137] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.08:951][463]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-263.430 Y=839.774 Z=278.468] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.09:952][583]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-269.644 Y=854.749 Z=254.286] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.10:151][607]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-261.545 Y=836.701 Z=288.409] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.10:352][631]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-259.603 Y=831.715 Z=313.799] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.10:554][655]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-255.534 Y=823.361 Z=321.200] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.10:756][679]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-254.866 Y=819.942 Z=315.594] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.10:957][703]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-266.330 Y=832.954 Z=282.966] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.11:157][727]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-270.095 Y=835.179 Z=278.466] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.11:357][751]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-271.005 Y=834.470 Z=278.466] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.11:560][775]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.11:762][799]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.11:962][823]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.12:164][847]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.12:364][871]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.12:565][895]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.12:765][919]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.12:966][943]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.13:170][967]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.13:370][991]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.13:569][ 15]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.13:769][ 39]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.13:970][ 63]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.14:170][ 87]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.14:370][111]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.14:571][135]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.14:773][159]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.14:973][183]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.15:175][207]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.15:374][231]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.15:574][255]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.15:775][279]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.15:977][303]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.16:181][327]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.16:381][351]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.16:581][375]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.16:781][399]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.16:980][423]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.17:180][447]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.17:382][471]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.17:581][495]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.17:782][519]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.17:982][543]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.18:183][567]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.18:384][591]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.18:585][615]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.18:784][639]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.18:984][663]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.19:184][687]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.19:384][711]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.19:585][735]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.19:785][759]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.19:985][783]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.20:185][807]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.20:384][831]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.20:584][855]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.20:784][879]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.20:984][903]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.21:185][927]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.21:385][951]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.21:585][975]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.21:785][999]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.21:985][ 23]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.22:184][ 47]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.22:384][ 71]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.22:585][ 95]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.22:785][119]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.22:992][143]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.23:192][167]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.23:392][191]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.23:592][215]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.23:792][239]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.23:992][263]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.24:193][287]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.24:393][311]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.24:594][335]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.24:794][359]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.24:994][383]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.25:194][407]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.25:394][431]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.25:594][455]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.25:794][479]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.25:994][503]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.26:194][527]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.26:394][551]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.26:594][575]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.26:794][599]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.26:995][623]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.27:195][647]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.27:398][671]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.27:598][695]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.27:798][719]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.27:998][743]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.28:198][767]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.28:398][791]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.28:599][815]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.28:799][839]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.28:998][863]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.29:198][887]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.29:402][911]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.29:601][935]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.29:802][959]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.30:002][983]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.30:204][  7]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.30:404][ 31]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.30:604][ 55]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.30:803][ 79]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.31:003][103]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.31:203][127]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.31:403][151]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.31:604][175]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.31:804][199]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.32:004][223]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.32:204][247]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.32:405][271]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.32:605][292]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.32:805][316]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.33:005][340]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.33:205][364]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.33:405][388]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.33:605][412]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.33:805][436]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.34:006][460]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.34:205][484]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.34:405][508]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.34:605][532]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.34:805][556]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.35:005][580]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.35:205][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.35:406][628]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.35:606][652]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.35:806][676]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.36:005][700]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.36:206][724]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.36:406][748]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.36:606][772]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.36:806][796]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.37:006][820]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.37:206][844]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.37:406][868]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.37:607][892]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.37:806][916]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.38:006][940]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.38:206][964]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.38:406][988]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.38:607][ 12]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.38:807][ 36]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.39:007][ 60]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.39:207][ 84]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.39:406][108]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.39:606][132]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.39:807][156]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.40:006][180]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.40:210][204]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.40:409][228]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.40:609][252]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.40:810][276]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.41:010][300]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.41:209][324]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.41:409][348]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.41:614][372]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.41:814][396]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.42:014][420]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.42:218][444]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.42:418][468]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.42:618][492]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.42:818][516]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.43:020][540]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.43:222][564]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.069 Y=836.315 Z=277.245] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.43:423][588]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-281.443 Y=846.184 Z=276.292] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.44:824][756]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-284.145 Y=849.811 Z=275.578] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.45:025][780]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-271.506 Y=829.265 Z=279.084] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.45:227][804]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.45:428][828]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.45:628][852]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.45:828][876]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.46:028][900]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.46:228][924]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.46:427][948]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.46:627][972]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.46:828][996]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.47:028][ 20]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.47:228][ 44]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.47:428][ 68]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.47:628][ 92]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.47:828][116]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.48:028][140]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.48:228][164]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.48:428][188]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.48:629][212]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.48:829][236]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.49:029][260]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.49:229][284]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.49:429][308]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.49:629][332]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.49:828][356]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.50:030][380]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.50:233][404]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.50:434][428]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.50:634][452]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.50:834][476]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.51:036][500]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.51:237][524]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.51:436][548]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.51:636][572]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.51:836][596]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.52:037][620]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.52:237][644]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.52:437][668]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.52:638][692]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.52:838][716]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.53:039][740]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.53:238][764]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.53:438][788]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.53:638][812]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.53:839][836]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.54:039][860]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.54:239][884]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.54:439][908]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.54:639][932]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.54:839][956]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.55:038][980]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.55:239][  4]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.55:439][ 28]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.55:639][ 52]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.55:839][ 76]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.56:040][100]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.56:240][124]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.56:440][148]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.56:639][172]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.56:839][196]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.57:039][220]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.57:242][244]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.57:442][268]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.57:642][292]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.57:842][316]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.58:043][340]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.58:243][364]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.58:442][388]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.58:645][412]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.58:845][436]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.59:045][460]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.59:245][484]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.59:445][508]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.59:648][532]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.08.59:848][556]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.00:048][580]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.00:248][604]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.00:448][628]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.00:648][652]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.00:848][676]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.01:049][700]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.01:249][724]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.01:452][748]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.01:653][772]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.01:852][796]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.02:054][820]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.02:254][844]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.02:454][868]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.02:656][892]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.02:856][916]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.03:058][940]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.03:258][964]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.03:458][988]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.03:658][ 12]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.03:858][ 36]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.04:058][ 60]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.04:258][ 84]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.04:460][108]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.04:660][132]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.04:861][156]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.05:064][180]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.05:263][204]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.05:463][228]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.05:664][252]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.05:864][276]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.06:064][300]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.06:264][324]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.06:464][348]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.06:664][372]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.06:864][396]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.07:066][420]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.07:266][444]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.07:466][468]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.07:671][492]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.07:871][516]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.08:072][540]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.08:272][564]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.08:472][588]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.08:673][612]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.08:874][636]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.09:074][660]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.09:274][684]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.09:474][708]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.09:674][732]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.09:875][756]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.10:081][778]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.10:281][802]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.10:480][826]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.10:681][850]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.10:881][874]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.11:081][898]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.11:281][922]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.11:481][946]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.11:682][970]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.11:882][994]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.12:084][ 18]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.12:283][ 42]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.12:484][ 66]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.12:684][ 90]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.12:884][114]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.13:085][138]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.13:285][162]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.13:485][186]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.13:686][210]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.13:885][234]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.14:085][258]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.14:287][282]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.14:488][306]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.14:688][330]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.14:888][354]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.15:088][378]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.15:288][402]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.15:489][426]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.15:688][450]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.15:890][474]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.16:089][498]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.16:290][522]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.16:490][546]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.16:690][570]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.16:892][594]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.17:096][618]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.17:295][642]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.17:495][666]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.17:696][690]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.17:895][714]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.18:096][738]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.18:296][762]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.18:496][786]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.18:696][810]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.18:897][834]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.983 Y=831.284 Z=278.430] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.19:097][858]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-274.177 Y=830.277 Z=278.738] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.19:297][882]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-303.354 Y=823.430 Z=276.146] for [FirstPersonProjectile_C]
+[2019.01.25-22.09.24:005][446]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.09.24:005][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.09.24:043][446]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-22.09.24:043][446]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.25-22.09.24:071][446]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-22.09.24:111][449]LogPlayLevel: Display: Destroying online subsystem :Context_24
