@@ -1,0 +1,1452 @@
+﻿Log file open, 01/25/19 18:08:48
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HomeIs
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.944481
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.336s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.25-18.08.49:599][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-18.08.49:599][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.25-18.08.49:620][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.25-18.08.49:620][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.25-18.08.49:621][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.25-18.08.49:621][  0]LogInit: Computer: D102-13
+[2019.01.25-18.08.49:621][  0]LogInit: User: r017093h
+[2019.01.25-18.08.49:621][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.25-18.08.49:621][  0]LogInit: High frequency timer resolution =3.410076 MHz
+[2019.01.25-18.08.49:622][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.25-18.08.49:622][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.25-18.08.49:622][  0]LogMemory: Process Physical Memory: 100.01 MB used, 100.01 MB peak
+[2019.01.25-18.08.49:622][  0]LogMemory: Process Virtual Memory: 91.13 MB used, 91.13 MB peak
+[2019.01.25-18.08.49:622][  0]LogMemory: Physical Memory: 6940.31 MB used,  9359.93 MB free, 16300.24 MB total
+[2019.01.25-18.08.49:622][  0]LogMemory: Virtual Memory: 4640.35 MB used,  9359.93 MB free, 134217728.00 MB total
+[2019.01.25-18.08.49:816][  0]LogInit: Using OS detected language (en-US).
+[2019.01.25-18.08.49:816][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.25-18.08.49:818][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.25-18.08.50:276][  0]LogStreaming: Display: Took  0.459s to InitEngineTextLocalization.
+[2019.01.25-18.08.50:276][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.25-18.08.50:358][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.25-18.08.50:358][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.25-18.08.50:739][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-18.08.50:739][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.25-18.08.50:850][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.25-18.08.50:850][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.25-18.08.50:868][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.25-18.08.50:868][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.25-18.08.50:868][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.25-18.08.50:877][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.25-18.08.50:877][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.25-18.08.50:877][  0]LogWindows: EnumDisplayDevices:
+[2019.01.25-18.08.50:878][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.25-18.08.50:878][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.25-18.08.50:879][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-18.08.50:879][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.25-18.08.50:879][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.25-18.08.50:879][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.25-18.08.50:880][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.25-18.08.50:880][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.25-18.08.50:880][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.25-18.08.50:939][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.25-18.08.50:957][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.25-18.08.50:961][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Intermediate/Shaders/WorkingDirectory/14024/).
+[2019.01.25-18.08.50:961][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/r017093h/AppData/Local/Temp/UnrealShaderWorkingDir/B63535EA41AE88F475E15E8F3EA42E92/'.
+[2019.01.25-18.08.51:373][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.25-18.08.51:393][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.25-18.08.51:419][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.25-18.08.51:438][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.25-18.08.51:458][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.25-18.08.51:481][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.25-18.08.51:500][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.25-18.08.51:520][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.25-18.08.51:533][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.25-18.08.51:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:634][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:635][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.25-18.08.51:640][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.25-18.08.51:727][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-18.08.51:727][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.25-18.08.51:761][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-18.08.51:761][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.25-18.08.51:779][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.25-18.08.51:796][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.25-18.08.51:816][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.25-18.08.51:853][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.25-18.08.51:878][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.25-18.08.51:878][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.25-18.08.52:070][  0]LogXGEController: Cleaning working directory: C:/Users/r017093h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.25-18.08.52:071][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.25-18.08.52:071][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.25-18.08.52:071][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.25-18.08.53:255][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.25-18.08.53:255][  0]LogDerivedDataCache: Display: Starting with empty Boot cache
+[2019.01.25-18.08.53:255][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.25-18.08.53:255][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.25-18.08.53:256][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.25-18.08.53:256][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.25-18.08.53:286][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.25-18.08.53:300][  0]LogDerivedDataCache: Using Local data cache path C:/Users/r017093h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.25-18.08.53:300][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.25-18.08.53:300][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.25-18.08.53:340][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.25-18.08.53:342][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.25-18.08.53:343][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.25-18.08.53:442][  0]LogAssetRegistry: FAssetRegistry took 0.0295 seconds to start up
+[2019.01.25-18.08.53:919][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.25-18.08.54:135][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.25-18.08.54:148][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.25-18.08.54:148][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.25-18.08.54:149][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.25-18.08.54:149][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.25-18.08.54:187][  0]LogNetVersion: HomeIs 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4178729889)
+[2019.01.25-18.08.55:077][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.262699 seconds
+[2019.01.25-18.08.55:086][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.25-18.08.55:086][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.25-18.08.55:086][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.25-18.08.56:458][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.25-18.08.56:478][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.25-18.08.57:295][  0]SourceControl: Source control is disabled
+[2019.01.25-18.08.57:295][  0]SourceControl: Source control is disabled
+[2019.01.25-18.08.57:310][  0]SourceControl: Source control is disabled
+[2019.01.25-18.08.57:319][  0]SourceControl: Source control is disabled
+[2019.01.25-18.08.57:824][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.25-18.08.57:995][  0]LogOcInput: OculusInput pre-init called
+[2019.01.25-18.08.58:180][  0]LogEngine: Initializing Engine...
+[2019.01.25-18.08.58:185][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.25-18.08.58:189][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.001 s
+[2019.01.25-18.08.58:189][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-18.08.58:189][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-18.08.58:190][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-18.08.58:899][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.25-18.08.58:980][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.25-18.08.59:024][  0]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.08.59:224][  0]LogInit: FAudioDevice initialized.
+[2019.01.25-18.08.59:225][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.25-18.08.59:311][  0]LogDerivedDataCache: Saved boot cache 0.09s 73MB C:/Users/r017093h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.25-18.08.59:315][  0]LogInit: Texture streaming: Enabled
+[2019.01.25-18.08.59:373][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.25-18.08.59:411][  0]LogInit: Transaction tracking system initialized
+[2019.01.25-18.08.59:521][  0]BlueprintLog: New page: Editor Load
+[2019.01.25-18.08.59:946][  0]LocalizationService: Localization service is disabled
+[2019.01.25-18.09.00:832][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.25-18.09.00:832][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.25-18.09.00:832][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.25-18.09.00:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.25-18.09.00:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.25-18.09.00:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.25-18.09.00:833][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.25-18.09.01:345][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/' took 0.03s
+[2019.01.25-18.09.01:345][  0]SourceControl: Source control is disabled
+[2019.01.25-18.09.01:347][  0]Cmd: MAP LOAD FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-18.09.01:349][  0]LightingResults: New page: Lighting Build
+[2019.01.25-18.09.01:389][  0]MapCheck: New page: Map Check
+[2019.01.25-18.09.01:389][  0]LightingResults: New page: Lighting Build
+[2019.01.25-18.09.01:595][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.01.25-18.09.01:596][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2019.01.25-18.09.01:596][  0]LoadErrors: Error: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData
+[2019.01.25-18.09.01:615][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.01.25-18.09.01:616][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading ../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap.
+[2019.01.25-18.09.01:616][  0]LoadErrors: Error: /Game/FirstPersonCPP/Maps/FirstPersonExampleMap : Can't find file for asset. /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData
+[2019.01.25-18.09.01:622][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.01.25-18.09.01:622][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2019.01.25-18.09.01:623][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.01.25-18.09.01:623][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2019.01.25-18.09.01:660][  0]LogLinker: Warning: Can't find file '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData'
+[2019.01.25-18.09.01:661][  0]LoadErrors: Failed to load /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2019.01.25-18.09.01:661][  0]LogLinker: Warning: Can't find file for asset '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData' while loading NULL.
+[2019.01.25-18.09.01:661][  0]LoadErrors: Failed to load /Game/FirstPersonCPP/Maps/FirstPersonExampleMap_BuiltData.FirstPersonExampleMap_BuiltData Referenced by PersistentLevel
+[2019.01.25-18.09.01:788][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.25-18.09.01:855][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-18.09.01:893][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-18.09.02:134][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 240.756ms to complete.
+[2019.01.25-18.09.02:134][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 0.788
+[2019.01.25-18.09.02:394][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.09.02:408][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.09.02:420][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.09.02:431][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.09.02:462][  0]LogCollectionManager: Loaded 0 collections in 0.004225 seconds
+[2019.01.25-18.09.02:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Collections/' took 0.01s
+[2019.01.25-18.09.02:545][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/Developers/r017093h/Collections/' took 0.01s
+[2019.01.25-18.09.02:546][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/Collections/' took 0.01s
+[2019.01.25-18.09.02:546][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.25-18.09.02:565][  0]LogContentBrowser: Native class hierarchy populated in 0.0177 seconds. Added 2576 classes and 605 folders.
+[2019.01.25-18.09.02:588][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.01.25-18.09.03:137][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.25-18.09.03:158][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2019.01.25-18.09.03:244][  0]LogSlate: Took 0.009426 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.25-18.09.03:255][  0]LogSlate: Took 0.006932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.25-18.09.03:274][  0]LogSlate: Took 0.009261 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.25-18.09.03:464][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.25-18.09.03:779][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.09.03:832][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.01.25-18.09.03:892][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.25-18.09.03:892][  0]LogLoad: (Engine Initialization) Total time: 18.38 seconds
+[2019.01.25-18.09.03:892][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.25-18.09.03:905][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.25-18.09.03:941][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.25-18.09.03:953][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.09.04:024][  0]LogSlate: Took 0.005358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-18.09.04:289][  2]LogAssetRegistry: Asset discovery search completed in 10.8713 seconds
+[2019.01.25-18.09.04:293][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.25-18.09.04:294][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000898 seconds (updated 0 objects)
+[2019.01.25-18.09.12:118][863]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-18.09.12:121][863]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-18.09.14:943][195]Cmd: POLY SELECT ALL
+[2019.01.25-18.09.15:346][243]Cmd: POLY SELECT MEMORY UNION
+[2019.01.25-18.09.17:824][516]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube19)
+[2019.01.25-18.09.18:480][555]Cmd: DELETE
+[2019.01.25-18.09.18:480][555]Cmd: ACTOR DELETE
+[2019.01.25-18.09.18:505][555]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-18.09.18:531][555]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2019.01.25-18.09.18:868][594]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube18)
+[2019.01.25-18.09.19:052][607]Cmd: DELETE
+[2019.01.25-18.09.19:052][607]Cmd: ACTOR DELETE
+[2019.01.25-18.09.19:054][607]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-18.09.19:078][607]LogEditorActor: Deleted 1 Actors (0.026 secs)
+[2019.01.25-18.09.19:380][642]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube20)
+[2019.01.25-18.09.19:586][655]Cmd: DELETE
+[2019.01.25-18.09.19:586][655]Cmd: ACTOR DELETE
+[2019.01.25-18.09.19:591][655]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-18.09.19:615][655]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2019.01.25-18.09.19:910][689]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube21)
+[2019.01.25-18.09.20:119][702]Cmd: DELETE
+[2019.01.25-18.09.20:119][702]Cmd: ACTOR DELETE
+[2019.01.25-18.09.20:122][702]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-18.09.20:143][702]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2019.01.25-18.09.20:394][731]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube17)
+[2019.01.25-18.09.20:520][737]Cmd: DELETE
+[2019.01.25-18.09.20:521][737]Cmd: ACTOR DELETE
+[2019.01.25-18.09.20:524][737]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.01.25-18.09.20:545][737]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2019.01.25-18.09.20:853][773]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (EditorCube16)
+[2019.01.25-18.09.22:245][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.09.24:556][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.09.27:336][130]LogSlate: Window 'New Level' being destroyed
+[2019.01.25-18.09.27:358][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.09.29:483][130]LogSlate: Window 'Save Content' being destroyed
+[2019.01.25-18.09.29:491][130]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.25-18.09.29:509][130]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.25-18.09.29:512][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.09.29:521][130]LightingResults: New page: Lighting Build
+[2019.01.25-18.09.29:522][130]LoadErrors: New page: Loading map: Template_Default.umap
+[2019.01.25-18.09.29:526][130]MapCheck: New page: Map Check
+[2019.01.25-18.09.29:527][130]LightingResults: New page: Lighting Build
+[2019.01.25-18.09.29:617][130]LogAIModule: Creating AISystem for world Untitled_1
+[2019.01.25-18.09.29:635][130]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.25-18.09.29:671][130]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.25-18.09.29:932][130]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 260.263ms to complete.
+[2019.01.25-18.09.29:932][130]LogFileHelpers: Loading map 'Template_Default' took 0.445
+[2019.01.25-18.09.32:989][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.10.02:489][ 34]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-18.10.02:953][ 71]LogSlate: Took 0.004208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.25-18.10.04:064][184]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.10.11:804][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.10.21:076][967]LogSlate: Window 'Save Level As' being destroyed
+[2019.01.25-18.10.22:739][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.10.24:447][315]LogSlate: Took 0.007203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.01.25-18.10.25:420][420]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.01.25-18.11.04:581][736]LogSlate: Window 'Save Level As' being destroyed
+[2019.01.25-18.11.28:858][771]LogSlate: Window 'Save Level As' being destroyed
+[2019.01.25-18.11.29:126][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/Map" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.25-18.11.29:214][771]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Map66FB4D6C4031397BFF7C77B6C2CDD633.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Map.umap'
+[2019.01.25-18.11.29:281][771]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/Map_BuiltData" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Map_BuiltData.uasset" SILENT=true
+[2019.01.25-18.11.29:311][771]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Map_BuiltData29CFEC7440D0C976596B33A92F202EEB.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Map_BuiltData.uasset'
+[2019.01.25-18.11.29:327][771]LogFileHelpers: Saving map 'Map' took 0.463
+[2019.01.25-18.11.38:947][821]LogSlate: Window 'Source Control Login' being destroyed
+[2019.01.25-18.11.55:395][770]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.25-18.12.00:183][287]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.12.00:930][358]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.25-18.12.04:077][710]Cmd: TRANSACTION UNDO
+[2019.01.25-18.12.04:078][710]LogEditorTransaction: Undo Move Actors
+[2019.01.25-18.12.05:135][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.12.05:935][887]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.25-18.12.07:069][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.12.07:882][ 85]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.25-18.12.09:640][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.12.10:335][351]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.01.25-18.12.12:382][580]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.12.53:602][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.13.35:419][821]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-18.13.35:971][877]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2019.01.25-18.13.56:225][365]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-18.13.57:931][532]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-18.13.59:671][718]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.14.00:506][807]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-18.15.07:480][301]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.15.16:868][394]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.15.29:109][806]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.15.31:302][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.15.51:252][336]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.16.02:048][585]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-18.16.06:770][130]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.16.10:831][594]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.16.20:498][741]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.16.34:600][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/Map" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Map.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.01.25-18.16.34:706][366]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/MapAA50DEA043B99B5A8C684AAAA69FB2FD.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Map.umap'
+[2019.01.25-18.16.34:797][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/Map_BuiltData" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Map_BuiltData.uasset" SILENT=true
+[2019.01.25-18.16.34:835][366]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Map_BuiltData6FFE6BF743ED52E8D6D874814DDBC24A.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Map_BuiltData.uasset'
+[2019.01.25-18.16.36:991][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieBB" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/ZombieBB.uasset" SILENT=true
+[2019.01.25-18.16.37:015][571]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBBD73194484D618E313C15728813AD7F7C.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/ZombieBB.uasset'
+[2019.01.25-18.16.37:043][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ZombieTree" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/ZombieTree.uasset" SILENT=true
+[2019.01.25-18.16.37:076][571]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTree2EF3C26F40D66BFEF2834B9B4A0155FE.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/ZombieTree.uasset'
+[2019.01.25-18.16.53:840][208]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieBB" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBB.uasset" SILENT=true
+[2019.01.25-18.16.53:857][208]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBBDE5BA9C744BFECB96CD76E9B63206042.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBB.uasset'
+[2019.01.25-18.16.55:799][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieTree" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset" SILENT=true
+[2019.01.25-18.16.55:814][392]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTree49269B814DDDD29E114B2AA3BC98FC22.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset'
+[2019.01.25-18.17.23:887][461]AssetReimport: New page: Outstanding source content changes 18:17:23
+[2019.01.25-18.17.23:964][462]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbx)
+[2019.01.25-18.17.24:083][462]LogFbx: Loading FBX Scene from C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbx
+[2019.01.25-18.17.24:180][462]LogFbx: FBX Scene Loaded Succesfully
+[2019.01.25-18.17.32:936][462]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.01.25-18.17.33:142][462]LogFbx: =================================================
+[2019.01.25-18.17.33:143][462]LogFbx: Dumping Node START [mremireh_shoe] 
+[2019.01.25-18.17.33:143][462]LogFbx: 	Total Deformer Count 852934496.
+[2019.01.25-18.17.33:143][462]LogFbx: 		[Node 1] Skin mremireh_shoe (Type Skin).
+[2019.01.25-18.17.33:144][462]LogFbx: =================================================
+[2019.01.25-18.17.33:144][462]LogFbx: 	Attribute (mremireh_shoe) Type (4).
+[2019.01.25-18.17.33:144][462]LogFbx: 		[Node Attribute Child 1] mremireh_shoe (Type Mesh).
+[2019.01.25-18.17.33:144][462]LogFbx: Dumping Node END [mremireh_shoe]
+[2019.01.25-18.17.33:145][462]LogFbx: =================================================
+[2019.01.25-18.17.33:145][462]LogFbx: Dumping Node START [mremireh_body] 
+[2019.01.25-18.17.33:145][462]LogFbx: 	Total Deformer Count 852934496.
+[2019.01.25-18.17.33:146][462]LogFbx: 		[Node 1] Skin mremireh_body (Type Skin).
+[2019.01.25-18.17.33:146][462]LogFbx: =================================================
+[2019.01.25-18.17.33:146][462]LogFbx: 	Attribute (mremireh_body) Type (4).
+[2019.01.25-18.17.33:146][462]LogFbx: 		[Node Attribute Child 1] mremireh_body (Type Mesh).
+[2019.01.25-18.17.33:147][462]LogFbx: Dumping Node END [mremireh_body]
+[2019.01.25-18.17.33:151][462]LogFbx: =================================================
+[2019.01.25-18.17.33:151][462]LogFbx: Dumping Node START [mremireh_shoe] 
+[2019.01.25-18.17.33:151][462]LogFbx: 	Total Deformer Count 852934496.
+[2019.01.25-18.17.33:151][462]LogFbx: 		[Node 1] Skin mremireh_shoe (Type Skin).
+[2019.01.25-18.17.33:152][462]LogFbx: =================================================
+[2019.01.25-18.17.33:152][462]LogFbx: 	Attribute (mremireh_shoe) Type (4).
+[2019.01.25-18.17.33:152][462]LogFbx: 		[Node Attribute Child 1] mremireh_shoe (Type Mesh).
+[2019.01.25-18.17.33:152][462]LogFbx: Dumping Node END [mremireh_shoe]
+[2019.01.25-18.17.33:153][462]LogFbx: =================================================
+[2019.01.25-18.17.33:153][462]LogFbx: Dumping Node START [mremireh_body] 
+[2019.01.25-18.17.33:154][462]LogFbx: 	Total Deformer Count 852934496.
+[2019.01.25-18.17.33:154][462]LogFbx: 		[Node 1] Skin mremireh_body (Type Skin).
+[2019.01.25-18.17.33:154][462]LogFbx: =================================================
+[2019.01.25-18.17.33:155][462]LogFbx: 	Attribute (mremireh_body) Type (4).
+[2019.01.25-18.17.33:155][462]LogFbx: 		[Node Attribute Child 1] mremireh_body (Type Mesh).
+[2019.01.25-18.17.33:155][462]LogFbx: Dumping Node END [mremireh_body]
+[2019.01.25-18.17.33:161][462]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - mremireh_shoe
+[2019.01.25-18.17.33:532][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_shoe_diffuse'
+[2019.01.25-18.17.33:533][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_shoe_diffuse'
+[2019.01.25-18.17.33:603][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_shoe_specular'
+[2019.01.25-18.17.33:604][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_shoe_specular'
+[2019.01.25-18.17.33:679][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_shoe_normal'
+[2019.01.25-18.17.33:681][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_shoe_normal'
+[2019.01.25-18.17.33:872][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_body__diffuse'
+[2019.01.25-18.17.33:873][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_body__diffuse'
+[2019.01.25-18.17.35:246][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_body_specular'
+[2019.01.25-18.17.35:247][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_body_specular'
+[2019.01.25-18.17.36:681][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_body_normal'
+[2019.01.25-18.17.36:682][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_body_normal'
+[2019.01.25-18.17.37:655][462]LogSkeletalMesh: Section 0: 132 vertices, 1 active bones
+[2019.01.25-18.17.37:655][462]LogSkeletalMesh: Section 1: 2961 vertices, 46 active bones
+[2019.01.25-18.17.37:656][462]LogSkeletalMesh: Section 0: Material=0, 164 triangles
+[2019.01.25-18.17.37:656][462]LogSkeletalMesh: Section 1: Material=1, 4384 triangles
+[2019.01.25-18.17.37:659][462]LogSkeletalMesh: Building Skeletal Mesh mremireh_o_desbiens...
+[2019.01.25-18.17.37:676][462]LogSkeletalMesh: Built Skeletal Mesh [0.02s] /Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens.mremireh_o_desbiens
+[2019.01.25-18.17.37:685][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_Skeleton'
+[2019.01.25-18.17.37:687][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_Skeleton'
+[2019.01.25-18.17.37:699][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_PhysicsAsset'
+[2019.01.25-18.17.37:700][462]LogLinker: Can't find file '/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_PhysicsAsset'
+[2019.01.25-18.17.37:724][462]LogSkeletalMesh: Building Skeletal Mesh mremireh_o_desbiens...
+[2019.01.25-18.17.37:734][462]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens.mremireh_o_desbiens
+[2019.01.25-18.17.37:776][462]LogSkeletalMesh: Building Skeletal Mesh mremireh_o_desbiens...
+[2019.01.25-18.17.37:789][462]LogSkeletalMesh: Built Skeletal Mesh [0.01s] /Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens.mremireh_o_desbiens
+[2019.01.25-18.17.38:035][463]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/mremireh_o_desbiensA5780AF942D7D454ACAB4C8096383945.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.uasset'
+[2019.01.25-18.17.38:890][502]LogShaderCompilers: Display: Shaders left to compile 120
+[2019.01.25-18.17.39:555][535]LogShaderCompilers: Display: Shaders left to compile 110
+[2019.01.25-18.17.40:685][598]LogShaderCompilers: Display: Shaders left to compile 100
+[2019.01.25-18.17.41:068][620]AssetReimport: Importing new asset /Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens.
+[2019.01.25-18.17.41:117][623]LogShaderCompilers: Display: Shaders left to compile 90
+[2019.01.25-18.17.41:891][659]LogShaderCompilers: Display: Shaders left to compile 80
+[2019.01.25-18.17.44:263][797]LogShaderCompilers: Display: Shaders left to compile 70
+[2019.01.25-18.17.44:548][814]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.01.25-18.17.45:275][855]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.01.25-18.17.46:148][902]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.01.25-18.17.47:515][979]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.01.25-18.17.48:647][ 40]AssetReimport: New page: Outstanding source content changes 18:17:48
+[2019.01.25-18.17.48:652][ 40]LogEditorFactories: Performing atomic reimport of [C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_shoe_normal.png]
+[2019.01.25-18.17.48:653][ 40]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_shoe_normal.png)
+[2019.01.25-18.17.48:696][ 40]LogEditorFactories: -- imported successfully
+[2019.01.25-18.17.48:735][ 41]LogEditorFactories: Performing atomic reimport of [C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_body__diffuse.png]
+[2019.01.25-18.17.48:751][ 41]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_body__diffuse.png)
+[2019.01.25-18.17.50:128][ 41]LogEditorFactories: -- imported successfully
+[2019.01.25-18.17.50:201][ 42]LogEditorFactories: Performing atomic reimport of [C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_body_specular.png]
+[2019.01.25-18.17.50:220][ 42]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_body_specular.png)
+[2019.01.25-18.17.51:505][ 42]LogEditorFactories: -- imported successfully
+[2019.01.25-18.17.51:566][ 43]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-18.17.51:572][ 43]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-18.17.51:577][ 43]LogEditorFactories: Performing atomic reimport of [C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_body_normal.png]
+[2019.01.25-18.17.51:595][ 43]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_body_normal.png)
+[2019.01.25-18.17.52:153][ 43]LogEditorFactories: -- imported successfully
+[2019.01.25-18.17.52:207][ 44]LogEditorFactories: Performing atomic reimport of [C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_shoe_diffuse.png]
+[2019.01.25-18.17.52:208][ 44]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_shoe_diffuse.png)
+[2019.01.25-18.17.52:281][ 44]LogEditorFactories: -- imported successfully
+[2019.01.25-18.17.52:345][ 45]LogEditorFactories: Performing atomic reimport of [C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_shoe_specular.png]
+[2019.01.25-18.17.52:346][ 45]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_shoe_specular.png)
+[2019.01.25-18.17.52:411][ 45]LogEditorFactories: -- imported successfully
+[2019.01.25-18.17.55:492][265]AssetReimport: Reimported asset mremireh_shoe_normal from C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_shoe_normal.png.
+[2019.01.25-18.17.55:492][265]AssetReimport: Reimported asset mremireh_body__diffuse from C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_body__diffuse.png.
+[2019.01.25-18.17.55:492][265]AssetReimport: Reimported asset mremireh_body_specular from C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_body_specular.png.
+[2019.01.25-18.17.55:493][265]AssetReimport: Reimported asset mremireh_body_normal from C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_body_normal.png.
+[2019.01.25-18.17.55:493][265]AssetReimport: Reimported asset mremireh_shoe_diffuse from C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_shoe_diffuse.png.
+[2019.01.25-18.17.55:493][265]AssetReimport: Reimported asset mremireh_shoe_specular from C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Assets/mremireh_o_desbiens.fbm/mremireh_shoe_specular.png.
+[2019.01.25-18.18.23:466][648]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.25-18.18.31:504][452]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.25-18.18.54:018][769]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.25-18.19.12:461][ 40]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.25-18.19.58:291][245]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/ZombieBP.ZombieBP
+[2019.01.25-18.19.59:034][245]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2019.01.25-18.20.17:348][579]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.25-18.20.18:263][653]LogEditorTransaction: Undo Modify Component(s)
+[2019.01.25-18.20.22:437][ 53]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.20.31:585][759]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.01.25-18.20.31:585][759]LogClass: Warning: In asset 'None', there is an enum property of type 'EComponentMobility' with an invalid value of ''
+[2019.01.25-18.20.42:606][647]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.20.53:066][465]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.21.05:192][468]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.21.24:784][  9]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.21.24:846][ 15]BlueprintLog: New page: Compile ZombieBP
+[2019.01.25-18.21.26:053][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieBP" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBP.uasset" SILENT=true
+[2019.01.25-18.21.26:090][107]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBP9962E1C140D4B33BB87339A156C63EFA.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBP.uasset'
+[2019.01.25-18.21.41:603][579]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.01.25-18.21.41:603][579]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.01.25-18.21.43:429][741]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.01.25-18.21.43:430][741]LogClass: Warning: In asset 'None', there is an enum property of type 'EAnimationMode' with an invalid value of ''
+[2019.01.25-18.21.43:948][779]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-18.22.14:437][554]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:7981).
+[2019.01.25-18.25.31:849][601]BlueprintLog: New page: Compile ZombieBP
+[2019.01.25-18.25.32:459][637]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieBP" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBP.uasset" SILENT=true
+[2019.01.25-18.25.32:500][637]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBP5845B81849CB437F5F227DAF9EF08870.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBP.uasset'
+[2019.01.25-18.25.53:234][421]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-18.26.05:089][285]LogRenderer: Reallocating scene render targets to support 1208x1740 Format 10 NumSamples 1 (Frame:25354).
+[2019.01.25-18.26.10:452][641]BlueprintLog: New page: Compile ZombieBP
+[2019.01.25-18.26.22:223][ 25]LogSlate: Window 'ZombieBP*' being destroyed
+[2019.01.25-18.26.22:226][ 25]LogSlate: Window 'ZombieBP*' being destroyed
+[2019.01.25-18.26.27:664][595]LogAssetEditorManager: Opening Asset editor for BlackboardData /Game/HalsStuffFuckOff/ZombieBB.ZombieBB
+[2019.01.25-18.26.34:771][390]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-18.27.19:499][877]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HalsStuffFuckOff/Map' took 0.038
+[2019.01.25-18.27.19:504][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/ZombieBB] ([1] browsable assets)...
+[2019.01.25-18.27.19:505][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/ZombieBB]
+[2019.01.25-18.27.19:526][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBB_Auto199FBA42B4C08787EA4304A8A98E9B4DD.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/ZombieBB_Auto1.uasset'
+[2019.01.25-18.27.19:539][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/Assets/emireh_shoe_material] ([1] browsable assets)...
+[2019.01.25-18.27.19:569][877]OBJ SavePackage:     Rendered thumbnail for [Material /Game/HalsStuffFuckOff/Assets/emireh_shoe_material.emireh_shoe_material]
+[2019.01.25-18.27.19:569][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/emireh_shoe_material]
+[2019.01.25-18.27.19:598][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/emireh_shoe_material_Auto1F16625794A9418F2A12A99BF47F5E53A.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/emireh_shoe_material_Auto1.uasset'
+[2019.01.25-18.27.19:608][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/Assets/mremireh_shoe_diffuse] ([1] browsable assets)...
+[2019.01.25-18.27.19:620][877]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HalsStuffFuckOff/Assets/mremireh_shoe_diffuse.mremireh_shoe_diffuse]
+[2019.01.25-18.27.19:620][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/mremireh_shoe_diffuse]
+[2019.01.25-18.27.19:642][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/mremireh_shoe_diffuse_Auto1F62141C34575D031D824C9B88DB6653C.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/mremireh_shoe_diffuse_Auto1.uasset'
+[2019.01.25-18.27.19:652][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/Assets/mremireh_shoe_specular] ([1] browsable assets)...
+[2019.01.25-18.27.19:658][877]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HalsStuffFuckOff/Assets/mremireh_shoe_specular.mremireh_shoe_specular]
+[2019.01.25-18.27.19:658][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/mremireh_shoe_specular]
+[2019.01.25-18.27.19:684][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/mremireh_shoe_specular_Auto109525C1B4FF1994BE9D00F96C60DDABE.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/mremireh_shoe_specular_Auto1.uasset'
+[2019.01.25-18.27.19:692][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/Assets/mremireh_shoe_normal] ([1] browsable assets)...
+[2019.01.25-18.27.19:704][877]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HalsStuffFuckOff/Assets/mremireh_shoe_normal.mremireh_shoe_normal]
+[2019.01.25-18.27.19:704][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/mremireh_shoe_normal]
+[2019.01.25-18.27.19:731][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/mremireh_shoe_normal_Auto1119B62D443B170DBF65DDB91E2B49EA6.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/mremireh_shoe_normal_Auto1.uasset'
+[2019.01.25-18.27.19:741][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/Assets/emireh_body_material] ([1] browsable assets)...
+[2019.01.25-18.27.19:771][877]OBJ SavePackage:     Rendered thumbnail for [Material /Game/HalsStuffFuckOff/Assets/emireh_body_material.emireh_body_material]
+[2019.01.25-18.27.19:771][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/emireh_body_material]
+[2019.01.25-18.27.19:800][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/emireh_body_material_Auto183916ED74598C1C1B7BCEAA3B1FAC826.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/emireh_body_material_Auto1.uasset'
+[2019.01.25-18.27.19:808][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/Assets/mremireh_body__diffuse] ([1] browsable assets)...
+[2019.01.25-18.27.19:819][877]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HalsStuffFuckOff/Assets/mremireh_body__diffuse.mremireh_body__diffuse]
+[2019.01.25-18.27.19:819][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/mremireh_body__diffuse]
+[2019.01.25-18.27.19:855][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/mremireh_body__diffuse_Auto178A4BD6743E31F00879B8B819373062E.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/mremireh_body__diffuse_Auto1.uasset'
+[2019.01.25-18.27.19:866][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/Assets/mremireh_body_specular] ([1] browsable assets)...
+[2019.01.25-18.27.19:877][877]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HalsStuffFuckOff/Assets/mremireh_body_specular.mremireh_body_specular]
+[2019.01.25-18.27.19:878][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/mremireh_body_specular]
+[2019.01.25-18.27.19:917][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/mremireh_body_specular_Auto1D2A6E14946DF403BB2E47AAA5BF10477.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/mremireh_body_specular_Auto1.uasset'
+[2019.01.25-18.27.19:927][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/Assets/mremireh_body_normal] ([1] browsable assets)...
+[2019.01.25-18.27.19:937][877]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/HalsStuffFuckOff/Assets/mremireh_body_normal.mremireh_body_normal]
+[2019.01.25-18.27.19:937][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/mremireh_body_normal]
+[2019.01.25-18.27.19:972][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/mremireh_body_normal_Auto11A207EDD4FEF8B1004EDDBABD20C53F3.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/mremireh_body_normal_Auto1.uasset'
+[2019.01.25-18.27.19:983][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_Skeleton] ([1] browsable assets)...
+[2019.01.25-18.27.19:983][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_Skeleton]
+[2019.01.25-18.27.20:002][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/mremireh_o_desbiens_Skeleton_Aut9BBC9E9542799A5DF7EC4BAB35DC8C3D.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_Skeleton_Auto1.uasset'
+[2019.01.25-18.27.20:010][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_PhysicsAsset] ([1] browsable assets)...
+[2019.01.25-18.27.20:036][877]OBJ SavePackage:     Rendered thumbnail for [PhysicsAsset /Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_PhysicsAsset.mremireh_o_desbiens_PhysicsAsset]
+[2019.01.25-18.27.20:036][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_PhysicsAsset]
+[2019.01.25-18.27.20:080][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/mremireh_o_desbiens_PhysicsAssetA9FC3B2845ADD31A05FB2E86325A4351.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Assets/mremireh_o_desbiens_PhysicsAsset_Auto1.uasset'
+[2019.01.25-18.27.20:091][877]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/AIControllerBP] ([1] browsable assets)...
+[2019.01.25-18.27.20:091][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/AIControllerBP]
+[2019.01.25-18.27.20:116][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/AIControllerBP_Auto1999A53E5435E5648DC705F9F96AB66F1.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/AIControllerBP_Auto1.uasset'
+[2019.01.25-18.27.20:125][877]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/ZombieBP] ([1] browsable assets)...
+[2019.01.25-18.27.20:151][877]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/HalsStuffFuckOff/ZombieBP.ZombieBP]
+[2019.01.25-18.27.20:151][877]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/ZombieBP]
+[2019.01.25-18.27.20:185][877]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBP_Auto136D679BF4139B85893852C96AFFCA487.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/ZombieBP_Auto1.uasset'
+[2019.01.25-18.27.20:193][877]LogFileHelpers: Auto-saving content packages took 0.692
+[2019.01.25-18.27.43:112][179]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieBB" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBB.uasset" SILENT=true
+[2019.01.25-18.27.43:130][179]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBB918479934C8DB0816014C7BA9709C5CB.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBB.uasset'
+[2019.01.25-18.27.57:243][740]LogSlate: Window 'ZombieBB' being destroyed
+[2019.01.25-18.27.57:247][740]LogSlate: Window 'ZombieBB' being destroyed
+[2019.01.25-18.28.00:955][144]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/HalsStuffFuckOff/ZombieTree.ZombieTree
+[2019.01.25-18.28.02:931][349]LogSlate: Window 'ZombieTree' being destroyed
+[2019.01.25-18.28.02:934][349]LogSlate: Window 'ZombieTree' being destroyed
+[2019.01.25-18.28.04:109][474]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/AIControllerBP.AIControllerBP
+[2019.01.25-18.33.05:214][826]BlueprintLog: New page: Compile AIControllerBP
+[2019.01.25-18.33.20:083][599]BlueprintLog: New page: Compile AIControllerBP
+[2019.01.25-18.33.45:897][310]BlueprintLog: New page: Compile AIControllerBP
+[2019.01.25-18.33.46:692][360]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/AIControllerBP" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/AIControllerBP.uasset" SILENT=true
+[2019.01.25-18.33.46:736][360]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/AIControllerBPB2524CB24D1F4393D29B1D9C586FF36E.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/AIControllerBP.uasset'
+[2019.01.25-18.33.46:858][369]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/HalsStuffFuckOff/AIControllerBP.
+[2019.01.25-18.33.47:795][450]LogSlate: Window 'AIControllerBP' being destroyed
+[2019.01.25-18.33.47:799][450]LogSlate: Window 'AIControllerBP' being destroyed
+[2019.01.25-18.34.31:695][474]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.34.34:052][698]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.34.34:078][698]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.34.34:096][698]PIE: New page: PIE session: Map (25 Jan 2019 18:34:34)
+[2019.01.25-18.34.34:097][698]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.34.34:105][698]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008015s)
+[2019.01.25-18.34.34:106][698]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.34.34:106][698]LogPlayLevel: PIE: World Init took: (0.001293s)
+[2019.01.25-18.34.34:106][698]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.009697s)
+[2019.01.25-18.34.34:153][698]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.34.34:169][698]LogInit: FAudioDevice initialized.
+[2019.01.25-18.34.34:223][698]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.34.34:239][698]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.34.34
+[2019.01.25-18.34.34:257][698]LogWorld: Bringing up level for play took: 0.021787
+[2019.01.25-18.34.34:314][698]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0009 seconds. Added 10 classes and 0 folders.
+[2019.01.25-18.34.34:324][698]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 1.187
+[2019.01.25-18.34.37:745][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.34.37:788][ 96]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.34.37:814][ 96]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.34.37:846][ 98]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.01.25-18.34.39:224][263]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-18.34.45:986][ 56]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.34.50:819][629]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.34.50:837][629]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.34.50:837][629]PIE: New page: PIE session: Map (25 Jan 2019 18:34:50)
+[2019.01.25-18.34.50:837][629]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.34.50:843][629]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005930s)
+[2019.01.25-18.34.50:844][629]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.34.50:844][629]LogPlayLevel: PIE: World Init took: (0.000935s)
+[2019.01.25-18.34.50:844][629]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007266s)
+[2019.01.25-18.34.50:877][629]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.34.50:888][629]LogInit: FAudioDevice initialized.
+[2019.01.25-18.34.50:929][629]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.34.50:933][629]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.34.50
+[2019.01.25-18.34.50:934][629]LogWorld: Bringing up level for play took: 0.003074
+[2019.01.25-18.34.50:953][629]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.183
+[2019.01.25-18.34.53:084][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.34.53:121][876]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.34.53:156][876]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.34.53:185][878]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.01.25-18.34.53:772][948]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.01.25-18.34.55:569][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.36.21:380][809]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/HalsStuffFuckOff/ZombieTree.ZombieTree
+[2019.01.25-18.37.33:965][963]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieTree" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset" SILENT=true
+[2019.01.25-18.37.33:987][963]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTree08A49F5742C8A6C0470BADAFAEAE5D29.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset'
+[2019.01.25-18.38.00:810][231]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Map_Auto2891E7083419EBEEB3AF7D2B147C8545D.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Map_Auto2.umap'
+[2019.01.25-18.38.00:828][231]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HalsStuffFuckOff/Map' took 0.138
+[2019.01.25-18.38.00:828][231]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.138
+[2019.01.25-18.38.24:753][ 83]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2019.01.25-18.38.25:137][ 83]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.
+[2019.01.25-18.39.16:827][278]LogSlate: Took 0.005441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.01.25-18.39.36:580][218]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2019.01.25-18.46.56:716][837]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2019.01.25-18.46.56:724][837]LogBlueprint: Error: [Compiler BTService_BlueprintBase_New] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2019.01.25-18.46.56:769][837]LogBlueprint: Warning: [Compiler BTService_BlueprintBase_New] [2291.26] Compile of BTService_BlueprintBase_New failed. 1 Fatal Issue(s) 0 Warning(s) [in 52 ms] (/Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New)
+[2019.01.25-18.47.07:844][906]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2019.01.25-18.47.09:031][ 12]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/BTService_BlueprintBase_New8C45FA8F45343068476C76B2C3D95C0A.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/BTService_BlueprintBase_New.uasset'
+[2019.01.25-18.47.09:124][ 20]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.
+[2019.01.25-18.47.50:750][675]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieTree" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset" SILENT=true
+[2019.01.25-18.47.50:778][675]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTree0F5B00264296CAAE5E69238C7B3B144E.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset'
+[2019.01.25-18.47.52:857][896]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.47.52:882][896]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.47.52:882][896]PIE: New page: PIE session: Map (25 Jan 2019 18:47:52)
+[2019.01.25-18.47.52:882][896]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.47.52:889][896]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007249s)
+[2019.01.25-18.47.52:890][896]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.47.52:891][896]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2019.01.25-18.47.52:891][896]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.008878s)
+[2019.01.25-18.47.52:931][896]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.47.52:945][896]LogInit: FAudioDevice initialized.
+[2019.01.25-18.47.52:984][896]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.47.52:989][896]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.47.52
+[2019.01.25-18.47.52:991][896]LogWorld: Bringing up level for play took: 0.004873
+[2019.01.25-18.47.53:012][896]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.125
+[2019.01.25-18.48.00:960][785]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.48.16:982][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.48.17:023][541]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.48.17:052][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.48.17:082][543]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.01.25-18.48.48:539][299]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HalsStuffFuckOff/Map' took 0.039
+[2019.01.25-18.48.48:541][299]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/ZombieTree] ([1] browsable assets)...
+[2019.01.25-18.48.48:541][299]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/ZombieTree]
+[2019.01.25-18.48.48:567][299]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTree_Auto39768351646304FE6529C5291BC5A3865.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/ZombieTree_Auto3.uasset'
+[2019.01.25-18.48.48:572][299]LogFileHelpers: Auto-saving content packages took 0.032
+[2019.01.25-18.49.37:438][903]LogBehaviorTree: Warning: Blackboard asset (ZombieBB) has (ZombieBB) in parent chain! Clearing value to avoid cycle.
+[2019.01.25-18.49.42:336][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieTree" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset" SILENT=true
+[2019.01.25-18.49.42:355][486]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTree470DA7B34BE4CE941085B6AED3545F67.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset'
+[2019.01.25-18.49.42:374][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieBB" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBB.uasset" SILENT=true
+[2019.01.25-18.49.42:397][486]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBBF74BE9CC4CB57BEBD5E378BDE09B4459.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieBB.uasset'
+[2019.01.25-18.50.39:180][686]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.25-18.50.47:997][625]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-18.50.59:936][743]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-18.51.05:920][317]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/AIControllerBP.AIControllerBP
+[2019.01.25-18.51.08:952][496]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.51.08:992][496]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.51.08:992][496]PIE: New page: PIE session: Map (25 Jan 2019 18:51:08)
+[2019.01.25-18.51.08:993][496]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.51.09:003][496]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009890s)
+[2019.01.25-18.51.09:006][496]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.51.09:007][496]LogPlayLevel: PIE: World Init took: (0.003224s)
+[2019.01.25-18.51.09:007][496]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.013963s)
+[2019.01.25-18.51.09:050][496]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.51.09:061][496]LogInit: FAudioDevice initialized.
+[2019.01.25-18.51.09:104][496]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.51.09:112][496]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.51.09
+[2019.01.25-18.51.09:114][496]LogWorld: Bringing up level for play took: 0.007129
+[2019.01.25-18.51.09:133][496]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.012
+[2019.01.25-18.51.20:170][504]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.51.20:703][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.51.20:747][547]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.51.20:798][547]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.51.20:824][548]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.25-18.51.21:432][604]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.51.21:459][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.51.21:459][604]PIE: New page: PIE session: Map (25 Jan 2019 18:51:21)
+[2019.01.25-18.51.21:459][604]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.51.21:466][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006497s)
+[2019.01.25-18.51.21:467][604]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.51.21:467][604]LogPlayLevel: PIE: World Init took: (0.001142s)
+[2019.01.25-18.51.21:467][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.008005s)
+[2019.01.25-18.51.21:508][604]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.51.21:519][604]LogInit: FAudioDevice initialized.
+[2019.01.25-18.51.21:558][604]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.51.21:560][604]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.51.21
+[2019.01.25-18.51.21:561][604]LogWorld: Bringing up level for play took: 0.002021
+[2019.01.25-18.51.21:578][604]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_SetValueAsVector', from offset 205
+[2019.01.25-18.51.21:578][604]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/AIControllerBP.AIControllerBP_C:ReceiveBeginPlay
+	Function /Game/HalsStuffFuckOff/AIControllerBP.AIControllerBP_C:ExecuteUbergraph_AIControllerBP
+
+[2019.01.25-18.51.49:969][604]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 28.823
+[2019.01.25-18.51.49:994][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.51.50:033][604]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.51.50:068][604]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.51.50:087][605]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.01.25-18.51.51:158][724]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.51.51:184][724]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.51.51:184][724]PIE: New page: PIE session: Map (25 Jan 2019 18:51:51)
+[2019.01.25-18.51.51:184][724]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.51.51:191][724]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006431s)
+[2019.01.25-18.51.51:192][724]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.51.51:192][724]LogPlayLevel: PIE: World Init took: (0.001079s)
+[2019.01.25-18.51.51:192][724]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.008053s)
+[2019.01.25-18.51.51:230][724]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.51.51:241][724]LogInit: FAudioDevice initialized.
+[2019.01.25-18.51.51:278][724]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.51.51:280][724]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.51.51
+[2019.01.25-18.51.51:281][724]LogWorld: Bringing up level for play took: 0.002054
+[2019.01.25-18.51.51:296][724]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.15
+[2019.01.25-18.51.51:576][752]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2019.01.25-18.51.51:576][752]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+
+[2019.01.25-18.52.05:321][799]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2019.01.25-18.52.05:321][799]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+
+[2019.01.25-18.52.05:324][799]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.52.18:020][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.52.18:057][900]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.52.18:088][900]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.52.18:119][902]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.01.25-18.53.08:157][254]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2019.01.25-18.53.09:017][323]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/BTService_BlueprintBase_New347240D64030BB54FB1DC994B9F0D027.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/BTService_BlueprintBase_New.uasset'
+[2019.01.25-18.53.12:775][441]LogSlate: Window 'AIControllerBP*' being destroyed
+[2019.01.25-18.53.12:782][441]LogSlate: Window 'AIControllerBP*' being destroyed
+[2019.01.25-18.53.13:678][526]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.53.13:700][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.53.13:701][526]PIE: New page: PIE session: Map (25 Jan 2019 18:53:13)
+[2019.01.25-18.53.13:701][526]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.53.13:707][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006178s)
+[2019.01.25-18.53.13:708][526]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.53.13:708][526]LogPlayLevel: PIE: World Init took: (0.001010s)
+[2019.01.25-18.53.13:708][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007551s)
+[2019.01.25-18.53.13:748][526]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.53.13:758][526]LogInit: FAudioDevice initialized.
+[2019.01.25-18.53.13:797][526]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.53.13:800][526]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.53.13
+[2019.01.25-18.53.13:802][526]LogWorld: Bringing up level for play took: 0.003681
+[2019.01.25-18.53.13:821][526]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.673
+[2019.01.25-18.53.14:223][566]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2019.01.25-18.53.14:223][566]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+
+[2019.01.25-18.53.14:223][566]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2019.01.25-18.53.21:463][858]LogBlueprintDebug: Warning: Hit breakpoint on node 'K2Node_Event', from offset 0
+[2019.01.25-18.53.21:463][858]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+
+[2019.01.25-18.53.21:465][858]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.53.38:166][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.53.38:210][457]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.53.38:258][457]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.53.38:287][458]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.01.25-18.53.39:824][640]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.01.25-18.53.40:735][741]LogEditorViewport: Clicking on Actor (LMB): ZombieBP_C (ZombieBP)
+[2019.01.25-18.53.45:734][191]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.53.55:538][968]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.53.55:562][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.53.55:562][968]PIE: New page: PIE session: Map (25 Jan 2019 18:53:55)
+[2019.01.25-18.53.55:562][968]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.53.55:570][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007463s)
+[2019.01.25-18.53.55:570][968]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.53.55:571][968]LogPlayLevel: PIE: World Init took: (0.000997s)
+[2019.01.25-18.53.55:571][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.008890s)
+[2019.01.25-18.53.55:609][968]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.53.55:623][968]LogInit: FAudioDevice initialized.
+[2019.01.25-18.53.55:667][968]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.53.55:670][968]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.53.55
+[2019.01.25-18.53.55:671][968]LogWorld: Bringing up level for play took: 0.003103
+[2019.01.25-18.53.55:686][968]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.537
+[2019.01.25-18.53.56:133][ 12]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetActorRotation', from offset 219
+[2019.01.25-18.53.56:133][ 12]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New
+
+[2019.01.25-18.54.04:893][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.54.04:933][ 12]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.54.04:996][ 12]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.54.05:022][ 13]LogPlayLevel: Display: Destroying online subsystem :Context_19
+[2019.01.25-18.54.14:631][108]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2019.01.25-18.54.15:182][148]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/BTService_BlueprintBase_New7DFFE0274311068C813119931E9479A5.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/BTService_BlueprintBase_New.uasset'
+[2019.01.25-18.54.17:756][359]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.54.17:776][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.54.17:776][359]PIE: New page: PIE session: Map (25 Jan 2019 18:54:17)
+[2019.01.25-18.54.17:776][359]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.54.17:783][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006270s)
+[2019.01.25-18.54.17:783][359]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.54.17:784][359]LogPlayLevel: PIE: World Init took: (0.000847s)
+[2019.01.25-18.54.17:784][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007492s)
+[2019.01.25-18.54.17:821][359]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.54.17:832][359]LogInit: FAudioDevice initialized.
+[2019.01.25-18.54.17:868][359]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.54.17:872][359]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.54.17
+[2019.01.25-18.54.17:874][359]LogWorld: Bringing up level for play took: 0.004149
+[2019.01.25-18.54.17:894][359]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.744
+[2019.01.25-18.54.18:328][404]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetActorRotation', from offset 194
+[2019.01.25-18.54.18:328][404]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New
+
+[2019.01.25-18.54.30:252][112]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.54.36:261][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.54.36:304][760]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.54.36:341][760]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.54.36:363][761]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2019.01.25-18.57.41:945][ 61]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2019.01.25-18.58.42:950][838]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2019.01.25-18.58.43:931][923]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/BTService_BlueprintBase_New6AEBB5A843F14234E6CF5793A3DD0788.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/BTService_BlueprintBase_New.uasset'
+[2019.01.25-18.58.44:522][978]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-18.58.44:545][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-18.58.44:545][978]PIE: New page: PIE session: Map (25 Jan 2019 18:58:44)
+[2019.01.25-18.58.44:545][978]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-18.58.44:552][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006103s)
+[2019.01.25-18.58.44:552][978]LogAIModule: Creating AISystem for world Map
+[2019.01.25-18.58.44:553][978]LogPlayLevel: PIE: World Init took: (0.000989s)
+[2019.01.25-18.58.44:553][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007502s)
+[2019.01.25-18.58.44:594][978]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-18.58.44:605][978]LogInit: FAudioDevice initialized.
+[2019.01.25-18.58.44:648][978]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-18.58.44:651][978]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-18.58.44
+[2019.01.25-18.58.44:652][978]LogWorld: Bringing up level for play took: 0.002940
+[2019.01.25-18.58.44:667][978]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.486
+[2019.01.25-18.58.45:071][ 20]LogScript: Warning: Accessed None trying to read property AIController REF
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0072
+[2019.01.25-18.58.45:072][ 20]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.45:072][ 20]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:00A4
+[2019.01.25-18.58.45:072][ 20]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.45:072][ 20]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0101
+[2019.01.25-18.58.45:072][ 20]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.45:580][ 75]LogScript: Warning: Accessed None trying to read property AIController REF
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0072
+[2019.01.25-18.58.45:581][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.45:581][ 75]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:00A4
+[2019.01.25-18.58.45:581][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.45:581][ 75]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0101
+[2019.01.25-18.58.45:581][ 75]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.46:391][126]LogScript: Warning: Accessed None trying to read property AIController REF
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0072
+[2019.01.25-18.58.46:391][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.46:392][126]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:00A4
+[2019.01.25-18.58.46:392][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.46:393][126]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0101
+[2019.01.25-18.58.46:394][126]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.47:068][128]LogScript: Warning: Accessed None trying to read property AIController REF
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0072
+[2019.01.25-18.58.47:069][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.47:069][128]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:00A4
+[2019.01.25-18.58.47:069][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.47:070][128]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0101
+[2019.01.25-18.58.47:070][128]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.47:733][130]LogScript: Warning: Accessed None trying to read property AIController REF
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0072
+[2019.01.25-18.58.47:734][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.47:734][130]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:00A4
+[2019.01.25-18.58.47:734][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.47:734][130]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0101
+[2019.01.25-18.58.47:735][130]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.48:326][156]LogScript: Warning: Accessed None trying to read property AIController REF
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:0072
+[2019.01.25-18.58.48:326][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.48:326][156]LogScript: Warning: Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue
+	BTService_BlueprintBase_New_C /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map:PersistentLevel.AIControllerBP_C_0.BTComponent.BTService_BlueprintBase_New_C_0
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New:00A4
+[2019.01.25-18.58.48:326][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.48:327][156]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.48:766][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.48:766][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.48:766][200]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.49:330][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.49:330][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.49:331][222]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.49:799][266]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.49:799][266]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.49:799][266]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.50:260][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.50:260][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.50:260][317]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.50:854][386]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.50:854][386]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.50:855][386]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.51:346][442]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.51:346][442]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.51:346][442]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.51:846][498]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.51:846][498]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.51:846][498]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.52:284][549]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.52:284][549]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.52:284][549]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.52:717][598]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.52:717][598]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.52:718][598]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.53:120][641]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.53:120][641]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.53:120][641]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.53:578][694]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.53:578][694]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.53:578][694]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.54:013][745]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.54:014][745]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.54:014][745]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.54:426][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.54:426][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.54:426][791]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.54:880][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.54:880][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.54:881][842]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.55:331][889]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.55:331][889]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.55:332][889]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.55:760][932]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.55:761][932]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.55:761][932]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.56:268][988]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.56:268][988]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.56:269][988]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.56:809][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.56:810][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.56:810][ 51]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.57:362][112]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.57:362][112]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.57:362][112]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.57:793][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.57:793][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.57:793][160]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.58:391][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.58:392][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.58:392][230]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.59:102][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.59:102][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.59:103][274]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.59:778][276]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.59:779][276]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.58.59:779][276]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.00:449][278]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.00:450][278]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.00:450][278]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.01:123][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.01:124][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.01:125][280]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.01:756][282]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-18.59.01:790][282]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.01:791][282]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.01:791][282]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.02:208][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.02:208][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.02:209][322]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.02:764][380]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.02:765][380]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.02:765][380]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.03:291][435]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property AIController REF". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.03:291][435]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.03:291][435]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property CallFunc_K2_GetPawn_ReturnValue". Blueprint:  BTService_BlueprintBase_New Function:  Execute Ubergraph BTService Blueprint Base New Graph:  EventGraph Node:  SetActorRotation
+[2019.01.25-18.59.03:541][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.59.03:580][462]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-18.59.03:608][462]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-18.59.03:652][464]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2019.01.25-19.00.26:996][668]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2019.01.25-19.00.27:657][704]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/BTService_BlueprintBase_New0E5D8E5544E244CBA7EDF1A04D9B473D.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/BTService_BlueprintBase_New.uasset'
+[2019.01.25-19.00.31:929][879]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-19.00.31:934][879]LogSlate: Window 'Message Log' being destroyed
+[2019.01.25-19.00.32:535][942]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.00.32:557][942]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.00.32:558][942]PIE: New page: PIE session: Map (25 Jan 2019 19:00:32)
+[2019.01.25-19.00.32:558][942]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.00.32:565][942]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007014s)
+[2019.01.25-19.00.32:566][942]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.00.32:566][942]LogPlayLevel: PIE: World Init took: (0.000939s)
+[2019.01.25-19.00.32:566][942]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.008340s)
+[2019.01.25-19.00.32:605][942]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.00.32:617][942]LogInit: FAudioDevice initialized.
+[2019.01.25-19.00.32:650][942]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.00.32:652][942]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.00.32
+[2019.01.25-19.00.32:653][942]LogWorld: Bringing up level for play took: 0.002121
+[2019.01.25-19.00.32:669][942]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.485
+[2019.01.25-19.00.41:963][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-19.00.42:914][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.00.42:955][972]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.00.43:007][972]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.00.43:030][973]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2019.01.25-19.01.59:532][653]BlueprintLog: New page: Compile BTService_BlueprintBase_New
+[2019.01.25-19.02.13:874][164]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.02.13:894][164]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.02.13:894][164]PIE: New page: PIE session: Map (25 Jan 2019 19:02:13)
+[2019.01.25-19.02.13:894][164]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.02.13:918][164]LogPlayLevel: PIE: StaticDuplicateObject took: (0.023809s)
+[2019.01.25-19.02.13:919][164]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.02.13:919][164]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2019.01.25-19.02.13:919][164]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.024979s)
+[2019.01.25-19.02.13:957][164]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.02.13:968][164]LogInit: FAudioDevice initialized.
+[2019.01.25-19.02.14:002][164]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.02.14:005][164]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.02.14
+[2019.01.25-19.02.14:006][164]LogWorld: Bringing up level for play took: 0.002953
+[2019.01.25-19.02.14:021][164]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.866
+[2019.01.25-19.02.29:551][562]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-19.02.33:673][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.02.33:712][985]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.02.33:760][985]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.02.33:785][986]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2019.01.25-19.02.51:629][305]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.02.51:650][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.02.51:650][305]PIE: New page: PIE session: Map (25 Jan 2019 19:02:51)
+[2019.01.25-19.02.51:650][305]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.02.51:657][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007095s)
+[2019.01.25-19.02.51:658][305]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.02.51:658][305]LogPlayLevel: PIE: World Init took: (0.000877s)
+[2019.01.25-19.02.51:658][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.008321s)
+[2019.01.25-19.02.51:697][305]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.02.51:707][305]LogInit: FAudioDevice initialized.
+[2019.01.25-19.02.51:751][305]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.02.51:757][305]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.02.51
+[2019.01.25-19.02.51:758][305]LogWorld: Bringing up level for play took: 0.005341
+[2019.01.25-19.02.51:780][305]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.625
+[2019.01.25-19.02.52:227][346]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetActorRotation', from offset 351
+[2019.01.25-19.02.52:227][346]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New
+
+[2019.01.25-19.02.58:031][530]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetActorRotation', from offset 351
+[2019.01.25-19.02.58:031][530]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New
+
+[2019.01.25-19.02.58:034][530]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-19.03.00:922][532]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetActorRotation', from offset 351
+[2019.01.25-19.03.00:922][532]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New
+
+[2019.01.25-19.03.01:938][552]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetActorRotation', from offset 351
+[2019.01.25-19.03.01:938][552]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ReceiveTick
+	Function /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New_C:ExecuteUbergraph_BTService_BlueprintBase_New
+
+[2019.01.25-19.03.07:844][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.03.07:888][552]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.03.07:924][552]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.03.07:947][553]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2019.01.25-19.03.15:218][918]LogAssetEditorManager: Opening Asset editor for BehaviorTree /Game/HalsStuffFuckOff/ZombieTree.ZombieTree
+[2019.01.25-19.04.35:658][709]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-19.04.37:043][868]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-19.04.37:043][868]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/BTService_BlueprintBase_New_New.BTService_BlueprintBase_New_New
+[2019.01.25-19.04.37:351][868]LogPackageName: SearchForPackageOnDisk took   0.001s, but failed to resolve /Game/HalsStuffFuckOff/BTService_BlueprintBase_New_New.
+[2019.01.25-19.04.40:631][223]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-19.04.47:838][ 50]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-19.04.47:838][ 50]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/BTService_BlueprintBase_New_New_New.BTService_BlueprintBase_New_New_New
+[2019.01.25-19.04.48:108][ 50]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/HalsStuffFuckOff/BTService_BlueprintBase_New_New_New.
+[2019.01.25-19.04.57:601][917]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.25-19.04.58:536][989]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/BTService_BlueprintBase_New_New.BTService_BlueprintBase_New_New
+[2019.01.25-19.05.01:071][233]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/BTService_BlueprintBase_New_New.BTService_BlueprintBase_New_New
+[2019.01.25-19.05.04:373][524]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2019.01.25-19.05.13:777][481]LogMetaData: Removing '/Game/HalsStuffFuckOff/LookAtPlayer.SKEL_LookAtPlayer_C' ref from Metadata '/Game/HalsStuffFuckOff/BTService_BlueprintBase_New.PackageMetaData'
+[2019.01.25-19.05.13:777][481]LogMetaData: Removing '/Game/HalsStuffFuckOff/LookAtPlayer.LookAtPlayer_C' ref from Metadata '/Game/HalsStuffFuckOff/BTService_BlueprintBase_New.PackageMetaData'
+[2019.01.25-19.05.13:802][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/LookAtPlayer" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/LookAtPlayer.uasset" SILENT=true
+[2019.01.25-19.05.13:833][481]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/LookAtPlayer523355794864F5948315A7AAF9B6E237.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/LookAtPlayer.uasset'
+[2019.01.25-19.05.14:113][481]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieTree" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset" SILENT=true
+[2019.01.25-19.05.14:135][481]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTree2B3A41E54E103A7F605AA09B69B21422.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset'
+[2019.01.25-19.05.14:248][488]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/HalsStuffFuckOff/LookAtPlayer.
+[2019.01.25-19.05.17:607][660]LogSlate: Window 'Delete Assets' being destroyed
+[2019.01.25-19.05.22:690][220]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-19.05.54:858][965]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HalsStuffFuckOff/Map' took 0.028
+[2019.01.25-19.05.54:861][965]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/AIControllerBP] ([1] browsable assets)...
+[2019.01.25-19.05.54:861][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/AIControllerBP]
+[2019.01.25-19.05.54:906][965]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/AIControllerBP_Auto4BB3BAC03428663DC01895AA3821F0582.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/AIControllerBP_Auto4.uasset'
+[2019.01.25-19.05.54:913][965]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/ZombieBP] ([1] browsable assets)...
+[2019.01.25-19.05.54:925][965]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/HalsStuffFuckOff/ZombieBP.ZombieBP]
+[2019.01.25-19.05.54:925][965]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/ZombieBP]
+[2019.01.25-19.05.54:971][965]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBP_Auto452524AA0431606631B99759373DFDDBD.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/ZombieBP_Auto4.uasset'
+[2019.01.25-19.05.54:976][965]LogFileHelpers: Auto-saving content packages took 0.117
+[2019.01.25-19.07.15:332][351]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.01.25-19.07.15:332][351]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.BTService_BlueprintBase_New
+[2019.01.25-19.07.15:631][351]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/HalsStuffFuckOff/BTService_BlueprintBase_New.
+[2019.01.25-19.07.29:303][880]LogMetaData: Removing '/Game/HalsStuffFuckOff/Jump.SKEL_Jump_C' ref from Metadata '/Game/HalsStuffFuckOff/BTService_BlueprintBase_New.PackageMetaData'
+[2019.01.25-19.07.29:303][880]LogMetaData: Removing '/Game/HalsStuffFuckOff/Jump.Jump_C' ref from Metadata '/Game/HalsStuffFuckOff/BTService_BlueprintBase_New.PackageMetaData'
+[2019.01.25-19.07.29:324][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/Jump" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Jump.uasset" SILENT=true
+[2019.01.25-19.07.29:338][880]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/JumpD244146C4992834C0FB70F905AE24705.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Jump.uasset'
+[2019.01.25-19.07.29:595][883]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/HalsStuffFuckOff/Jump.
+[2019.01.25-19.07.32:437][204]BlueprintLog: New page: Compile Jump
+[2019.01.25-19.08.25:546][930]BlueprintLog: New page: Compile Jump
+[2019.01.25-19.08.31:080][547]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.08.31:102][547]BlueprintLog: New page: Pre-Play auto-recompile
+[2019.01.25-19.08.31:113][547]LogPlayLevel: [PlayLevel] Compiling AIControllerBP before play...
+[2019.01.25-19.08.31:153][547]LogPlayLevel: PlayLevel: Blueprint regeneration took 50 ms (1 blueprints)
+[2019.01.25-19.08.31:153][547]PIE: New page: PIE session: Map (25 Jan 2019 19:08:31)
+[2019.01.25-19.08.31:153][547]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.08.31:160][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006344s)
+[2019.01.25-19.08.31:160][547]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.08.31:161][547]LogPlayLevel: PIE: World Init took: (0.000882s)
+[2019.01.25-19.08.31:161][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007635s)
+[2019.01.25-19.08.31:197][547]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.08.31:208][547]LogInit: FAudioDevice initialized.
+[2019.01.25-19.08.31:247][547]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.08.31:250][547]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.08.31
+[2019.01.25-19.08.31:250][547]LogWorld: Bringing up level for play took: 0.002582
+[2019.01.25-19.08.31:266][547]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.11
+[2019.01.25-19.08.36:121][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.08.36:158][101]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.08.36:185][101]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.08.36:225][103]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2019.01.25-19.08.37:582][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-19.08.59:376][698]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieTree" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset" SILENT=true
+[2019.01.25-19.08.59:399][698]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTreeFD5C540142BEE3404D0C92B6223F0969.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset'
+[2019.01.25-19.09.00:480][822]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.09.00:500][822]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.09.00:500][822]PIE: New page: PIE session: Map (25 Jan 2019 19:09:00)
+[2019.01.25-19.09.00:500][822]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.09.00:506][822]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005959s)
+[2019.01.25-19.09.00:507][822]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.09.00:507][822]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2019.01.25-19.09.00:507][822]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007206s)
+[2019.01.25-19.09.00:542][822]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.09.00:552][822]LogInit: FAudioDevice initialized.
+[2019.01.25-19.09.00:588][822]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.09.00:591][822]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.09.00
+[2019.01.25-19.09.00:592][822]LogWorld: Bringing up level for play took: 0.003171
+[2019.01.25-19.09.00:607][822]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.547
+[2019.01.25-19.09.04:404][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.09.04:446][247]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.09.04:485][247]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.09.04:514][248]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2019.01.25-19.09.05:821][399]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-19.09.14:775][430]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.09.14:794][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.09.14:794][430]PIE: New page: PIE session: Map (25 Jan 2019 19:09:14)
+[2019.01.25-19.09.14:794][430]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.09.14:801][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006334s)
+[2019.01.25-19.09.14:801][430]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.09.14:802][430]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2019.01.25-19.09.14:802][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007510s)
+[2019.01.25-19.09.14:834][430]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.09.14:844][430]LogInit: FAudioDevice initialized.
+[2019.01.25-19.09.14:878][430]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.09.14:883][430]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.09.14
+[2019.01.25-19.09.14:884][430]LogWorld: Bringing up level for play took: 0.004019
+[2019.01.25-19.09.14:905][430]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.25
+[2019.01.25-19.09.16:640][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.09.16:679][612]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.09.16:726][612]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.09.16:753][613]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2019.01.25-19.09.26:719][754]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.09.26:740][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.09.26:741][754]PIE: New page: PIE session: Map (25 Jan 2019 19:09:26)
+[2019.01.25-19.09.26:741][754]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.09.26:747][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006181s)
+[2019.01.25-19.09.26:748][754]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.09.26:748][754]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2019.01.25-19.09.26:749][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007795s)
+[2019.01.25-19.09.26:778][754]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.09.26:789][754]LogInit: FAudioDevice initialized.
+[2019.01.25-19.09.26:824][754]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.09.26:826][754]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.09.26
+[2019.01.25-19.09.26:827][754]LogWorld: Bringing up level for play took: 0.001886
+[2019.01.25-19.09.26:844][754]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.311
+[2019.01.25-19.09.39:925][114]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-19.09.40:241][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.09.40:289][114]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.09.40:325][114]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.09.40:352][115]LogPlayLevel: Display: Destroying online subsystem :Context_34
+[2019.01.25-19.09.47:914][989]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/ZombieTree" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset" SILENT=true
+[2019.01.25-19.09.47:931][989]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTreeA141D3174739A004FD914ABDD1A9208A.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/ZombieTree.uasset'
+[2019.01.25-19.09.49:120][120]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.09.49:139][120]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.09.49:139][120]PIE: New page: PIE session: Map (25 Jan 2019 19:09:49)
+[2019.01.25-19.09.49:139][120]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.09.49:145][120]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006113s)
+[2019.01.25-19.09.49:146][120]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.09.49:146][120]LogPlayLevel: PIE: World Init took: (0.000972s)
+[2019.01.25-19.09.49:146][120]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007414s)
+[2019.01.25-19.09.49:181][120]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.09.49:191][120]LogInit: FAudioDevice initialized.
+[2019.01.25-19.09.49:228][120]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.09.49:231][120]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.09.49
+[2019.01.25-19.09.49:231][120]LogWorld: Bringing up level for play took: 0.002570
+[2019.01.25-19.09.49:249][120]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.094
+[2019.01.25-19.09.49:538][139]LogBlueprintDebug: Warning: Hit breakpoint on node 'CallFunc_K2_SetActorRotation', from offset 351
+[2019.01.25-19.09.49:538][139]LogBlueprintDebug: 
+Script call stack:
+	Function /Game/HalsStuffFuckOff/LookAtPlayer.LookAtPlayer_C:ReceiveTick
+	Function /Game/HalsStuffFuckOff/LookAtPlayer.LookAtPlayer_C:ExecuteUbergraph_LookAtPlayer
+
+[2019.01.25-19.09.49:538][139]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/LookAtPlayer.LookAtPlayer
+[2019.01.25-19.09.54:254][140]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.054969 > MaxSimulationTimeStep (0.050) for 'ZombieBP_2', movement 'Walking'
+[2019.01.25-19.10.10:022][918]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-35.224 Y=-1309.322 Z=172.917] for [FirstPersonProjectile_C]
+[2019.01.25-19.10.12:417][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.10.12:456][186]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.10.12:487][186]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.10.12:516][187]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2019.01.25-19.10.15:367][509]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-19.10.20:443][ 93]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.10.20:468][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.10.20:468][ 93]PIE: New page: PIE session: Map (25 Jan 2019 19:10:20)
+[2019.01.25-19.10.20:469][ 93]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.10.20:475][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006453s)
+[2019.01.25-19.10.20:476][ 93]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.10.20:476][ 93]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2019.01.25-19.10.20:476][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.007772s)
+[2019.01.25-19.10.20:510][ 93]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.10.20:521][ 93]LogInit: FAudioDevice initialized.
+[2019.01.25-19.10.20:554][ 93]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.10.20:557][ 93]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.10.20
+[2019.01.25-19.10.20:557][ 93]LogWorld: Bringing up level for play took: 0.002106
+[2019.01.25-19.10.20:574][ 93]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.58
+[2019.01.25-19.10.29:295][901]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-19.10.37:177][764]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/Jump.Jump
+[2019.01.25-19.10.45:804][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.10.45:845][673]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.10.45:880][673]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.10.45:902][674]LogPlayLevel: Display: Destroying online subsystem :Context_37
+[2019.01.25-19.11.26:769][863]BlueprintLog: New page: Compile Jump
+[2019.01.25-19.11.27:322][899]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/Jump" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Jump.uasset" SILENT=true
+[2019.01.25-19.11.27:346][899]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Jump73E20F5141B3CB5ADDBE3E924AA60AD7.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Jump.uasset'
+[2019.01.25-19.12.02:983][476]BlueprintLog: New page: Compile Jump
+[2019.01.25-19.12.03:590][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/Jump" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Jump.uasset" SILENT=true
+[2019.01.25-19.12.03:614][519]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/JumpD60D20F24A341B13927795B93EBAF1EE.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/Jump.uasset'
+[2019.01.25-19.12.04:903][646]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.12.04:928][646]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.12.04:928][646]PIE: New page: PIE session: Map (25 Jan 2019 19:12:04)
+[2019.01.25-19.12.04:928][646]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.12.04:937][646]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009363s)
+[2019.01.25-19.12.04:938][646]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.12.04:939][646]LogPlayLevel: PIE: World Init took: (0.000923s)
+[2019.01.25-19.12.04:939][646]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.010655s)
+[2019.01.25-19.12.04:977][646]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.12.04:988][646]LogInit: FAudioDevice initialized.
+[2019.01.25-19.12.05:027][646]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.12.05:032][646]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.12.05
+[2019.01.25-19.12.05:034][646]LogWorld: Bringing up level for play took: 0.004800
+[2019.01.25-19.12.05:054][646]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map -0.101
+[2019.01.25-19.12.12:116][264]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.25-19.12.12:547][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.12.12:588][287]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.12.12:650][287]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.12.12:678][288]LogPlayLevel: Display: Destroying online subsystem :Context_39
+[2019.01.25-19.12.25:817][687]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.12.25:843][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.12.25:844][687]PIE: New page: PIE session: Map (25 Jan 2019 19:12:25)
+[2019.01.25-19.12.25:844][687]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.12.25:852][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007949s)
+[2019.01.25-19.12.25:853][687]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.12.25:853][687]LogPlayLevel: PIE: World Init took: (0.001126s)
+[2019.01.25-19.12.25:853][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.009485s)
+[2019.01.25-19.12.25:891][687]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.12.25:901][687]LogInit: FAudioDevice initialized.
+[2019.01.25-19.12.25:944][687]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.12.25:951][687]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.12.25
+[2019.01.25-19.12.25:953][687]LogWorld: Bringing up level for play took: 0.006708
+[2019.01.25-19.12.25:970][687]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.815
+[2019.01.25-19.12.40:232][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.12.40:271][235]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.12.40:328][235]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.12.40:360][236]LogPlayLevel: Display: Destroying online subsystem :Context_40
+[2019.01.25-19.12.43:363][544]LogEditorViewport: Clicking on Actor (LMB): ZombieBP_C (ZombieBP)
+[2019.01.25-19.12.44:729][635]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-19.16.27:324][165]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.25-19.16.48:413][898]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/BTDecorator_BlueprintBase_New.BTDecorator_BlueprintBase_New
+[2019.01.25-19.16.48:746][898]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/HalsStuffFuckOff/BTDecorator_BlueprintBase_New.
+[2019.01.25-19.18.00:365][464]BlueprintLog: New page: Compile BTDecorator_BlueprintBase_New
+[2019.01.25-19.20.50:364][910]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HalsStuffFuckOff/Map' took 0.034
+[2019.01.25-19.20.50:366][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/ZombieTree] ([1] browsable assets)...
+[2019.01.25-19.20.50:366][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/ZombieTree]
+[2019.01.25-19.20.50:395][910]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieTree_Auto50EFD0793448F6860D7939298B5D19B84.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/ZombieTree_Auto5.uasset'
+[2019.01.25-19.20.50:401][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/AIControllerBP] ([1] browsable assets)...
+[2019.01.25-19.20.50:401][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/AIControllerBP]
+[2019.01.25-19.20.50:438][910]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/AIControllerBP_Auto5F7C5400641C5AE079AC6F7976D404EB6.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/AIControllerBP_Auto5.uasset'
+[2019.01.25-19.20.50:444][910]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/HalsStuffFuckOff/ZombieBP] ([1] browsable assets)...
+[2019.01.25-19.20.50:466][910]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/HalsStuffFuckOff/ZombieBP.ZombieBP]
+[2019.01.25-19.20.50:466][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/ZombieBP]
+[2019.01.25-19.20.50:520][910]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/ZombieBP_Auto53F148F6E4E7C3C9716FC4AB4999FD18A.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/ZombieBP_Auto5.uasset'
+[2019.01.25-19.20.50:526][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/Jump] ([1] browsable assets)...
+[2019.01.25-19.20.50:526][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/Jump]
+[2019.01.25-19.20.50:561][910]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Jump_Auto51C4691FD4D25334A429B478850EF6F37.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/Jump_Auto5.uasset'
+[2019.01.25-19.20.50:569][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/BTDecorator_BlueprintBase_New] ([1] browsable assets)...
+[2019.01.25-19.20.50:569][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/BTDecorator_BlueprintBase_New]
+[2019.01.25-19.20.50:592][910]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/BTDecorator_BlueprintBase_New_AuA47292C248DFB1CC74DBCC97CBCDBB1A.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/BTDecorator_BlueprintBase_New_Auto5.uasset'
+[2019.01.25-19.20.50:599][910]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HalsStuffFuckOff/LookAtPlayer] ([1] browsable assets)...
+[2019.01.25-19.20.50:599][910]OBJ SavePackage: Finished generating thumbnails for package [/Game/HalsStuffFuckOff/LookAtPlayer]
+[2019.01.25-19.20.50:631][910]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/LookAtPlayer_Auto52B5557284026084416BA34A0E3E6AED1.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/Autosaves/Game/HalsStuffFuckOff/LookAtPlayer_Auto5.uasset'
+[2019.01.25-19.20.50:636][910]LogFileHelpers: Auto-saving content packages took 0.270
+[2019.01.25-19.21.28:591][670]BlueprintLog: New page: Compile BTDecorator_BlueprintBase_New
+[2019.01.25-19.21.30:528][809]BlueprintLog: New page: Compile LookAtPlayer
+[2019.01.25-19.22.11:386][977]LogSlate: Window 'BTDecorator_BlueprintBase_New*' being destroyed
+[2019.01.25-19.22.11:390][977]LogSlate: Window 'BTDecorator_BlueprintBase_New*' being destroyed
+[2019.01.25-19.22.12:962][105]Candidate modules for hot reload:
+[2019.01.25-19.22.12:962][105]  HomeIs
+[2019.01.25-19.22.12:963][105]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HomeIs,546 Win64 Development -TargetType=Editor -Project="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" -canskiplink "C:/Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" ]
+[2019.01.25-19.22.12:970][105]Warning: Starting HotReload took  0.0s.
+[2019.01.25-19.23.00:271][516]CompilerResultsLog: New page: Compilation - 25 Jan 2019 19:23:00
+[2019.01.25-19.23.00:271][516]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.01.25-19.23.00:271][516]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.25-19.23.00:271][516]CompilerResultsLog: Creating makefile for hot reloading HomeIsEditor (no existing makefile)
+[2019.01.25-19.23.00:272][516]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.25-19.23.00:272][516]CompilerResultsLog: Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.01.25-19.23.00:272][516]CompilerResultsLog: Target is up to date
+[2019.01.25-19.23.00:272][516]CompilerResultsLog: Total build time: 46.90 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.01.25-19.23.00:272][516]LogMainFrame: MainFrame: Module compiling took 47.319 seconds
+[2019.01.25-19.23.00:624][516]LogContentBrowser: Native class hierarchy populated in 0.0134 seconds. Added 2577 classes and 607 folders.
+[2019.01.25-19.23.00:630][516]Display: HotReload took 47.7s.
+[2019.01.25-19.23.05:434][  1]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.25-19.23.05:458][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.25-19.23.05:459][  1]PIE: New page: PIE session: Map (25 Jan 2019 19:23:05)
+[2019.01.25-19.23.05:459][  1]LogPlayLevel: Creating play world package: /Game/HalsStuffFuckOff/UEDPIE_0_Map
+[2019.01.25-19.23.05:467][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008482s)
+[2019.01.25-19.23.05:468][  1]LogAIModule: Creating AISystem for world Map
+[2019.01.25-19.23.05:468][  1]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2019.01.25-19.23.05:469][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HalsStuffFuckOff/Map.Map to /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map (0.009704s)
+[2019.01.25-19.23.05:546][  1]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.25-19.23.05:562][  1]LogInit: FAudioDevice initialized.
+[2019.01.25-19.23.05:604][  1]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.25-19.23.05:609][  1]LogWorld: Bringing World /Game/HalsStuffFuckOff/UEDPIE_0_Map.Map up for play (max tick rate 0) at 2019.01.25-19.23.05
+[2019.01.25-19.23.05:611][  1]LogWorld: Bringing up level for play took: 0.004830
+[2019.01.25-19.23.05:632][  1]PIE: Play in editor start time for /Game/HalsStuffFuckOff/UEDPIE_0_Map 0.477
+[2019.01.25-19.23.11:858][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.23.11:896][734]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.25-19.23.11:948][734]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.25-19.23.12:006][735]LogPlayLevel: Display: Destroying online subsystem :Context_43
