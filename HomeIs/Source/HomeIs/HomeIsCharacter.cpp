@@ -12,6 +12,7 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Engine/Public/DrawDebugHelpers.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -20,6 +21,7 @@ DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 AHomeIsCharacter::AHomeIsCharacter()
 {
+	_loadedAmmo = 10;
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 
@@ -152,12 +154,16 @@ void AHomeIsCharacter::OnFire()
 		_loadedAmmo--;
 
 		FHitResult iHit;
-		float length = 200;
-		FVector startLocation = FP_MuzzleLocation->GetComponentLocation();
-		FVector endLocation = startLocation + (FP_MuzzleLocation->GetForwardVector() * length);
+		float length = _bulletRange;
+		FVector startLocation = GetFirstPersonCameraComponent()->GetComponentLocation();
+		FVector endLocation = startLocation + (GetFirstPersonCameraComponent()->GetForwardVector() * length);
 		FCollisionQueryParams collisionParams;
 		ActorLineTraceSingle(iHit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParams);
-
+		DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Red, true, -1.0f, 0, 1.0f);
+		if (iHit.GetActor() != nullptr)
+		{
+			ManageBulletCollision(iHit);
+		}
 		// Legacy Code
 		//////////////////////////////////////if (ProjectileClass != NULL)
 		//////////////////////////////////////{
@@ -375,6 +381,10 @@ const int AHomeIsCharacter::GetGunCapacity() const
 {
 	return _ammoMax;
 }
+const float AHomeIsCharacter::GetPlayerDamage() const
+{
+	return _damage;
+}
 #pragma endregion
 
 void AHomeIsCharacter::DealDamage(float damageDealt)
@@ -385,3 +395,16 @@ void AHomeIsCharacter::DealDamage(float damageDealt)
 		//GAME OVER????
 	}
 }
+
+void AHomeIsCharacter::ManageBulletCollision(FHitResult collided)
+{
+	if (Cast<IIAttackable>(collided.GetActor()))
+	{
+		IIAttackable* iCollidedWith = Cast<IIAttackable>(collided.GetActor());
+		if (iCollidedWith->_type != Type::PLAYER)
+		{
+			iCollidedWith->DealDamage(_damage);
+		}
+	}
+}
+
