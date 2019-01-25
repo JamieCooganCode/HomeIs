@@ -11,6 +11,7 @@
 #include "Kismet/GameplayStatics.h"
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
+#include "GameFramework/CharacterMovementComponent.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -117,9 +118,15 @@ void AHomeIsCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 
+	//SPRINT
+	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AHomeIsCharacter::ToggleSprint);
+	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AHomeIsCharacter::ToggleSprint);
+
+
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AHomeIsCharacter::OnFire);
-
+	//RELOAD
+	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AHomeIsCharacter::Reload);
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
 
@@ -140,49 +147,65 @@ void AHomeIsCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 
 void AHomeIsCharacter::OnFire()
 {
-	// try and fire a projectile
-	if (ProjectileClass != NULL)
+	if (_loadedAmmo > 0)
 	{
-		UWorld* const World = GetWorld();
-		if (World != NULL)
+		_loadedAmmo--;
+
+		FHitResult iHit;
+		float length = 200;
+		FVector startLocation = FP_MuzzleLocation->GetComponentLocation();
+		FVector endLocation = startLocation + (FP_MuzzleLocation->GetForwardVector() * length);
+		FCollisionQueryParams collisionParams;
+		ActorLineTraceSingle(iHit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParams);
+
+		// Legacy Code
+		//////////////////////////////////////if (ProjectileClass != NULL)
+		//////////////////////////////////////{
+		//////////////////////////////////////	UWorld* const World = GetWorld();
+		//////////////////////////////////////	if (World != NULL)
+		//////////////////////////////////////	{
+		//////////////////////////////////////		if (bUsingMotionControllers)
+		//////////////////////////////////////		{
+		//////////////////////////////////////			const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
+		//////////////////////////////////////			const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
+		//////////////////////////////////////			World->SpawnActor<AHomeIsProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
+		//////////////////////////////////////		}
+		//////////////////////////////////////		else
+		//////////////////////////////////////		{
+		//////////////////////////////////////			const FRotator SpawnRotation = GetControlRotation();
+		//////////////////////////////////////			// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+		//////////////////////////////////////			const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+
+		//////////////////////////////////////			//Set Spawn Collision Handling Override
+		//////////////////////////////////////			FActorSpawnParameters ActorSpawnParams;
+		//////////////////////////////////////			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+		//////////////////////////////////////			// spawn the projectile at the muzzle
+		//////////////////////////////////////			World->SpawnActor<AHomeIsProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+		//////////////////////////////////////		}
+		//////////////////////////////////////	}
+		//////////////////////////////////////}
+
+		// try and play the sound if specified
+		if (FireSound != NULL)
 		{
-			if (bUsingMotionControllers)
-			{
-				const FRotator SpawnRotation = VR_MuzzleLocation->GetComponentRotation();
-				const FVector SpawnLocation = VR_MuzzleLocation->GetComponentLocation();
-				World->SpawnActor<AHomeIsProjectile>(ProjectileClass, SpawnLocation, SpawnRotation);
-			}
-			else
-			{
-				const FRotator SpawnRotation = GetControlRotation();
-				// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
-				const FVector SpawnLocation = ((FP_MuzzleLocation != nullptr) ? FP_MuzzleLocation->GetComponentLocation() : GetActorLocation()) + SpawnRotation.RotateVector(GunOffset);
+			UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
+		}
 
-				//Set Spawn Collision Handling Override
-				FActorSpawnParameters ActorSpawnParams;
-				ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
-
-				// spawn the projectile at the muzzle
-				World->SpawnActor<AHomeIsProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+		// try and play a firing animation if specified
+		if (FireAnimation != NULL)
+		{
+			// Get the animation object for the arms mesh
+			UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
+			if (AnimInstance != NULL)
+			{
+				AnimInstance->Montage_Play(FireAnimation, 1.f);
 			}
 		}
 	}
-
-	// try and play the sound if specified
-	if (FireSound != NULL)
+	else
 	{
-		UGameplayStatics::PlaySoundAtLocation(this, FireSound, GetActorLocation());
-	}
-
-	// try and play a firing animation if specified
-	if (FireAnimation != NULL)
-	{
-		// Get the animation object for the arms mesh
-		UAnimInstance* AnimInstance = Mesh1P->GetAnimInstance();
-		if (AnimInstance != NULL)
-		{
-			AnimInstance->Montage_Play(FireAnimation, 1.f);
-		}
+		Reload();
 	}
 }
 
@@ -297,4 +320,68 @@ bool AHomeIsCharacter::EnableTouchscreenMovement(class UInputComponent* PlayerIn
 	}
 	
 	return false;
+}
+
+void AHomeIsCharacter::ToggleSprint()
+{
+	if (_sprinting)
+	{
+		GetCharacterMovement()->MaxWalkSpeed *= 0.5;
+	}
+	else
+	{
+		GetCharacterMovement()->MaxWalkSpeed *= 2;
+	}
+
+	_sprinting = !_sprinting;
+}
+void AHomeIsCharacter::Reload()
+{
+	if (_loadedAmmo < _ammoMax)
+	{
+		int ammoNeeded = _ammoMax - _loadedAmmo;
+		if (_spareAmmo < ammoNeeded)
+		{
+			ammoNeeded = _spareAmmo;
+		}
+		_spareAmmo -= ammoNeeded;
+		_loadedAmmo += ammoNeeded;
+	}
+}
+#pragma region Gets
+
+
+const float AHomeIsCharacter::GetHealth() const
+{
+	return _health;
+}
+const bool AHomeIsCharacter::GetSprintState() const
+{
+	return _sprinting;
+}
+const int AHomeIsCharacter::GetLoadedAmmo() const
+{
+	return _loadedAmmo;
+}
+const int AHomeIsCharacter::GetSpareAmmo() const
+{
+	return _spareAmmo;
+}
+const int AHomeIsCharacter::GetTotalAmmo() const
+{
+	return _loadedAmmo + _spareAmmo;
+}
+const int AHomeIsCharacter::GetGunCapacity() const
+{
+	return _ammoMax;
+}
+#pragma endregion
+
+void AHomeIsCharacter::DealDamage(float damageDealt)
+{
+	_health -= damageDealt;
+	if (_health <= 0)
+	{
+		//GAME OVER????
+	}
 }
