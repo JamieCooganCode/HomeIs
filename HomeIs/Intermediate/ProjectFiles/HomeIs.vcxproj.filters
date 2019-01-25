@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HomeIs.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{39FC59C9-C401-4B91-B81A-4D7807B448E2}</UniqueIdentifier>
+      <UniqueIdentifier>{E5A0D273-B846-4745-8250-9F2A8D24B3E8}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HomeIs.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8FBA44B0-0510-473D-AFFC-175DE63F08A1}</UniqueIdentifier>
+      <UniqueIdentifier>{4BCFAAC5-8377-408E-BB12-BC3231A14C74}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\HomeIs">
-      <UniqueIdentifier>{BA5D69A1-1443-49A8-A294-76C130A87289}</UniqueIdentifier>
+      <UniqueIdentifier>{1B1503BC-B278-46C4-8474-42BB53659740}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HomeIs\HomeIs.Build.cs">
       <Filter>Source\HomeIs</Filter>
@@ -67,12 +67,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\HomeIs\IAttackable.h">
+    <ClInclude Include="..\..\Source\HomeIs\Turret.h">
       <Filter>Source\HomeIs</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp">
+    <ClCompile Include="..\..\Source\HomeIs\Turret.cpp">
       <Filter>Source\HomeIs</Filter>
     </ClCompile>
   </ItemGroup>

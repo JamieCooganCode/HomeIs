@@ -23,9 +23,9 @@
 /wd4838
 /we4668
 /I .
-/I "C:\Users\c013767h\Documents\Unreal Projects\HomeIs\Intermediate\Build\Win64\UE4Editor\Inc\HomeIs"
-/I "C:\Users\c013767h\Documents\Unreal Projects\HomeIs\Source"
-/I "C:\Users\c013767h\Documents\Unreal Projects\HomeIs\Source\HomeIs"
+/I C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Inc\HomeIs
+/I C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Source
+/I C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Source\HomeIs
 /I Runtime
 /I Runtime\Core\Public
 /I Runtime\Core
@@ -409,12 +409,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.17134.0\winrt"
-/FI"C:\Users\c013767h\Documents\Unreal Projects\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Users\c013767h\Documents\Unreal Projects\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Users\c013767h\Documents\Unreal Projects\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\c013767h\Documents\Unreal Projects\HomeIs\Intermediate\Build\Win64\UE4Editor\Inc\HomeIs\HomeIsHUD.gen.cpp"
-/FI"C:\Users\c013767h\Documents\Unreal Projects\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\Definitions.HomeIs.h"
-/Fo"C:\Users\c013767h\Documents\Unreal Projects\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\HomeIsHUD.gen.cpp.obj"
+/FI"C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Inc\HomeIs\HomeIsHUD.gen.cpp"
+/FI"C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\Definitions.HomeIs.h"
+/Fo"C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\HomeIsHUD.gen.cpp.obj"
 /TP
 /GR-
 /W4

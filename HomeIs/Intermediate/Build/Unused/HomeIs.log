@@ -1,4 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Building 3 actions with 8 processes...
+    [1/3] Turret.cpp
+    [2/3] UE4Editor-HomeIs.lib
+       Creating library C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
+    [3/3] UE4Editor-HomeIs.dll
+       Creating library C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
   Deploying HomeIsEditor Win64 Development...
-  Total build time: 3.61 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 5.31 seconds (Parallel executor: 2.69 seconds)
