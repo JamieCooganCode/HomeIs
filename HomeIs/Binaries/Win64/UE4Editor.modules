@@ -2,6 +2,10 @@
 	"BuildId": "4212847",
 	"Modules": 
 	{
+<<<<<<< HEAD
 		"HomeIs": "UE4Editor-HomeIs-9852.dll"
+=======
+		"HomeIs": "UE4Editor-HomeIs.dll"
+>>>>>>> PlayerStuff
 	}
 }

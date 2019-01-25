@@ -26,6 +26,10 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USceneComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USkeletalMeshComponent_NoRegister();
+<<<<<<< HEAD
+=======
+	HOMEIS_API UClass* Z_Construct_UClass_UIAttackable_NoRegister();
+>>>>>>> PlayerStuff
 // End Cross Module References
 	void AHomeIsCharacter::StaticRegisterNativesAHomeIsCharacter()
 	{
@@ -41,6 +45,30 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+<<<<<<< HEAD
+=======
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__ammoMax_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__ammoMax;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__spareAmmo_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__spareAmmo;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__loadedAmmo_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__loadedAmmo;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__sprinting_MetaData[];
+#endif
+		static void NewProp__sprinting_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp__sprinting;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__health_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__health;
+#if WITH_METADATA
+>>>>>>> PlayerStuff
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bUsingMotionControllers_MetaData[];
 #endif
 		static void NewProp_bUsingMotionControllers_SetBit(void* Obj);
@@ -102,6 +130,10 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Mesh1P;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+<<<<<<< HEAD
+=======
+		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
+>>>>>>> PlayerStuff
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -117,6 +149,48 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 	};
 #endif
 #if WITH_METADATA
+<<<<<<< HEAD
+=======
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__ammoMax_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__ammoMax = { UE4CodeGen_Private::EPropertyClass::Int, "_ammoMax", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, _ammoMax), METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__ammoMax_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__ammoMax_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__spareAmmo_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__spareAmmo = { UE4CodeGen_Private::EPropertyClass::Int, "_spareAmmo", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, _spareAmmo), METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__spareAmmo_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__spareAmmo_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__loadedAmmo_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__loadedAmmo = { UE4CodeGen_Private::EPropertyClass::Int, "_loadedAmmo", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, _loadedAmmo), METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__loadedAmmo_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__loadedAmmo_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__sprinting_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	void Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__sprinting_SetBit(void* Obj)
+	{
+		((AHomeIsCharacter*)Obj)->_sprinting = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__sprinting = { UE4CodeGen_Private::EPropertyClass::Bool, "_sprinting", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(AHomeIsCharacter), &Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__sprinting_SetBit, METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__sprinting_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__sprinting_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__health_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__health = { UE4CodeGen_Private::EPropertyClass::Float, "_health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, _health), METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__health_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__health_MetaData)) };
+#if WITH_METADATA
+>>>>>>> PlayerStuff
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_bUsingMotionControllers_MetaData[] = {
 		{ "Category", "Gameplay" },
 		{ "ModuleRelativePath", "HomeIsCharacter.h" },
@@ -252,6 +326,14 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P = { UE4CodeGen_Private::EPropertyClass::Object, "Mesh1P", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHomeIsCharacter_Statics::PropPointers[] = {
+<<<<<<< HEAD
+=======
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__ammoMax,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__spareAmmo,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__loadedAmmo,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__sprinting,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__health,
+>>>>>>> PlayerStuff
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_bUsingMotionControllers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireSound,
@@ -268,6 +350,12 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FP_Gun,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P,
 	};
+<<<<<<< HEAD
+=======
+		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_AHomeIsCharacter_Statics::InterfaceParams[] = {
+			{ Z_Construct_UClass_UIAttackable_NoRegister, (int32)VTABLE_OFFSET(AHomeIsCharacter, IIAttackable), false },
+		};
+>>>>>>> PlayerStuff
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AHomeIsCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AHomeIsCharacter>::IsAbstract,
 	};
@@ -279,7 +367,11 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		Z_Construct_UClass_AHomeIsCharacter_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::PropPointers),
 		"Game",
 		&StaticCppClassTypeInfo,
+<<<<<<< HEAD
 		nullptr, 0,
+=======
+		InterfaceParams, ARRAY_COUNT(InterfaceParams),
+>>>>>>> PlayerStuff
 		METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::Class_MetaDataParams))
 	};
 	UClass* Z_Construct_UClass_AHomeIsCharacter()
@@ -291,7 +383,11 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		}
 		return OuterClass;
 	}
+<<<<<<< HEAD
 	IMPLEMENT_CLASS(AHomeIsCharacter, 1418177236);
+=======
+	IMPLEMENT_CLASS(AHomeIsCharacter, 211372481);
+>>>>>>> PlayerStuff
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHomeIsCharacter(Z_Construct_UClass_AHomeIsCharacter, &AHomeIsCharacter::StaticClass, TEXT("/Script/HomeIs"), TEXT("AHomeIsCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHomeIsCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
