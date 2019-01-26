@@ -12,6 +12,8 @@
 #include "MotionControllerComponent.h"
 #include "XRMotionControllerBase.h" // for FXRMotionControllerBase::RightHandSourceId
 #include "GameFramework/CharacterMovementComponent.h"
+#include "Engine/Public/DrawDebugHelpers.h"
+#include "HomeIs/IInteractable.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
@@ -20,6 +22,7 @@ DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 AHomeIsCharacter::AHomeIsCharacter()
 {
+	_loadedAmmo = 10;
 	// Set size for collision capsule
 	GetCapsuleComponent()->InitCapsuleSize(55.f, 96.0f);
 
@@ -127,6 +130,9 @@ void AHomeIsCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AHomeIsCharacter::OnFire);
 	//RELOAD
 	PlayerInputComponent->BindAction("Reload", IE_Pressed, this, &AHomeIsCharacter::Reload);
+	//INTERACT
+	PlayerInputComponent->BindAction("Interact", IE_Pressed, this, &AHomeIsCharacter::AttemptInteract);
+
 	// Enable touchscreen input
 	EnableTouchscreenMovement(PlayerInputComponent);
 
@@ -152,12 +158,18 @@ void AHomeIsCharacter::OnFire()
 		_loadedAmmo--;
 
 		FHitResult iHit;
-		float length = 200;
-		FVector startLocation = FP_MuzzleLocation->GetComponentLocation();
-		FVector endLocation = startLocation + (FP_MuzzleLocation->GetForwardVector() * length);
-		FCollisionQueryParams collisionParams;
-		ActorLineTraceSingle(iHit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParams);
-
+		float length = _bulletRange;
+		FVector startLocation = GetFirstPersonCameraComponent()->GetComponentLocation() + (GetFirstPersonCameraComponent()->GetForwardVector());
+		FVector endLocation = startLocation + (GetFirstPersonCameraComponent()->GetForwardVector() * length);
+		FCollisionQueryParams* collisionParams = new FCollisionQueryParams();
+		collisionParams->AddIgnoredActor(this);
+		collisionParams->AddIgnoredActor(GetFirstPersonCameraComponent()->GetOwner());
+		GetWorld()->LineTraceSingleByChannel(iHit, startLocation, endLocation, ECollisionChannel::ECC_GameTraceChannel3, collisionParams);
+		DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Red, true, -1.0f, 0, 1.0f);
+		if (iHit.GetActor() != nullptr)
+		{
+			ManageBulletCollision(iHit);
+		}
 		// Legacy Code
 		//////////////////////////////////////if (ProjectileClass != NULL)
 		//////////////////////////////////////{
@@ -375,6 +387,10 @@ const int AHomeIsCharacter::GetGunCapacity() const
 {
 	return _ammoMax;
 }
+const float AHomeIsCharacter::GetPlayerDamage() const
+{
+	return _damage;
+}
 #pragma endregion
 
 void AHomeIsCharacter::DealDamage(float damageDealt)
@@ -385,3 +401,42 @@ void AHomeIsCharacter::DealDamage(float damageDealt)
 		//GAME OVER????
 	}
 }
+
+void AHomeIsCharacter::ManageBulletCollision(FHitResult collided)
+{
+	UE_LOG(LogTemp, Warning, TEXT("1"));
+	if (Cast<IIAttackable>(collided.GetActor()))
+	{
+		IIAttackable* iCollidedWith = Cast<IIAttackable>(collided.GetActor());
+		UE_LOG(LogTemp, Warning, TEXT("2%s"), *(collided.GetComponent()->GetName()));
+		if (iCollidedWith->_type != Type::PLAYER)
+		{
+			UE_LOG(LogTemp, Warning, TEXT("3"));
+			iCollidedWith->DealDamage(_damage);
+		}
+	}
+}
+
+void AHomeIsCharacter::AttemptInteract()
+{
+	FHitResult iHit;
+	float length = _bulletRange;
+	FVector startLocation = GetFirstPersonCameraComponent()->GetComponentLocation() + (GetFirstPersonCameraComponent()->GetForwardVector());
+	FVector endLocation = startLocation + (GetFirstPersonCameraComponent()->GetForwardVector() * length);
+	FCollisionQueryParams* collisionParams = new FCollisionQueryParams();
+	collisionParams->AddIgnoredActor(this);
+	collisionParams->AddIgnoredActor(GetFirstPersonCameraComponent()->GetOwner());
+	GetWorld()->LineTraceSingleByChannel(iHit, startLocation, endLocation, ECollisionChannel::ECC_GameTraceChannel2, collisionParams);
+	DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Green, true, -1.0f, 0, 1.0f);
+	if (iHit.GetActor() != nullptr)
+	{
+		UE_LOG(LogTemp, Warning, TEXT("2%s"), *(iHit.GetComponent()->GetName()));
+		if (Cast<IIInteractable>(iHit.GetActor()))
+		{
+			IIInteractable* iCollidedWith = Cast<IIInteractable>(iHit.GetActor());
+			UE_LOG(LogTemp, Warning, TEXT("INTERACT"));
+			iCollidedWith->Interact();
+		}
+	}
+}
+

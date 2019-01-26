@@ -42,6 +42,14 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__damage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__damage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__bulletRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__bulletRange;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__ammoMax_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__ammoMax;
@@ -139,6 +147,20 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		{ "ModuleRelativePath", "HomeIsCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage = { UE4CodeGen_Private::EPropertyClass::Float, "_damage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, _damage), METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange = { UE4CodeGen_Private::EPropertyClass::Float, "_bulletRange", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, _bulletRange), METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__ammoMax_MetaData[] = {
 		{ "Category", "stats" },
@@ -314,6 +336,8 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P = { UE4CodeGen_Private::EPropertyClass::Object, "Mesh1P", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHomeIsCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__ammoMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__spareAmmo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__loadedAmmo,
@@ -361,7 +385,7 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHomeIsCharacter, 211372481);
+	IMPLEMENT_CLASS(AHomeIsCharacter, 3979039363);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHomeIsCharacter(Z_Construct_UClass_AHomeIsCharacter, &AHomeIsCharacter::StaticClass, TEXT("/Script/HomeIs"), TEXT("AHomeIsCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHomeIsCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
