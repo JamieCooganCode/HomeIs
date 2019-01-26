@@ -73,7 +73,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHomeIsCharacter); \
 	FORCEINLINE static uint32 __PPO___loadedAmmo() { return STRUCT_OFFSET(AHomeIsCharacter, _loadedAmmo); } \
 	FORCEINLINE static uint32 __PPO___spareAmmo() { return STRUCT_OFFSET(AHomeIsCharacter, _spareAmmo); } \
 	FORCEINLINE static uint32 __PPO___ammoMax() { return STRUCT_OFFSET(AHomeIsCharacter, _ammoMax); } \
-	FORCEINLINE static uint32 __PPO___bulletRange() { return STRUCT_OFFSET(AHomeIsCharacter, _bulletRange); }
+	FORCEINLINE static uint32 __PPO___bulletRange() { return STRUCT_OFFSET(AHomeIsCharacter, _bulletRange); } \
+	FORCEINLINE static uint32 __PPO___damage() { return STRUCT_OFFSET(AHomeIsCharacter, _damage); }
 
 
 #define HomeIs_Source_HomeIs_HomeIsCharacter_h_12_PROLOG

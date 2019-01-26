@@ -411,7 +411,9 @@
   </PropertyGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp" />
+    <ClCompile Include="..\..\Source\HomeIs\Testing.cpp" />
     <ClInclude Include="..\..\Source\HomeIs\IAttackable.h" />
+    <ClInclude Include="..\..\Source\HomeIs\Testing.h" />
     <None Include="..\..\HomeIs.uproject" />
     <None Include="..\..\Source\HomeIs.Target.cs" />
     <None Include="..\..\Source\HomeIsEditor.Target.cs" />

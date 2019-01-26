@@ -155,10 +155,12 @@ void AHomeIsCharacter::OnFire()
 
 		FHitResult iHit;
 		float length = _bulletRange;
-		FVector startLocation = GetFirstPersonCameraComponent()->GetComponentLocation();
+		FVector startLocation = GetFirstPersonCameraComponent()->GetComponentLocation() + (GetFirstPersonCameraComponent()->GetForwardVector());
 		FVector endLocation = startLocation + (GetFirstPersonCameraComponent()->GetForwardVector() * length);
-		FCollisionQueryParams collisionParams;
-		ActorLineTraceSingle(iHit, startLocation, endLocation, ECollisionChannel::ECC_WorldDynamic, collisionParams);
+		FCollisionQueryParams* collisionParams = new FCollisionQueryParams();
+		collisionParams->AddIgnoredActor(this);
+		collisionParams->AddIgnoredActor(GetFirstPersonCameraComponent()->GetOwner());
+		GetWorld()->LineTraceSingleByChannel(iHit, startLocation, endLocation, ECollisionChannel::ECC_Visibility, collisionParams);
 		DrawDebugLine(GetWorld(), startLocation, endLocation, FColor::Red, true, -1.0f, 0, 1.0f);
 		if (iHit.GetActor() != nullptr)
 		{
@@ -398,11 +400,14 @@ void AHomeIsCharacter::DealDamage(float damageDealt)
 
 void AHomeIsCharacter::ManageBulletCollision(FHitResult collided)
 {
+	UE_LOG(LogTemp, Warning, TEXT("1"));
 	if (Cast<IIAttackable>(collided.GetActor()))
 	{
 		IIAttackable* iCollidedWith = Cast<IIAttackable>(collided.GetActor());
+		UE_LOG(LogTemp, Warning, TEXT("2%s"), *(collided.GetActor()->GetName()));
 		if (iCollidedWith->_type != Type::PLAYER)
 		{
+			UE_LOG(LogTemp, Warning, TEXT("3"));
 			iCollidedWith->DealDamage(_damage);
 		}
 	}
