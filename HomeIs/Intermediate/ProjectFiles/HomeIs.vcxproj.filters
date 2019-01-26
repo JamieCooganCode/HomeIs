@@ -73,12 +73,18 @@
     <ClInclude Include="..\..\Source\HomeIs\Testing.h">
       <Filter>Source\HomeIs</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\HomeIs\Barricade.h">
+      <Filter>Source\HomeIs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp">
       <Filter>Source\HomeIs</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\HomeIs\Testing.cpp">
+      <Filter>Source\HomeIs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HomeIs\Barricade.cpp">
       <Filter>Source\HomeIs</Filter>
     </ClCompile>
   </ItemGroup>

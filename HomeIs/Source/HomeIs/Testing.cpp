@@ -27,5 +27,6 @@ void ATesting::Tick(float DeltaTime)
 void ATesting::DealDamage(float damageDealt)
 {
 	damageDealt = damageDealt + 1;
+	this->Destroy();
 }
 

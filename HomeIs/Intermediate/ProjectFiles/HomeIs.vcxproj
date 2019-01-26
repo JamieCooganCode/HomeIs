@@ -410,8 +410,10 @@
     <NMakeOutput>..\..\Binaries\HTML5\HomeIs-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\HomeIs\Barricade.cpp" />
     <ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp" />
     <ClCompile Include="..\..\Source\HomeIs\Testing.cpp" />
+    <ClInclude Include="..\..\Source\HomeIs\Barricade.h" />
     <ClInclude Include="..\..\Source\HomeIs\IAttackable.h" />
     <ClInclude Include="..\..\Source\HomeIs\Testing.h" />
     <None Include="..\..\HomeIs.uproject" />

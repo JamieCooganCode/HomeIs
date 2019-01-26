@@ -1,11 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Building 3 actions with 8 processes...
-    [1/3] HomeIsCharacter.cpp
-C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Source\HomeIs\HomeIsCharacter.cpp(163): warning C4996: 'FCollisionQueryParams::FCollisionQueryParams': FCollisionQueryParams, to avoid ambiguity, please use other constructor and explicitly provide an FName parameter (not just a string literal) as the first parameter Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    c:\epic\ue4\ue_4.20\engine\source\runtime\engine\public\CollisionQueryParams.h(135): note: see declaration of 'FCollisionQueryParams::FCollisionQueryParams'
+    [1/3] Barricade.cpp
     [2/3] UE4Editor-HomeIs.lib
        Creating library C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
     [3/3] UE4Editor-HomeIs.dll
        Creating library C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
   Deploying HomeIsEditor Win64 Development...
-  Total build time: 7.39 seconds (Parallel executor: 4.18 seconds)
+  Total build time: 4.48 seconds (Parallel executor: 1.82 seconds)
