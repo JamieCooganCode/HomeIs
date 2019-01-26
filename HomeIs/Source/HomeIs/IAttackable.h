@@ -10,7 +10,8 @@ UENUM(BlueprintType)
 enum class Type : uint8
 {
 	PLAYER = 0 UMETA(DisplayName = "Player"),
-	ZOMBIE = 1 UMETA(DisplayName = "Zombie")
+	ZOMBIE = 1 UMETA(DisplayName = "Zombie"),
+	BARRICADE = 2 UMETA(DisplayName = "Barricade")
 };
 
 // This class does not need to be modified.

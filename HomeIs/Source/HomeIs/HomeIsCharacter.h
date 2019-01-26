@@ -175,5 +175,6 @@ public:
 
 	void ManageBulletCollision(FHitResult collided);
 	void SpawnMeteor();
+	void AttemptInteract();
 };
 
