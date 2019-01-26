@@ -7,6 +7,7 @@
 #include "HomeIsCharacter.h"
 #include <vector>
 #include "Kismet/KismetMathLibrary.h"
+#include "IAttackable.h"
 
 using namespace std;
 

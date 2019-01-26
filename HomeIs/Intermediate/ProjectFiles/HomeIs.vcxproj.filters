@@ -1,79 +1,82 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\HomeIs.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{E5A0D273-B846-4745-8250-9F2A8D24B3E8}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\HomeIs.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\HomeIsEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{4BCFAAC5-8377-408E-BB12-BC3231A14C74}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\HomeIs">
-      <UniqueIdentifier>{1B1503BC-B278-46C4-8474-42BB53659740}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\HomeIs\HomeIs.Build.cs">
-      <Filter>Source\HomeIs</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIs.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIs.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIsCharacter.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIsCharacter.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIsGameMode.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIsGameMode.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIsHUD.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIsHUD.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIsProjectile.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIsProjectile.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\HomeIs\Turret.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\HomeIs\Turret.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\HomeIs.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{D3E681CF-75C2-400E-9D2C-99247BD3F16B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HomeIs.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\HomeIsEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{6F1D273F-FACD-4BFD-9BD6-E3229CD37313}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\HomeIs">
+			<UniqueIdentifier>{52A10E0F-CBBD-4FBD-A3E6-EB786F2F1CEC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HomeIs\HomeIs.Build.cs">
+			<Filter>Source\HomeIs</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIs.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIs.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIsCharacter.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIsCharacter.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIsGameMode.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIsGameMode.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIsHUD.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIsHUD.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIsProjectile.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIsProjectile.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\IAttackable.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\Turret.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\Turret.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
