@@ -14,6 +14,10 @@
 #include "GameFramework/CharacterMovementComponent.h"
 #include "Engine/Public/DrawDebugHelpers.h"
 
+
+#include "Meteor.h"
+
+
 DEFINE_LOG_CATEGORY_STATIC(LogFPChar, Warning, All);
 
 //////////////////////////////////////////////////////////////////////////
@@ -124,6 +128,9 @@ void AHomeIsCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &AHomeIsCharacter::ToggleSprint);
 	PlayerInputComponent->BindAction("Sprint", IE_Released, this, &AHomeIsCharacter::ToggleSprint);
 
+
+	//Test
+	PlayerInputComponent->BindAction("Spawn Meteor", IE_Pressed, this, &AHomeIsCharacter::SpawnMeteor);
 
 	// Bind fire event
 	PlayerInputComponent->BindAction("Fire", IE_Pressed, this, &AHomeIsCharacter::OnFire);
@@ -408,3 +415,36 @@ void AHomeIsCharacter::ManageBulletCollision(FHitResult collided)
 	}
 }
 
+void AHomeIsCharacter::SpawnMeteor()
+{
+	float x = ((rand() % 4000) - 2270) * 3.0f;
+	float y = ((rand() % 4000) - 2000) * 3.0f;
+	float z = 10000.0f;
+
+	float xTarget = ((rand() % 3800) - 2000);
+	float yTarget = ((rand() % 3800) - 1900);
+	float zTarget = 268.0f;
+
+	const FVector SpawnLocation = { x, y, z };
+	const FVector TargetLocation = { xTarget, yTarget, zTarget };
+
+
+	FRotator rotation = FRotationMatrix::MakeFromX(TargetLocation - SpawnLocation).Rotator();
+	
+	if (ProjectileClass != NULL)
+	{
+		UWorld* const World = GetWorld();
+		if (World != NULL)
+		{
+			const FRotator SpawnRotation = rotation;
+			// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+
+			//Set Spawn Collision Handling Override
+			FActorSpawnParameters ActorSpawnParams;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+
+			// spawn the projectile at the muzzle
+			World->SpawnActor<AMeteor>(MeteorClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+		}
+	}
+}

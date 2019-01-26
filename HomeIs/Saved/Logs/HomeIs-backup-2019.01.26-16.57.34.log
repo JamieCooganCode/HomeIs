@@ -1,0 +1,1681 @@
+﻿Log file open, 01/26/19 16:56:47
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HomeIs
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.446874
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.315s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.26-16.56.48:505][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-16.56.48:505][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.26-16.56.48:523][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.26-16.56.48:523][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.26-16.56.48:523][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.26-16.56.48:524][  0]LogInit: Computer: D102-11
+[2019.01.26-16.56.48:524][  0]LogInit: User: w014100h
+[2019.01.26-16.56.48:524][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.26-16.56.48:524][  0]LogInit: High frequency timer resolution =3.410075 MHz
+[2019.01.26-16.56.48:524][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.26-16.56.48:524][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.26-16.56.48:524][  0]LogMemory: Process Physical Memory: 100.89 MB used, 100.89 MB peak
+[2019.01.26-16.56.48:525][  0]LogMemory: Process Virtual Memory: 90.90 MB used, 90.90 MB peak
+[2019.01.26-16.56.48:525][  0]LogMemory: Physical Memory: 6865.07 MB used,  9435.17 MB free, 16300.24 MB total
+[2019.01.26-16.56.48:525][  0]LogMemory: Virtual Memory: 4640.35 MB used,  9435.17 MB free, 134217728.00 MB total
+[2019.01.26-16.56.48:648][  0]LogInit: Using OS detected language (en-US).
+[2019.01.26-16.56.48:648][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.26-16.56.48:651][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.26-16.56.49:029][  0]LogStreaming: Display: Took  0.380s to InitEngineTextLocalization.
+[2019.01.26-16.56.49:029][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.26-16.56.49:096][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.26-16.56.49:096][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.26-16.56.49:443][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-16.56.49:443][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.26-16.56.49:542][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.26-16.56.49:542][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.26-16.56.49:548][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.26-16.56.49:548][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.26-16.56.49:548][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.26-16.56.49:559][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.26-16.56.49:560][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.26-16.56.49:560][  0]LogWindows: EnumDisplayDevices:
+[2019.01.26-16.56.49:560][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.26-16.56.49:560][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.26-16.56.49:561][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-16.56.49:561][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.26-16.56.49:561][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.26-16.56.49:561][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.26-16.56.49:561][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.26-16.56.49:562][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.26-16.56.49:562][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.26-16.56.49:614][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.26-16.56.49:633][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.26-16.56.49:637][  0]LogShaderCompilers: Guid format shader working directory is -14 characters bigger than the processId version (../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Intermediate/Shaders/WorkingDirectory/9224/).
+[2019.01.26-16.56.49:637][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/w014100h/AppData/Local/Temp/UnrealShaderWorkingDir/ECA7D59D4FC8FD2811BB6D83239DBB02/'.
+[2019.01.26-16.56.50:157][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.26-16.56.50:177][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.26-16.56.50:199][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.26-16.56.50:221][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.26-16.56.50:240][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.26-16.56.50:259][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.26-16.56.50:279][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.26-16.56.50:299][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.26-16.56.50:310][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.26-16.56.50:399][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:400][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:400][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:400][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:400][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:400][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:400][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:400][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:400][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:400][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:401][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:401][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:401][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:401][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:401][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:401][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:401][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:401][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.26-16.56.50:410][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.26-16.56.50:490][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-16.56.50:490][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.26-16.56.50:519][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-16.56.50:520][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.26-16.56.50:539][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.26-16.56.50:564][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.26-16.56.50:587][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.26-16.56.50:617][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.26-16.56.50:632][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.26-16.56.50:632][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.26-16.56.50:825][  0]LogXGEController: Cleaning working directory: C:/Users/w014100h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.26-16.56.50:826][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.26-16.56.50:826][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.26-16.56.50:826][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.26-16.56.51:917][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.26-16.56.52:050][  0]LogDerivedDataCache: Loaded boot cache 0.13s 73MB C:/Users/w014100h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-16.56.52:056][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/w014100h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.26-16.56.52:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.26-16.56.52:056][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.26-16.56.52:056][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.26-16.56.52:056][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.26-16.56.52:079][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.26-16.56.52:093][  0]LogDerivedDataCache: Using Local data cache path C:/Users/w014100h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.26-16.56.52:093][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.26-16.56.52:094][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.26-16.56.52:135][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.26-16.56.52:137][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.26-16.56.52:139][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.26-16.56.52:254][  0]LogAssetRegistry: FAssetRegistry took 0.0319 seconds to start up
+[2019.01.26-16.56.52:669][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.26-16.56.52:857][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.26-16.56.52:869][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.26-16.56.52:869][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.26-16.56.52:870][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.26-16.56.52:870][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.26-16.56.53:033][  0]LogNetVersion: HomeIs 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4178729889)
+[2019.01.26-16.56.54:071][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.257786 seconds
+[2019.01.26-16.56.54:079][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.26-16.56.54:080][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.01.26-16.56.54:080][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.26-16.56.55:332][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.26-16.56.55:348][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.26-16.56.55:803][  0]SourceControl: Source control is disabled
+[2019.01.26-16.56.55:804][  0]SourceControl: Source control is disabled
+[2019.01.26-16.56.55:809][  0]SourceControl: Source control is disabled
+[2019.01.26-16.56.55:813][  0]SourceControl: Source control is disabled
+[2019.01.26-16.56.56:127][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.26-16.56.56:242][  0]LogOcInput: OculusInput pre-init called
+[2019.01.26-16.56.56:323][  0]LogEngine: Initializing Engine...
+[2019.01.26-16.56.56:324][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.26-16.56.56:325][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-16.56.56:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-16.56.56:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-16.56.56:326][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-16.56.56:565][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.26-16.56.56:591][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.26-16.56.56:627][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-16.56.56:674][  0]LogInit: FAudioDevice initialized.
+[2019.01.26-16.56.56:674][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.26-16.56.56:780][  0]LogDerivedDataCache: Saved boot cache 0.11s 73MB C:/Users/w014100h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.26-16.56.56:794][  0]LogInit: Texture streaming: Enabled
+[2019.01.26-16.56.56:837][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.26-16.56.56:837][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={008BC88C-483A-B6C7-4E53-7097EA47B472}
+[2019.01.26-16.56.56:856][  0]LogInit: Transaction tracking system initialized
+[2019.01.26-16.56.56:915][  0]BlueprintLog: New page: Editor Load
+[2019.01.26-16.56.57:145][  0]LocalizationService: Localization service is disabled
+[2019.01.26-16.56.57:530][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.26-16.56.57:530][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.26-16.56.57:531][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.26-16.56.57:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.26-16.56.57:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.26-16.56.57:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.26-16.56.57:531][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.26-16.56.57:765][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/' took 0.02s
+[2019.01.26-16.56.57:765][  0]SourceControl: Source control is disabled
+[2019.01.26-16.56.57:765][  0]Cmd: MAP LOAD FILE="../../../../../../Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.26-16.56.57:766][  0]LightingResults: New page: Lighting Build
+[2019.01.26-16.56.57:771][  0]MapCheck: New page: Map Check
+[2019.01.26-16.56.57:771][  0]LightingResults: New page: Lighting Build
+[2019.01.26-16.56.58:789][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.26-16.56.58:804][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.26-16.56.58:869][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.26-16.56.59:153][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 283.891ms to complete.
+[2019.01.26-16.56.59:154][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.389
+[2019.01.26-16.56.59:348][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-16.56.59:357][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-16.56.59:365][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-16.56.59:374][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-16.56.59:386][  0]LogCollectionManager: Loaded 0 collections in 0.003622 seconds
+[2019.01.26-16.56.59:450][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Saved/Collections/' took 0.01s
+[2019.01.26-16.56.59:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/Developers/w014100h/Collections/' took 0.01s
+[2019.01.26-16.56.59:451][  0]LogFileCache: Scanning file cache for directory 'C:/Users/w014100h/Documents/Github/HomeIs/HomeIs/Content/Collections/' took 0.01s
+[2019.01.26-16.56.59:451][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.26-16.56.59:483][  0]LogContentBrowser: Native class hierarchy populated in 0.0314 seconds. Added 2579 classes and 605 folders.
+[2019.01.26-16.56.59:496][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.26-16.56.59:623][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.26-16.56.59:635][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2019.01.26-16.56.59:656][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.26-16.56.59:659][  0]LogSlate: Took 0.000366 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.26-16.56.59:674][  0]LogSlate: Took 0.000308 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.26-16.56.59:810][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.26-16.56.59:880][  0]LogSlate: Took 0.000249 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.26-16.56.59:966][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.26-16.56.59:966][  0]LogLoad: (Engine Initialization) Total time: 14.86 seconds
+[2019.01.26-16.56.59:966][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.26-16.56.59:977][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.26-16.56.59:998][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.26-16.57.00:037][  1]LogAssetRegistry: Asset discovery search completed in 7.8098 seconds
+[2019.01.26-16.57.00:039][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.26-16.57.00:039][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000124 seconds (updated 0 objects)
+[2019.01.26-16.57.02:695][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.26-16.57.02:753][311]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.26-16.57.02:773][311]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.26-16.57.02:774][311]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.26-16.57.02:787][311]PIE: New page: PIE session: FirstPersonExampleMap (26 Jan 2019 16:57:02)
+[2019.01.26-16.57.02:788][311]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.26-16.57.02:815][311]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027252s)
+[2019.01.26-16.57.02:816][311]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.26-16.57.02:816][311]LogPlayLevel: PIE: World Init took: (0.000943s)
+[2019.01.26-16.57.02:816][311]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.028645s)
+[2019.01.26-16.57.02:842][311]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.26-16.57.02:857][311]LogInit: FAudioDevice initialized.
+[2019.01.26-16.57.02:902][311]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.26-16.57.02:905][311]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.26-16.57.02
+[2019.01.26-16.57.02:906][311]LogWorld: Bringing up level for play took: 0.002372
+[2019.01.26-16.57.02:924][311]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2019.01.26-16.57.02:934][311]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.01.26-16.57.02:936][311]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.672
+[2019.01.26-16.57.02:937][311]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.26-16.57.02:942][311]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=299.719
+[2019.01.26-16.57.03:001][312]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:002][312]PIE: Warning: Mobility of /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.House_-_Copy_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2019.01.26-16.57.03:018][313]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:030][314]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:041][315]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:051][316]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:061][317]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:071][318]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:080][319]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:089][320]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:099][321]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:111][322]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:122][323]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:135][324]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:152][325]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:162][326]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:171][327]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:182][328]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:191][329]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:200][330]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:210][331]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:219][332]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:229][333]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:238][334]PIE: Warning: Mobility of /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.House_-_Copy_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2019.01.26-16.57.03:238][334]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:246][335]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:256][336]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:265][337]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:274][338]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:285][339]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:294][340]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:304][341]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:314][342]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:327][343]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:337][344]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:345][345]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:354][346]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:363][347]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:381][348]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:390][349]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:397][350]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:407][351]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:417][352]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:427][353]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:435][354]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:443][355]PIE: Warning: Mobility of /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.House_-_Copy_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2019.01.26-16.57.03:444][355]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:452][356]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:460][357]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:468][358]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:479][359]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:486][360]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:495][361]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:503][362]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:511][363]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:521][364]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:530][365]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:541][366]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:550][367]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:559][368]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:568][369]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:580][370]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:591][371]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:602][372]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:612][373]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:620][374]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:628][375]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:639][376]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:650][377]PIE: Warning: Mobility of /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.House_-_Copy_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2019.01.26-16.57.03:650][377]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.26-16.57.03:661][378]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.174 Y=1201.207 Z=268.372
+[2019.01.26-16.57.03:670][379]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.401 Y=1201.508 Z=268.372
+[2019.01.26-16.57.03:679][380]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-481.694 Y=1201.927 Z=268.372
+[2019.01.26-16.57.03:687][381]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-482.084 Y=1202.537 Z=268.372
+[2019.01.26-16.57.03:699][382]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-482.576 Y=1203.376 Z=268.372
+[2019.01.26-16.57.03:709][383]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-483.204 Y=1204.558 Z=268.372
+[2019.01.26-16.57.03:717][384]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-483.710 Y=1205.586 Z=268.372
+[2019.01.26-16.57.03:727][385]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-484.294 Y=1206.876 Z=268.372
+[2019.01.26-16.57.03:737][386]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-485.039 Y=1208.692 Z=268.372
+[2019.01.26-16.57.03:747][387]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-485.675 Y=1210.370 Z=268.372
+[2019.01.26-16.57.03:757][388]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-486.402 Y=1212.485 Z=268.372
+[2019.01.26-16.57.03:765][389]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-487.033 Y=1214.500 Z=268.372
+[2019.01.26-16.57.03:774][390]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-487.619 Y=1216.551 Z=268.372
+[2019.01.26-16.57.03:783][391]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-488.207 Y=1218.846 Z=268.372
+[2019.01.26-16.57.03:793][392]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-488.813 Y=1221.529 Z=268.372
+[2019.01.26-16.57.03:802][393]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-489.388 Y=1224.473 Z=268.372
+[2019.01.26-16.57.03:810][394]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-489.839 Y=1227.129 Z=268.372
+[2019.01.26-16.57.03:819][395]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-490.246 Y=1229.929 Z=268.372
+[2019.01.26-16.57.03:828][396]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-490.613 Y=1232.949 Z=268.372
+[2019.01.26-16.57.03:836][397]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-490.944 Y=1236.292 Z=268.372
+[2019.01.26-16.57.03:845][398]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.210 Y=1239.639 Z=268.372
+[2019.01.26-16.57.03:854][399]PIE: Warning: Mobility of /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.House_-_Copy_2 : StaticMeshComponent0 has to be 'Movable' if you'd like to AddImpulseAtLocation. 
+[2019.01.26-16.57.03:855][399]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.443 Y=1243.496 Z=268.372
+[2019.01.26-16.57.03:863][400]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.602 Y=1247.046 Z=268.372
+[2019.01.26-16.57.03:871][401]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.713 Y=1250.779 Z=268.372
+[2019.01.26-16.57.03:880][402]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.777 Y=1255.128 Z=268.372
+[2019.01.26-16.57.03:889][403]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.785 Y=1259.118 Z=268.372
+[2019.01.26-16.57.03:897][404]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.744 Y=1263.247 Z=268.372
+[2019.01.26-16.57.03:906][405]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.648 Y=1267.515 Z=268.372
+[2019.01.26-16.57.03:914][406]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.490 Y=1271.920 Z=268.372
+[2019.01.26-16.57.03:922][407]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-491.256 Y=1276.458 Z=268.372
+[2019.01.26-16.57.03:931][408]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-490.926 Y=1281.175 Z=268.372
+[2019.01.26-16.57.03:940][409]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-490.442 Y=1286.368 Z=268.372
+[2019.01.26-16.57.03:948][410]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-489.838 Y=1291.474 Z=268.372
+[2019.01.26-16.57.03:959][411]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-488.971 Y=1297.211 Z=268.372
+[2019.01.26-16.57.03:968][412]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-487.998 Y=1302.401 Z=268.372
+[2019.01.26-16.57.03:976][413]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-486.669 Y=1308.083 Z=268.372
+[2019.01.26-16.57.03:990][414]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-485.064 Y=1313.652 Z=268.372
+[2019.01.26-16.57.04:000][415]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-482.638 Y=1320.335 Z=268.372
+[2019.01.26-16.57.04:010][416]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-480.132 Y=1326.080 Z=268.372
+[2019.01.26-16.57.04:020][417]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-477.457 Y=1331.330 Z=268.372
+[2019.01.26-16.57.04:031][418]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-474.309 Y=1336.659 Z=268.372
+[2019.01.26-16.57.04:042][419]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-470.533 Y=1342.189 Z=268.372
+[2019.01.26-16.57.04:052][420]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-466.924 Y=1346.895 Z=268.372
+[2019.01.26-16.57.04:062][421]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-463.042 Y=1351.447 Z=268.372
+[2019.01.26-16.57.04:083][422]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-454.500 Y=1359.759 Z=268.372
+[2019.01.26-16.57.04:093][423]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-449.318 Y=1364.356 Z=268.372
+[2019.01.26-16.57.04:103][424]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-444.554 Y=1368.281 Z=268.372
+[2019.01.26-16.57.04:114][425]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-439.759 Y=1371.978 Z=268.372
+[2019.01.26-16.57.04:125][426]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-434.319 Y=1375.902 Z=268.372
+[2019.01.26-16.57.04:135][427]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-429.229 Y=1379.379 Z=268.372
+[2019.01.26-16.57.04:147][428]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-423.501 Y=1383.083 Z=268.372
+[2019.01.26-16.57.04:159][429]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-417.543 Y=1386.747 Z=268.372
+[2019.01.26-16.57.04:169][430]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-411.934 Y=1390.056 Z=268.372
+[2019.01.26-16.57.04:180][431]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-406.164 Y=1393.337 Z=268.372
+[2019.01.26-16.57.04:194][432]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-398.838 Y=1397.349 Z=268.372
+[2019.01.26-16.57.04:205][433]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-393.212 Y=1400.360 Z=268.372
+[2019.01.26-16.57.04:215][434]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-387.780 Y=1403.226 Z=268.372
+[2019.01.26-16.57.04:225][435]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-382.125 Y=1406.184 Z=268.372
+[2019.01.26-16.57.04:237][436]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-376.079 Y=1409.332 Z=268.372
+[2019.01.26-16.57.04:247][437]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-370.386 Y=1412.288 Z=268.372
+[2019.01.26-16.57.04:257][438]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-365.123 Y=1415.019 Z=268.372
+[2019.01.26-16.57.04:268][439]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-359.755 Y=1417.802 Z=268.372
+[2019.01.26-16.57.04:278][440]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-354.092 Y=1420.735 Z=268.372
+[2019.01.26-16.57.04:288][441]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-348.832 Y=1423.458 Z=268.372
+[2019.01.26-16.57.04:298][442]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-343.456 Y=1426.239 Z=268.372
+[2019.01.26-16.57.04:308][443]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-338.209 Y=1428.953 Z=268.372
+[2019.01.26-16.57.04:318][444]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-332.800 Y=1431.747 Z=268.372
+[2019.01.26-16.57.04:329][445]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-327.048 Y=1434.719 Z=268.372
+[2019.01.26-16.57.04:339][446]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-321.699 Y=1437.481 Z=268.372
+[2019.01.26-16.57.04:355][447]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-313.780 Y=1441.568 Z=268.372
+[2019.01.26-16.57.04:367][448]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-306.767 Y=1445.186 Z=268.372
+[2019.01.26-16.57.04:379][449]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-300.186 Y=1448.580 Z=268.372
+[2019.01.26-16.57.04:391][450]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-294.063 Y=1451.737 Z=268.372
+[2019.01.26-16.57.04:408][451]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-284.843 Y=1456.490 Z=268.372
+[2019.01.26-16.57.04:419][452]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-279.161 Y=1459.418 Z=268.372
+[2019.01.26-16.57.04:431][453]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-274.400 Y=1461.872 Z=268.372
+[2019.01.26-16.57.04:446][454]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-270.284 Y=1463.993 Z=268.372
+[2019.01.26-16.57.04:460][455]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-267.456 Y=1465.451 Z=268.372
+[2019.01.26-16.57.04:471][456]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-265.581 Y=1466.417 Z=268.372
+[2019.01.26-16.57.04:483][457]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-264.518 Y=1466.965 Z=268.372
+[2019.01.26-16.57.04:493][458]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.923 Y=1467.271 Z=268.372
+[2019.01.26-16.57.04:503][459]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:513][460]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:522][461]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:533][462]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:542][463]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:553][464]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:564][465]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:575][466]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:585][467]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:596][468]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:606][469]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:616][470]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:625][471]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:635][472]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:645][473]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:655][474]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:666][475]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:675][476]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:685][477]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:694][478]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:704][479]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:714][480]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:723][481]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:737][482]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:748][483]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:761][484]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:772][485]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:783][486]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:793][487]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:803][488]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:814][489]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:826][490]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:836][491]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:847][492]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:858][493]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:868][494]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:879][495]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:890][496]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:900][497]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:911][498]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:922][499]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:932][500]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:943][501]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:953][502]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:966][503]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:981][504]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.04:992][505]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:003][506]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:013][507]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:025][508]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:034][509]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:044][510]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:054][511]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:064][512]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:075][513]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:085][514]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:095][515]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:107][516]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:117][517]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:128][518]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:137][519]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:149][520]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:160][521]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:171][522]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:183][523]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:193][524]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:203][525]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:216][526]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:226][527]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:237][528]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:247][529]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:258][530]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:268][531]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:278][532]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:288][533]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:298][534]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:311][535]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:321][536]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:334][537]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:344][538]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:354][539]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:364][540]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:376][541]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:388][542]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:398][543]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:413][544]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:422][545]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:432][546]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:443][547]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:453][548]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:468][549]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:478][550]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:491][551]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:501][552]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:513][553]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:524][554]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:535][555]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:545][556]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:555][557]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:565][558]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:578][559]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:589][560]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:599][561]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:609][562]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:619][563]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:629][564]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:639][565]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:649][566]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:660][567]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:671][568]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:682][569]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:693][570]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:704][571]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:718][572]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:729][573]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:739][574]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:749][575]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:760][576]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:773][577]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:784][578]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:798][579]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:811][580]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:823][581]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:834][582]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:845][583]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:855][584]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:865][585]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:874][586]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:885][587]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:895][588]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:905][589]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:915][590]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:925][591]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:935][592]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:945][593]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:957][594]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:967][595]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:978][596]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.05:992][597]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:004][598]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:014][599]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:027][600]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:039][601]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:049][602]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:059][603]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:069][604]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:079][605]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:093][606]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:106][607]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:119][608]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:131][609]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:141][610]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:154][611]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:164][612]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:174][613]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:186][614]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:198][615]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:209][616]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:219][617]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:229][618]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:239][619]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:249][620]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:260][621]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:270][622]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:281][623]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:291][624]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:302][625]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:312][626]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:322][627]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.634 Y=1467.420 Z=268.372
+[2019.01.26-16.57.06:333][628]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-263.892 Y=1467.361 Z=268.372
+[2019.01.26-16.57.06:343][629]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-264.315 Y=1467.271 Z=268.372
+[2019.01.26-16.57.06:354][630]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-264.953 Y=1467.143 Z=268.372
+[2019.01.26-16.57.06:364][631]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-265.814 Y=1466.974 Z=268.372
+[2019.01.26-16.57.06:374][632]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-266.826 Y=1466.780 Z=268.372
+[2019.01.26-16.57.06:384][633]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-268.104 Y=1466.538 Z=268.372
+[2019.01.26-16.57.06:396][634]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-269.751 Y=1466.231 Z=268.372
+[2019.01.26-16.57.06:406][635]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-271.586 Y=1465.893 Z=268.372
+[2019.01.26-16.57.06:417][636]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-273.687 Y=1465.507 Z=268.372
+[2019.01.26-16.57.06:427][637]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-275.925 Y=1465.099 Z=268.372
+[2019.01.26-16.57.06:437][638]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-278.209 Y=1464.684 Z=268.372
+[2019.01.26-16.57.06:451][639]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-281.484 Y=1464.091 Z=268.372
+[2019.01.26-16.57.06:463][640]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-284.748 Y=1463.501 Z=268.372
+[2019.01.26-16.57.06:473][641]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-288.058 Y=1462.905 Z=268.372
+[2019.01.26-16.57.06:483][642]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-291.313 Y=1462.308 Z=268.372
+[2019.01.26-16.57.06:495][643]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-295.345 Y=1462.020 Z=268.372
+[2019.01.26-16.57.06:505][644]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-298.936 Y=1462.038 Z=268.372
+[2019.01.26-16.57.06:515][645]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-302.635 Y=1462.285 Z=268.372
+[2019.01.26-16.57.06:526][646]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-306.691 Y=1462.767 Z=268.372
+[2019.01.26-16.57.06:537][647]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-311.306 Y=1463.523 Z=268.372
+[2019.01.26-16.57.06:547][648]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-315.757 Y=1464.397 Z=268.372
+[2019.01.26-16.57.06:558][649]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-320.281 Y=1465.398 Z=268.372
+[2019.01.26-16.57.06:568][650]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-325.083 Y=1466.552 Z=268.372
+[2019.01.26-16.57.06:580][651]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-330.051 Y=1467.816 Z=268.372
+[2019.01.26-16.57.06:593][652]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-336.408 Y=1469.516 Z=268.372
+[2019.01.26-16.57.06:606][653]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-342.799 Y=1471.276 Z=268.372
+[2019.01.26-16.57.06:616][654]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-349.820 Y=1473.245 Z=268.372
+[2019.01.26-16.57.06:627][655]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-355.835 Y=1474.938 Z=268.372
+[2019.01.26-16.57.06:637][656]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-361.717 Y=1476.584 Z=268.372
+[2019.01.26-16.57.06:648][657]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-367.806 Y=1478.274 Z=268.372
+[2019.01.26-16.57.06:658][658]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-373.709 Y=1479.888 Z=268.372
+[2019.01.26-16.57.06:668][659]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-379.687 Y=1481.488 Z=268.372
+[2019.01.26-16.57.06:679][660]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-386.090 Y=1483.152 Z=268.372
+[2019.01.26-16.57.06:689][661]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-391.986 Y=1484.637 Z=268.372
+[2019.01.26-16.57.06:701][662]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-397.959 Y=1486.092 Z=268.372
+[2019.01.26-16.57.06:711][663]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-404.609 Y=1487.649 Z=268.372
+[2019.01.26-16.57.06:723][664]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-410.709 Y=1489.027 Z=268.372
+[2019.01.26-16.57.06:733][665]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-417.596 Y=1490.523 Z=268.372
+[2019.01.26-16.57.06:745][666]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-424.367 Y=1491.941 Z=268.372
+[2019.01.26-16.57.06:756][667]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-431.315 Y=1493.342 Z=268.372
+[2019.01.26-16.57.06:766][668]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-437.039 Y=1494.462 Z=268.372
+[2019.01.26-16.57.06:776][669]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-442.680 Y=1495.536 Z=268.372
+[2019.01.26-16.57.06:785][670]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-448.457 Y=1496.605 Z=268.372
+[2019.01.26-16.57.06:796][671]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-454.509 Y=1497.697 Z=268.372
+[2019.01.26-16.57.06:807][672]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-460.810 Y=1498.806 Z=268.372
+[2019.01.26-16.57.06:817][673]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-466.751 Y=1499.828 Z=268.372
+[2019.01.26-16.57.06:827][674]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-472.647 Y=1500.818 Z=268.372
+[2019.01.26-16.57.06:836][675]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-478.595 Y=1501.796 Z=268.372
+[2019.01.26-16.57.06:847][676]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-484.682 Y=1502.777 Z=268.372
+[2019.01.26-16.57.06:857][677]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-490.463 Y=1503.694 Z=268.372
+[2019.01.26-16.57.06:867][678]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-496.371 Y=1504.615 Z=268.372
+[2019.01.26-16.57.06:875][679]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-502.236 Y=1505.517 Z=268.372
+[2019.01.26-16.57.06:886][680]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-507.967 Y=1506.388 Z=268.372
+[2019.01.26-16.57.06:895][681]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-513.737 Y=1507.254 Z=268.372
+[2019.01.26-16.57.06:904][682]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-519.439 Y=1508.102 Z=268.372
+[2019.01.26-16.57.06:914][683]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-525.129 Y=1508.940 Z=268.372
+[2019.01.26-16.57.06:924][684]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-530.836 Y=1509.774 Z=268.372
+[2019.01.26-16.57.06:933][685]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-536.682 Y=1510.622 Z=268.372
+[2019.01.26-16.57.06:943][686]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-542.404 Y=1511.446 Z=268.372
+[2019.01.26-16.57.06:953][687]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-548.108 Y=1512.263 Z=268.372
+[2019.01.26-16.57.06:962][688]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-553.832 Y=1513.078 Z=268.372
+[2019.01.26-16.57.06:972][689]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-559.551 Y=1513.889 Z=268.372
+[2019.01.26-16.57.06:982][690]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-565.332 Y=1514.705 Z=268.372
+[2019.01.26-16.57.06:992][691]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-571.172 Y=1515.526 Z=268.372
+[2019.01.26-16.57.07:002][692]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-577.143 Y=1516.362 Z=268.372
+[2019.01.26-16.57.07:013][693]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-583.581 Y=1517.260 Z=268.372
+[2019.01.26-16.57.07:023][694]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-589.928 Y=1518.143 Z=268.372
+[2019.01.26-16.57.07:033][695]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-595.784 Y=1518.956 Z=268.372
+[2019.01.26-16.57.07:043][696]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-601.677 Y=1519.773 Z=268.372
+[2019.01.26-16.57.07:053][697]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-607.536 Y=1520.583 Z=268.372
+[2019.01.26-16.57.07:063][698]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-613.367 Y=1521.387 Z=268.372
+[2019.01.26-16.57.07:072][699]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-619.044 Y=1522.169 Z=268.372
+[2019.01.26-16.57.07:082][700]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-624.751 Y=1522.954 Z=268.372
+[2019.01.26-16.57.07:091][701]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-630.464 Y=1523.739 Z=268.372
+[2019.01.26-16.57.07:101][702]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-636.230 Y=1524.531 Z=268.372
+[2019.01.26-16.57.07:111][703]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-642.004 Y=1525.322 Z=268.372
+[2019.01.26-16.57.07:121][704]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-647.883 Y=1526.128 Z=268.372
+[2019.01.26-16.57.07:131][705]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-653.771 Y=1526.930 Z=268.372
+[2019.01.26-16.57.07:140][706]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-659.544 Y=1527.698 Z=268.372
+[2019.01.26-16.57.07:151][707]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-665.586 Y=1528.469 Z=268.372
+[2019.01.26-16.57.07:161][708]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-671.839 Y=1529.210 Z=268.372
+[2019.01.26-16.57.07:171][709]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-677.777 Y=1529.836 Z=268.372
+[2019.01.26-16.57.07:181][710]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-683.661 Y=1530.355 Z=268.372
+[2019.01.26-16.57.07:191][711]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-689.529 Y=1530.761 Z=268.372
+[2019.01.26-16.57.07:201][712]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-695.497 Y=1531.043 Z=268.372
+[2019.01.26-16.57.07:211][713]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-701.851 Y=1531.179 Z=268.372
+[2019.01.26-16.57.07:223][714]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-708.787 Y=1531.122 Z=268.372
+[2019.01.26-16.57.07:234][715]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-715.108 Y=1530.898 Z=268.372
+[2019.01.26-16.57.07:244][716]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-721.632 Y=1530.475 Z=268.372
+[2019.01.26-16.57.07:254][717]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-727.506 Y=1529.939 Z=268.372
+[2019.01.26-16.57.07:264][718]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-733.422 Y=1529.235 Z=268.372
+[2019.01.26-16.57.07:274][719]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-739.376 Y=1528.355 Z=268.372
+[2019.01.26-16.57.07:284][720]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-745.236 Y=1527.319 Z=268.372
+[2019.01.26-16.57.07:294][721]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-751.108 Y=1526.609 Z=268.372
+[2019.01.26-16.57.07:304][722]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-757.091 Y=1526.171 Z=268.372
+[2019.01.26-16.57.07:315][723]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-763.573 Y=1525.970 Z=268.372
+[2019.01.26-16.57.07:325][724]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-769.736 Y=1525.973 Z=268.372
+[2019.01.26-16.57.07:339][725]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-776.271 Y=1526.146 Z=268.372
+[2019.01.26-16.57.07:350][726]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-784.621 Y=1526.559 Z=268.372
+[2019.01.26-16.57.07:366][727]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-793.774 Y=1527.100 Z=268.372
+[2019.01.26-16.57.07:377][728]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-801.052 Y=1527.506 Z=268.372
+[2019.01.26-16.57.07:389][729]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-808.109 Y=1527.825 Z=268.372
+[2019.01.26-16.57.07:399][730]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-814.258 Y=1528.024 Z=268.372
+[2019.01.26-16.57.07:418][731]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-822.706 Y=1528.138 Z=268.372
+[2019.01.26-16.57.07:430][732]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-832.209 Y=1528.060 Z=268.372
+[2019.01.26-16.57.07:443][733]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-840.125 Y=1527.862 Z=268.372
+[2019.01.26-16.57.07:456][734]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-847.807 Y=1527.556 Z=268.372
+[2019.01.26-16.57.07:469][735]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-855.953 Y=1527.123 Z=268.372
+[2019.01.26-16.57.07:483][736]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-864.369 Y=1526.577 Z=268.372
+[2019.01.26-16.57.07:493][737]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-870.545 Y=1526.130 Z=268.372
+[2019.01.26-16.57.07:507][738]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-876.629 Y=1525.650 Z=268.372
+[2019.01.26-16.57.07:517][739]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-884.730 Y=1524.949 Z=268.372
+[2019.01.26-16.57.07:527][740]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-890.997 Y=1524.374 Z=268.372
+[2019.01.26-16.57.07:539][741]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-897.207 Y=1523.778 Z=268.372
+[2019.01.26-16.57.07:554][742]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-903.978 Y=1523.098 Z=268.372
+[2019.01.26-16.57.07:565][743]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-912.805 Y=1522.169 Z=268.372
+[2019.01.26-16.57.07:576][744]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-919.538 Y=1521.439 Z=268.372
+[2019.01.26-16.57.07:589][745]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-928.008 Y=1520.492 Z=268.372
+[2019.01.26-16.57.07:601][746]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-934.053 Y=1519.803 Z=268.372
+[2019.01.26-16.57.07:613][747]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-941.359 Y=1518.954 Z=268.372
+[2019.01.26-16.57.07:630][748]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-950.172 Y=1517.909 Z=268.372
+[2019.01.26-16.57.07:640][749]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-958.259 Y=1516.936 Z=268.372
+[2019.01.26-16.57.07:650][750]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-964.142 Y=1516.221 Z=268.372
+[2019.01.26-16.57.07:662][751]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-970.356 Y=1515.459 Z=268.372
+[2019.01.26-16.57.07:672][752]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-977.027 Y=1514.635 Z=268.372
+[2019.01.26-16.57.07:682][753]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-983.158 Y=1513.873 Z=268.372
+[2019.01.26-16.57.07:692][754]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-989.130 Y=1513.126 Z=268.372
+[2019.01.26-16.57.07:702][755]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-995.031 Y=1512.384 Z=268.372
+[2019.01.26-16.57.07:712][756]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1001.034 Y=1511.626 Z=268.372
+[2019.01.26-16.57.07:725][757]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1007.730 Y=1510.777 Z=268.372
+[2019.01.26-16.57.07:735][758]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1014.441 Y=1509.923 Z=268.372
+[2019.01.26-16.57.07:745][759]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1020.509 Y=1509.148 Z=268.372
+[2019.01.26-16.57.07:755][760]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1026.550 Y=1508.374 Z=268.372
+[2019.01.26-16.57.07:765][761]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1032.484 Y=1507.613 Z=268.372
+[2019.01.26-16.57.07:775][762]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1038.553 Y=1506.832 Z=268.372
+[2019.01.26-16.57.07:787][763]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1045.096 Y=1505.989 Z=268.372
+[2019.01.26-16.57.07:798][764]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1051.856 Y=1505.117 Z=268.372
+[2019.01.26-16.57.07:808][765]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1057.762 Y=1504.353 Z=268.372
+[2019.01.26-16.57.07:818][766]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1064.106 Y=1503.532 Z=268.372
+[2019.01.26-16.57.07:829][767]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1070.282 Y=1502.731 Z=268.372
+[2019.01.26-16.57.07:840][768]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1076.781 Y=1501.888 Z=268.372
+[2019.01.26-16.57.07:851][769]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1083.102 Y=1501.068 Z=268.372
+[2019.01.26-16.57.07:861][770]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1089.439 Y=1500.244 Z=268.372
+[2019.01.26-16.57.07:871][771]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1095.323 Y=1499.479 Z=268.372
+[2019.01.26-16.57.07:881][772]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1101.581 Y=1498.665 Z=268.372
+[2019.01.26-16.57.07:892][773]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1107.393 Y=1497.908 Z=268.372
+[2019.01.26-16.57.07:901][774]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1113.524 Y=1497.109 Z=268.372
+[2019.01.26-16.57.07:911][775]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1119.422 Y=1496.341 Z=268.372
+[2019.01.26-16.57.07:921][776]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1125.225 Y=1495.584 Z=268.372
+[2019.01.26-16.57.07:931][777]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1131.192 Y=1494.806 Z=268.372
+[2019.01.26-16.57.07:943][778]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1138.125 Y=1493.902 Z=268.372
+[2019.01.26-16.57.07:953][779]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1144.021 Y=1493.133 Z=268.372
+[2019.01.26-16.57.07:963][780]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1149.997 Y=1492.353 Z=268.372
+[2019.01.26-16.57.07:973][781]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1155.842 Y=1491.590 Z=268.372
+[2019.01.26-16.57.07:983][782]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1161.785 Y=1490.814 Z=268.372
+[2019.01.26-16.57.07:993][783]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1167.855 Y=1490.021 Z=268.372
+[2019.01.26-16.57.08:003][784]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1173.726 Y=1489.255 Z=268.372
+[2019.01.26-16.57.08:014][785]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1179.613 Y=1488.486 Z=268.372
+[2019.01.26-16.57.08:025][786]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1186.720 Y=1487.557 Z=268.372
+[2019.01.26-16.57.08:035][787]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1192.708 Y=1486.775 Z=268.372
+[2019.01.26-16.57.08:046][788]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1199.556 Y=1485.880 Z=268.372
+[2019.01.26-16.57.08:056][789]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1205.455 Y=1485.110 Z=268.372
+[2019.01.26-16.57.08:066][790]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1211.578 Y=1484.817 Z=268.372
+[2019.01.26-16.57.08:076][791]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1217.792 Y=1484.991 Z=268.372
+[2019.01.26-16.57.08:086][792]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1223.674 Y=1485.541 Z=268.372
+[2019.01.26-16.57.08:099][793]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1229.610 Y=1486.456 Z=268.372
+[2019.01.26-16.57.08:109][794]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1236.818 Y=1488.059 Z=268.372
+[2019.01.26-16.57.08:122][795]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1244.180 Y=1490.165 Z=268.372
+[2019.01.26-16.57.08:132][796]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1249.964 Y=1492.083 Z=268.372
+[2019.01.26-16.57.08:142][797]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1255.823 Y=1494.276 Z=268.372
+[2019.01.26-16.57.08:152][798]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1261.291 Y=1496.525 Z=268.372
+[2019.01.26-16.57.08:162][799]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1266.840 Y=1499.000 Z=268.372
+[2019.01.26-16.57.08:174][800]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1273.067 Y=1502.002 Z=268.372
+[2019.01.26-16.57.08:184][801]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1278.417 Y=1504.733 Z=268.372
+[2019.01.26-16.57.08:193][802]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1283.651 Y=1507.537 Z=268.372
+[2019.01.26-16.57.08:204][803]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1288.827 Y=1510.429 Z=268.372
+[2019.01.26-16.57.08:214][804]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1294.489 Y=1513.725 Z=268.372
+[2019.01.26-16.57.08:225][805]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1299.804 Y=1516.923 Z=268.372
+[2019.01.26-16.57.08:236][806]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1305.363 Y=1520.373 Z=268.372
+[2019.01.26-16.57.08:247][807]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1311.045 Y=1523.996 Z=268.372
+[2019.01.26-16.57.08:257][808]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1315.990 Y=1527.216 Z=268.372
+[2019.01.26-16.57.08:267][809]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1321.224 Y=1530.692 Z=268.372
+[2019.01.26-16.57.08:278][810]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1326.660 Y=1534.368 Z=268.372
+[2019.01.26-16.57.08:288][811]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1331.505 Y=1537.690 Z=268.372
+[2019.01.26-16.57.08:298][812]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1336.507 Y=1541.166 Z=268.372
+[2019.01.26-16.57.08:309][813]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1341.624 Y=1544.764 Z=268.372
+[2019.01.26-16.57.08:321][814]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1346.906 Y=1548.517 Z=268.372
+[2019.01.26-16.57.08:331][815]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1352.398 Y=1552.458 Z=268.372
+[2019.01.26-16.57.08:343][816]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1358.421 Y=1556.822 Z=268.372
+[2019.01.26-16.57.08:353][817]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1363.152 Y=1560.271 Z=268.372
+[2019.01.26-16.57.08:363][818]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1367.966 Y=1563.802 Z=268.372
+[2019.01.26-16.57.08:375][819]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1373.270 Y=1567.714 Z=268.372
+[2019.01.26-16.57.08:385][820]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1378.615 Y=1571.676 Z=268.372
+[2019.01.26-16.57.08:395][821]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1383.428 Y=1575.259 Z=268.372
+[2019.01.26-16.57.08:405][822]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1388.324 Y=1578.917 Z=268.372
+[2019.01.26-16.57.08:415][823]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1393.010 Y=1582.428 Z=268.372
+[2019.01.26-16.57.08:426][824]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1398.122 Y=1586.270 Z=268.372
+[2019.01.26-16.57.08:438][825]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1403.882 Y=1590.613 Z=268.372
+[2019.01.26-16.57.08:449][826]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1409.121 Y=1594.572 Z=268.372
+[2019.01.26-16.57.08:460][827]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1414.440 Y=1598.599 Z=268.372
+[2019.01.26-16.57.08:470][828]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1419.334 Y=1602.313 Z=268.372
+[2019.01.26-16.57.08:480][829]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1424.234 Y=1606.035 Z=268.372
+[2019.01.26-16.57.08:490][830]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1429.034 Y=1609.686 Z=268.372
+[2019.01.26-16.57.08:502][831]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1434.260 Y=1613.667 Z=268.372
+[2019.01.26-16.57.08:513][832]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1439.664 Y=1617.787 Z=268.372
+[2019.01.26-16.57.08:524][833]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1444.486 Y=1621.468 Z=268.372
+[2019.01.26-16.57.08:534][834]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1449.801 Y=1625.528 Z=268.372
+[2019.01.26-16.57.08:544][835]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1454.619 Y=1629.211 Z=268.372
+[2019.01.26-16.57.08:554][836]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1459.387 Y=1632.858 Z=268.372
+[2019.01.26-16.57.08:565][837]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1464.117 Y=1636.479 Z=268.372
+[2019.01.26-16.57.08:575][838]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1469.657 Y=1640.721 Z=268.372
+[2019.01.26-16.57.08:586][839]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1474.369 Y=1644.331 Z=268.372
+[2019.01.26-16.57.08:596][840]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1479.664 Y=1648.390 Z=268.372
+[2019.01.26-16.57.08:605][841]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1484.352 Y=1651.983 Z=268.372
+[2019.01.26-16.57.08:616][842]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1489.060 Y=1655.594 Z=268.372
+[2019.01.26-16.57.08:626][843]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1494.048 Y=1659.421 Z=268.372
+[2019.01.26-16.57.08:636][844]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1498.772 Y=1663.046 Z=268.372
+[2019.01.26-16.57.08:652][845]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1505.396 Y=1667.112 Z=268.372
+[2019.01.26-16.57.08:663][846]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1513.204 Y=1670.869 Z=268.372
+[2019.01.26-16.57.08:676][847]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1517.850 Y=1673.104 Z=268.372
+[2019.01.26-16.57.08:687][848]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1521.673 Y=1674.943 Z=268.372
+[2019.01.26-16.57.08:701][849]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1524.644 Y=1676.373 Z=268.372
+[2019.01.26-16.57.08:713][850]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1526.880 Y=1677.449 Z=268.372
+[2019.01.26-16.57.08:725][851]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1528.009 Y=1677.992 Z=268.372
+[2019.01.26-16.57.08:735][852]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1528.786 Y=1678.366 Z=268.372
+[2019.01.26-16.57.08:749][853]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:760][854]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:772][855]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:782][856]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:797][857]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:807][858]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:818][859]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:829][860]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:840][861]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:852][862]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:865][863]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:876][864]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:886][865]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:897][866]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:908][867]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:919][868]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:931][869]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:942][870]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:952][871]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:963][872]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:973][873]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:983][874]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.08:995][875]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:006][876]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:016][877]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:027][878]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:037][879]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:048][880]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:059][881]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:070][882]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:080][883]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:090][884]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:101][885]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.171 Y=1678.551 Z=268.372
+[2019.01.26-16.57.09:111][886]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.341 Y=1678.682 Z=268.372
+[2019.01.26-16.57.09:123][887]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1529.748 Y=1678.995 Z=268.372
+[2019.01.26-16.57.09:132][888]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1530.277 Y=1679.401 Z=268.372
+[2019.01.26-16.57.09:143][889]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1530.976 Y=1679.939 Z=268.372
+[2019.01.26-16.57.09:153][890]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1531.825 Y=1680.591 Z=268.372
+[2019.01.26-16.57.09:163][891]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1532.847 Y=1681.377 Z=268.372
+[2019.01.26-16.57.09:173][892]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1533.988 Y=1682.254 Z=268.372
+[2019.01.26-16.57.09:182][893]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1535.318 Y=1683.277 Z=268.372
+[2019.01.26-16.57.09:192][894]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1536.792 Y=1684.409 Z=268.372
+[2019.01.26-16.57.09:202][895]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1538.397 Y=1685.643 Z=268.372
+[2019.01.26-16.57.09:212][896]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1540.153 Y=1686.993 Z=268.372
+[2019.01.26-16.57.09:222][897]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1542.158 Y=1688.534 Z=268.372
+[2019.01.26-16.57.09:233][898]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1544.444 Y=1690.292 Z=268.372
+[2019.01.26-16.57.09:243][899]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1546.778 Y=1692.086 Z=268.372
+[2019.01.26-16.57.09:253][900]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1549.304 Y=1694.028 Z=268.372
+[2019.01.26-16.57.09:266][901]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1552.492 Y=1696.478 Z=268.372
+[2019.01.26-16.57.09:276][902]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1555.687 Y=1698.934 Z=268.372
+[2019.01.26-16.57.09:288][903]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1558.709 Y=1701.258 Z=268.372
+[2019.01.26-16.57.09:299][904]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1562.386 Y=1704.084 Z=268.372
+[2019.01.26-16.57.09:309][905]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1566.369 Y=1707.146 Z=268.372
+[2019.01.26-16.57.09:320][906]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1569.979 Y=1709.921 Z=268.372
+[2019.01.26-16.57.09:331][907]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1574.001 Y=1713.013 Z=268.372
+[2019.01.26-16.57.09:345][908]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1579.351 Y=1717.126 Z=268.372
+[2019.01.26-16.57.09:358][909]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1584.881 Y=1721.377 Z=268.372
+[2019.01.26-16.57.09:371][910]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1590.443 Y=1725.653 Z=268.372
+[2019.01.26-16.57.09:382][911]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1595.997 Y=1729.922 Z=268.372
+[2019.01.26-16.57.09:394][912]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1601.713 Y=1734.317 Z=268.372
+[2019.01.26-16.57.09:405][913]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1606.688 Y=1738.141 Z=268.372
+[2019.01.26-16.57.09:416][914]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1611.955 Y=1742.191 Z=268.372
+[2019.01.26-16.57.09:428][915]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1617.675 Y=1746.588 Z=268.372
+[2019.01.26-16.57.09:439][916]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1622.909 Y=1750.611 Z=268.372
+[2019.01.26-16.57.09:451][917]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1628.118 Y=1754.616 Z=268.372
+[2019.01.26-16.57.09:463][918]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1634.146 Y=1759.250 Z=268.372
+[2019.01.26-16.57.09:475][919]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1639.755 Y=1763.562 Z=268.372
+[2019.01.26-16.57.09:487][920]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1645.580 Y=1768.040 Z=268.372
+[2019.01.26-16.57.09:501][921]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1651.712 Y=1772.754 Z=268.372
+[2019.01.26-16.57.09:515][922]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1659.019 Y=1778.371 Z=268.372
+[2019.01.26-16.57.09:526][923]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1664.370 Y=1782.485 Z=268.372
+[2019.01.26-16.57.09:539][924]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1670.433 Y=1787.146 Z=268.372
+[2019.01.26-16.57.09:551][925]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1676.424 Y=1791.751 Z=268.372
+[2019.01.26-16.57.09:565][926]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1681.686 Y=1795.796 Z=268.372
+[2019.01.26-16.57.09:575][927]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1687.826 Y=1800.516 Z=268.372
+[2019.01.26-16.57.09:590][928]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1693.144 Y=1804.604 Z=268.372
+[2019.01.26-16.57.09:602][929]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1699.847 Y=1809.757 Z=268.372
+[2019.01.26-16.57.09:613][930]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1705.625 Y=1814.198 Z=268.372
+[2019.01.26-16.57.09:634][931]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1713.826 Y=1820.503 Z=268.372
+[2019.01.26-16.57.09:647][932]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1721.770 Y=1826.610 Z=268.372
+[2019.01.26-16.57.09:658][933]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1726.886 Y=1830.543 Z=268.372
+[2019.01.26-16.57.09:668][934]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1731.902 Y=1834.399 Z=268.372
+[2019.01.26-16.57.09:679][935]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1737.188 Y=1838.463 Z=268.372
+[2019.01.26-16.57.09:690][936]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1742.178 Y=1842.299 Z=268.372
+[2019.01.26-16.57.09:700][937]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1746.912 Y=1845.938 Z=268.372
+[2019.01.26-16.57.09:710][938]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1751.673 Y=1849.576 Z=268.372
+[2019.01.26-16.57.09:720][939]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1756.575 Y=1853.222 Z=268.372
+[2019.01.26-16.57.09:731][940]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1761.923 Y=1857.000 Z=268.372
+[2019.01.26-16.57.09:746][941]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1767.564 Y=1860.684 Z=268.372
+[2019.01.26-16.57.09:760][942]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1776.760 Y=1865.781 Z=268.372
+[2019.01.26-16.57.09:773][943]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1782.480 Y=1868.618 Z=268.372
+[2019.01.26-16.57.09:783][944]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1789.434 Y=1871.663 Z=268.372
+[2019.01.26-16.57.09:794][945]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1795.720 Y=1874.142 Z=268.372
+[2019.01.26-16.57.09:807][946]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1802.725 Y=1876.620 Z=268.372
+[2019.01.26-16.57.09:818][947]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1809.076 Y=1878.661 Z=268.372
+[2019.01.26-16.57.09:829][948]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1815.783 Y=1880.610 Z=268.372
+[2019.01.26-16.57.09:840][949]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1821.954 Y=1882.239 Z=268.372
+[2019.01.26-16.57.09:853][950]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1828.076 Y=1883.703 Z=268.372
+[2019.01.26-16.57.09:864][951]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1836.324 Y=1885.419 Z=268.372
+[2019.01.26-16.57.09:877][952]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1843.442 Y=1886.708 Z=268.372
+[2019.01.26-16.57.09:888][953]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1849.861 Y=1887.707 Z=268.372
+[2019.01.26-16.57.09:898][954]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1856.170 Y=1888.531 Z=268.372
+[2019.01.26-16.57.09:910][955]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1862.263 Y=1889.178 Z=268.372
+[2019.01.26-16.57.09:922][956]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1869.908 Y=1889.768 Z=268.372
+[2019.01.26-16.57.09:932][957]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1876.563 Y=1890.113 Z=268.372
+[2019.01.26-16.57.09:943][958]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1882.622 Y=1890.288 Z=268.372
+[2019.01.26-16.57.09:953][959]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1888.962 Y=1889.806 Z=268.372
+[2019.01.26-16.57.09:964][960]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1895.124 Y=1888.727 Z=268.372
+[2019.01.26-16.57.09:973][961]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1900.790 Y=1887.229 Z=268.372
+[2019.01.26-16.57.09:985][962]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1906.427 Y=1885.243 Z=268.372
+[2019.01.26-16.57.09:995][963]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1912.658 Y=1882.450 Z=268.372
+[2019.01.26-16.57.10:005][964]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1918.008 Y=1879.615 Z=268.372
+[2019.01.26-16.57.10:015][965]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1923.198 Y=1876.451 Z=268.372
+[2019.01.26-16.57.10:026][966]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1928.426 Y=1872.845 Z=268.372
+[2019.01.26-16.57.10:035][967]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1933.101 Y=1869.287 Z=268.372
+[2019.01.26-16.57.10:045][968]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1937.638 Y=1865.524 Z=268.372
+[2019.01.26-16.57.10:055][969]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1941.979 Y=1861.642 Z=268.372
+[2019.01.26-16.57.10:066][970]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1946.363 Y=1857.437 Z=268.372
+[2019.01.26-16.57.10:078][971]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1950.974 Y=1852.706 Z=268.372
+[2019.01.26-16.57.10:096][972]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1957.189 Y=1845.779 Z=268.372
+[2019.01.26-16.57.10:107][973]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1962.583 Y=1839.377 Z=268.372
+[2019.01.26-16.57.10:117][974]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1966.753 Y=1834.211 Z=268.372
+[2019.01.26-16.57.10:127][975]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1969.829 Y=1830.399 Z=268.372
+[2019.01.26-16.57.10:137][976]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1972.245 Y=1827.406 Z=268.372
+[2019.01.26-16.57.10:147][977]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1974.108 Y=1825.097 Z=268.372
+[2019.01.26-16.57.10:157][978]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1975.562 Y=1823.296 Z=268.372
+[2019.01.26-16.57.10:167][979]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1976.699 Y=1821.887 Z=268.372
+[2019.01.26-16.57.10:177][980]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1977.495 Y=1820.899 Z=268.372
+[2019.01.26-16.57.10:187][981]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.044 Y=1820.220 Z=268.372
+[2019.01.26-16.57.10:198][982]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.384 Y=1819.799 Z=268.372
+[2019.01.26-16.57.10:208][983]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:217][984]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:227][985]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:238][986]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:251][987]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:261][988]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:272][989]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:283][990]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:294][991]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:304][992]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:315][993]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:326][994]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:336][995]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:347][996]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:356][997]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:369][998]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:380][999]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:390][  0]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:400][  1]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:411][  2]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:425][  3]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:435][  4]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:446][  5]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:456][  6]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:466][  7]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:479][  8]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:491][  9]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:501][ 10]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:512][ 11]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:523][ 12]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:532][ 13]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:543][ 14]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:553][ 15]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:563][ 16]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:574][ 17]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:584][ 18]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:594][ 19]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:607][ 20]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:617][ 21]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:628][ 22]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:638][ 23]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:649][ 24]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:660][ 25]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.510 Y=1819.642 Z=268.372
+[2019.01.26-16.57.10:670][ 26]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.661 Y=1819.780 Z=268.372
+[2019.01.26-16.57.10:680][ 27]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1978.974 Y=1820.071 Z=268.372
+[2019.01.26-16.57.10:691][ 28]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1979.459 Y=1820.527 Z=268.372
+[2019.01.26-16.57.10:702][ 29]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1980.143 Y=1821.182 Z=268.372
+[2019.01.26-16.57.10:714][ 30]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1981.045 Y=1822.054 Z=268.372
+[2019.01.26-16.57.10:725][ 31]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1982.131 Y=1823.116 Z=268.372
+[2019.01.26-16.57.10:737][ 32]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1983.344 Y=1824.312 Z=268.372
+[2019.01.26-16.57.10:749][ 33]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1984.886 Y=1825.845 Z=268.372
+[2019.01.26-16.57.10:761][ 34]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1986.717 Y=1827.674 Z=268.372
+[2019.01.26-16.57.10:772][ 35]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1988.541 Y=1829.502 Z=268.372
+[2019.01.26-16.57.10:782][ 36]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1990.353 Y=1831.325 Z=268.372
+[2019.01.26-16.57.10:792][ 37]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1992.211 Y=1833.197 Z=268.372
+[2019.01.26-16.57.10:801][ 38]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1994.194 Y=1835.198 Z=268.372
+[2019.01.26-16.57.10:813][ 39]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1996.493 Y=1837.523 Z=268.372
+[2019.01.26-16.57.10:823][ 40]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-1999.080 Y=1840.141 Z=268.372
+[2019.01.26-16.57.10:834][ 41]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2001.669 Y=1842.765 Z=268.372
+[2019.01.26-16.57.10:845][ 42]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2004.641 Y=1845.779 Z=268.372
+[2019.01.26-16.57.10:855][ 43]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2007.438 Y=1848.618 Z=268.372
+[2019.01.26-16.57.10:865][ 44]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2010.310 Y=1851.534 Z=268.372
+[2019.01.26-16.57.10:877][ 45]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2013.695 Y=1854.974 Z=268.372
+[2019.01.26-16.57.10:887][ 46]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2017.279 Y=1858.618 Z=268.372
+[2019.01.26-16.57.10:898][ 47]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2020.780 Y=1862.178 Z=268.372
+[2019.01.26-16.57.10:910][ 48]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2024.907 Y=1866.377 Z=268.372
+[2019.01.26-16.57.10:921][ 49]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2029.881 Y=1871.439 Z=268.372
+[2019.01.26-16.57.10:931][ 50]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2033.719 Y=1875.346 Z=268.372
+[2019.01.26-16.57.10:943][ 51]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2038.281 Y=1879.992 Z=268.372
+[2019.01.26-16.57.10:953][ 52]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2042.385 Y=1884.171 Z=268.372
+[2019.01.26-16.57.10:963][ 53]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2046.692 Y=1888.558 Z=268.372
+[2019.01.26-16.57.10:973][ 54]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2051.042 Y=1892.989 Z=268.372
+[2019.01.26-16.57.10:983][ 55]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2055.193 Y=1897.216 Z=268.372
+[2019.01.26-16.57.10:995][ 56]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2059.974 Y=1902.065 Z=268.372
+[2019.01.26-16.57.11:005][ 57]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2064.364 Y=1906.495 Z=268.372
+[2019.01.26-16.57.11:015][ 58]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2068.615 Y=1910.756 Z=268.372
+[2019.01.26-16.57.11:025][ 59]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2072.857 Y=1914.979 Z=268.372
+[2019.01.26-16.57.11:035][ 60]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2076.291 Y=1918.396 Z=268.372
+[2019.01.26-16.57.11:045][ 61]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2079.040 Y=1921.133 Z=268.372
+[2019.01.26-16.57.11:055][ 62]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2081.171 Y=1923.254 Z=268.372
+[2019.01.26-16.57.11:066][ 63]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2082.844 Y=1924.920 Z=268.372
+[2019.01.26-16.57.11:078][ 64]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2084.188 Y=1926.257 Z=268.372
+[2019.01.26-16.57.11:088][ 65]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.149 Y=1927.214 Z=268.372
+[2019.01.26-16.57.11:099][ 66]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.658 Y=1927.720 Z=268.372
+[2019.01.26-16.57.11:110][ 67]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:120][ 68]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:131][ 69]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:143][ 70]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:153][ 71]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:164][ 72]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:174][ 73]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:184][ 74]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:194][ 75]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:204][ 76]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:214][ 77]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:224][ 78]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:234][ 79]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:244][ 80]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:256][ 81]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:266][ 82]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:276][ 83]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:288][ 84]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:298][ 85]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:309][ 86]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:322][ 87]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:333][ 88]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:343][ 89]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:353][ 90]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:365][ 91]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:377][ 92]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:387][ 93]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:397][ 94]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:407][ 95]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:417][ 96]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:428][ 97]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:438][ 98]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:448][ 99]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:459][100]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:470][101]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:480][102]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:491][103]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:501][104]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:513][105]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:525][106]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:537][107]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:550][108]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:560][109]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:570][110]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:584][111]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:594][112]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:605][113]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:617][114]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:628][115]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:639][116]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:650][117]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:662][118]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:677][119]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:687][120]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:697][121]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:708][122]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:722][123]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:734][124]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:747][125]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:759][126]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:768][127]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:782][128]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:792][129]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:803][130]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:814][131]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:825][132]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:839][133]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:852][134]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:865][135]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:875][136]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:885][137]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2085.943 Y=1928.004 Z=268.372
+[2019.01.26-16.57.11:898][138]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2086.180 Y=1928.025 Z=268.372
+[2019.01.26-16.57.11:908][139]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2086.688 Y=1928.070 Z=268.372
+[2019.01.26-16.57.11:919][140]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2087.436 Y=1928.138 Z=268.372
+[2019.01.26-16.57.11:931][141]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2088.498 Y=1928.238 Z=268.372
+[2019.01.26-16.57.11:942][142]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2089.782 Y=1928.360 Z=268.372
+[2019.01.26-16.57.11:952][143]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2091.172 Y=1928.494 Z=268.372
+[2019.01.26-16.57.11:962][144]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2092.790 Y=1928.654 Z=268.372
+[2019.01.26-16.57.11:973][145]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2094.615 Y=1928.842 Z=268.372
+[2019.01.26-16.57.11:983][146]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2096.609 Y=1929.057 Z=268.372
+[2019.01.26-16.57.11:993][147]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2098.812 Y=1929.308 Z=268.372
+[2019.01.26-16.57.12:003][148]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2101.169 Y=1929.593 Z=268.372
+[2019.01.26-16.57.12:013][149]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2103.787 Y=1929.930 Z=268.372
+[2019.01.26-16.57.12:023][150]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2106.675 Y=1930.327 Z=268.372
+[2019.01.26-16.57.12:033][151]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2109.697 Y=1930.769 Z=268.372
+[2019.01.26-16.57.12:043][152]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2112.913 Y=1931.269 Z=268.372
+[2019.01.26-16.57.12:053][153]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2116.256 Y=1931.820 Z=268.372
+[2019.01.26-16.57.12:063][154]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2119.815 Y=1932.440 Z=268.372
+[2019.01.26-16.57.12:072][155]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2123.568 Y=1933.130 Z=268.372
+[2019.01.26-16.57.12:082][156]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2127.543 Y=1933.898 Z=268.372
+[2019.01.26-16.57.12:092][157]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2131.659 Y=1934.735 Z=268.372
+[2019.01.26-16.57.12:104][158]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2136.104 Y=1935.683 Z=268.372
+[2019.01.26-16.57.12:114][159]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2141.260 Y=1936.840 Z=268.372
+[2019.01.26-16.57.12:125][160]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2146.213 Y=1938.005 Z=268.372
+[2019.01.26-16.57.12:136][161]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2152.050 Y=1939.447 Z=268.372
+[2019.01.26-16.57.12:146][162]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2157.426 Y=1940.831 Z=268.372
+[2019.01.26-16.57.12:156][163]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2162.866 Y=1942.290 Z=268.372
+[2019.01.26-16.57.12:167][164]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2168.770 Y=1943.944 Z=268.372
+[2019.01.26-16.57.12:177][165]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2174.493 Y=1945.612 Z=268.372
+[2019.01.26-16.57.12:187][166]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2180.531 Y=1947.441 Z=268.372
+[2019.01.26-16.57.12:197][167]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2186.236 Y=1949.233 Z=268.372
+[2019.01.26-16.57.12:207][168]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2191.875 Y=1951.064 Z=268.372
+[2019.01.26-16.57.12:220][169]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2198.408 Y=1953.267 Z=268.372
+[2019.01.26-16.57.12:230][170]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2203.377 Y=1954.943 Z=268.372
+[2019.01.26-16.57.12:242][171]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2207.326 Y=1956.274 Z=268.372
+[2019.01.26-16.57.12:253][172]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2210.180 Y=1957.237 Z=268.372
+[2019.01.26-16.57.12:263][173]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2212.190 Y=1957.915 Z=268.372
+[2019.01.26-16.57.12:273][174]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2213.693 Y=1958.421 Z=268.372
+[2019.01.26-16.57.12:283][175]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2214.695 Y=1958.759 Z=268.372
+[2019.01.26-16.57.12:294][176]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.364 Y=1958.985 Z=268.372
+[2019.01.26-16.57.12:304][177]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.706 Y=1959.100 Z=268.372
+[2019.01.26-16.57.12:313][178]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:326][179]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:339][180]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:349][181]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:359][182]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:371][183]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:380][184]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:390][185]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:400][186]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:410][187]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:420][188]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:430][189]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:442][190]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:452][191]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:462][192]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:472][193]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:482][194]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:493][195]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:503][196]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2215.807 Y=1959.134 Z=268.372
+[2019.01.26-16.57.12:514][197]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2216.011 Y=1959.224 Z=268.372
+[2019.01.26-16.57.12:528][198]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2216.543 Y=1959.459 Z=268.372
+[2019.01.26-16.57.12:541][199]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2217.622 Y=1959.936 Z=268.372
+[2019.01.26-16.57.12:553][200]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2218.674 Y=1960.400 Z=268.372
+[2019.01.26-16.57.12:567][201]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2219.979 Y=1960.977 Z=268.372
+[2019.01.26-16.57.12:578][202]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2221.873 Y=1961.814 Z=268.372
+[2019.01.26-16.57.12:588][203]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2223.468 Y=1962.518 Z=268.372
+[2019.01.26-16.57.12:598][204]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2225.302 Y=1963.328 Z=268.372
+[2019.01.26-16.57.12:611][205]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2227.771 Y=1964.419 Z=268.372
+[2019.01.26-16.57.12:621][206]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2230.152 Y=1965.471 Z=268.372
+[2019.01.26-16.57.12:632][207]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2232.648 Y=1966.574 Z=268.372
+[2019.01.26-16.57.12:642][208]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2235.391 Y=1967.786 Z=268.372
+[2019.01.26-16.57.12:654][209]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2238.377 Y=1969.104 Z=268.372
+[2019.01.26-16.57.12:664][210]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2241.857 Y=1970.642 Z=268.372
+[2019.01.26-16.57.12:676][211]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2245.173 Y=1972.107 Z=268.372
+[2019.01.26-16.57.12:686][212]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2247.937 Y=1973.328 Z=268.372
+[2019.01.26-16.57.12:696][213]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2249.766 Y=1974.136 Z=268.372
+[2019.01.26-16.57.12:706][214]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2251.099 Y=1974.725 Z=268.372
+[2019.01.26-16.57.12:716][215]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.060 Y=1975.149 Z=268.372
+[2019.01.26-16.57.12:727][216]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.703 Y=1975.433 Z=268.372
+[2019.01.26-16.57.12:740][217]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:750][218]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:761][219]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:771][220]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:781][221]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:792][222]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:802][223]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:812][224]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:822][225]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:832][226]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:842][227]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:853][228]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:863][229]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:873][230]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:883][231]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:893][232]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:903][233]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:914][234]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:926][235]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:939][236]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:955][237]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:969][238]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:985][239]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.12:997][240]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:007][241]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:018][242]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:028][243]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:038][244]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:048][245]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:058][246]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:069][247]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:079][248]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:090][249]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:101][250]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:111][251]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:121][252]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:133][253]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:144][254]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:155][255]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:168][256]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:179][257]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:189][258]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:199][259]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:209][260]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:220][261]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:230][262]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:240][263]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:250][264]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:260][265]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:271][266]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:281][267]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:291][268]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:301][269]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:312][270]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:325][271]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:337][272]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:349][273]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:360][274]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:370][275]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:381][276]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:393][277]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:403][278]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:414][279]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:424][280]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:434][281]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:444][282]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:455][283]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:465][284]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:475][285]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:485][286]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:495][287]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:505][288]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:515][289]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:526][290]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:536][291]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:546][292]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:558][293]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:569][294]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:581][295]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:591][296]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:601][297]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:612][298]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:622][299]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:632][300]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:643][301]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:654][302]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:664][303]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:676][304]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:686][305]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:696][306]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:706][307]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:716][308]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:726][309]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:738][310]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:750][311]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:762][312]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:772][313]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:782][314]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:793][315]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:807][316]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:816][317]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:828][318]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:837][319]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:847][320]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:860][321]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:870][322]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:881][323]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:894][324]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:906][325]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:915][326]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:925][327]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:935][328]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:947][329]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:959][330]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:971][331]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:982][332]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.13:993][333]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:003][334]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:014][335]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:024][336]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:035][337]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:046][338]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:056][339]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:066][340]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:077][341]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:089][342]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:099][343]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:110][344]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:120][345]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:130][346]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:141][347]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:151][348]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:164][349]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:175][350]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:187][351]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:198][352]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:210][353]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:223][354]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:233][355]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:245][356]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:256][357]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:267][358]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:279][359]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:291][360]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:302][361]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:313][362]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:326][363]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:337][364]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:348][365]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:359][366]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:371][367]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:382][368]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:398][369]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:410][370]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:423][371]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:436][372]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:449][373]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:459][374]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:471][375]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:483][376]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:494][377]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:504][378]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:514][379]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:527][380]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:537][381]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:548][382]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:559][383]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:570][384]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:582][385]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:596][386]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:606][387]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:617][388]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:630][389]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:643][390]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:653][391]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:665][392]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:676][393]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:687][394]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:697][395]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:707][396]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:717][397]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:727][398]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:741][399]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:752][400]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:763][401]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:774][402]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:785][403]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:796][404]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:806][405]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:820][406]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:830][407]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:841][408]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:850][409]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:861][410]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:872][411]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:882][412]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:894][413]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:905][414]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:918][415]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:929][416]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:939][417]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:949][418]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:958][419]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:969][420]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:980][421]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.14:991][422]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:001][423]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:011][424]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:021][425]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:031][426]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:041][427]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:051][428]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:061][429]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:075][430]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:085][431]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:095][432]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:105][433]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:114][434]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:125][435]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:135][436]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:144][437]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:156][438]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:166][439]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:177][440]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:188][441]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:198][442]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:210][443]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:219][444]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:230][445]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:241][446]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:250][447]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:260][448]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:270][449]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:281][450]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:293][451]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:303][452]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:313][453]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:323][454]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:334][455]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:344][456]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:355][457]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:366][458]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:377][459]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:388][460]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:398][461]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:409][462]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:419][463]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:429][464]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:439][465]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:450][466]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:459][467]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:469][468]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:482][469]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:492][470]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:506][471]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:516][472]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:526][473]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:536][474]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:548][475]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:558][476]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:569][477]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:583][478]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:595][479]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:609][480]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:622][481]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:632][482]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:645][483]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:656][484]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:666][485]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:676][486]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:688][487]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:700][488]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:712][489]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:726][490]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:736][491]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:748][492]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:761][493]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:772][494]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:786][495]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:800][496]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:814][497]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:829][498]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:843][499]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:853][500]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:866][501]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:877][502]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:889][503]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:899][504]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:912][505]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:922][506]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:932][507]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:943][508]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:954][509]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:964][510]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:977][511]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:988][512]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.15:999][513]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:011][514]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:023][515]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:036][516]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:047][517]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:058][518]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:067][519]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:081][520]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:093][521]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:102][522]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:112][523]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:123][524]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:134][525]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:145][526]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:159][527]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:169][528]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:180][529]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:190][530]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:203][531]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:215][532]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:226][533]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:236][534]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:248][535]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:261][536]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:273][537]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:283][538]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:299][539]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:310][540]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:320][541]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:330][542]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:339][543]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:350][544]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:360][545]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:371][546]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:381][547]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:391][548]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:403][549]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:414][550]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:427][551]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:438][552]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:447][553]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:457][554]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:467][555]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:478][556]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:488][557]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:498][558]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:509][559]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:520][560]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:530][561]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:543][562]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:554][563]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:564][564]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:574][565]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:584][566]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:594][567]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:606][568]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:616][569]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:627][570]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:637][571]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:647][572]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:657][573]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:668][574]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:678][575]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:689][576]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:702][577]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:713][578]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:724][579]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:736][580]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:746][581]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:756][582]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:766][583]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:778][584]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:790][585]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:801][586]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:814][587]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:829][588]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:840][589]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:851][590]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:863][591]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:878][592]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:889][593]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:903][594]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:915][595]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:926][596]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:936][597]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:946][598]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:956][599]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:966][600]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:976][601]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:986][602]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.16:997][603]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:008][604]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:018][605]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:031][606]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:042][607]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:052][608]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:063][609]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:073][610]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:084][611]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:098][612]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:108][613]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:117][614]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:130][615]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:139][616]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:149][617]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:159][618]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:170][619]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:180][620]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:190][621]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:200][622]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:210][623]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:220][624]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:235][625]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:246][626]LogBlueprintUserMessages: [FirstPersonExampleMap_C_0] X=-2252.986 Y=1975.558 Z=268.372
+[2019.01.26-16.57.17:248][626]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.26-16.57.17:248][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-16.57.17:285][626]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.26-16.57.17:286][626]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.26-16.57.17:310][626]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.26-16.57.17:342][627]LogPlayLevel: Display: Destroying online subsystem :Context_1

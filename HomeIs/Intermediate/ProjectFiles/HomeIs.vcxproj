@@ -432,6 +432,8 @@
 		<ClInclude Include="..\..\Source\HomeIs\HomeIsProjectile.h" />
 		<ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp" />
 		<ClInclude Include="..\..\Source\HomeIs\IAttackable.h" />
+		<ClCompile Include="..\..\Source\HomeIs\Meteor.cpp" />
+		<ClInclude Include="..\..\Source\HomeIs\Meteor.h" />
 		<ClCompile Include="..\..\Source\HomeIs\Turret.cpp" />
 		<ClInclude Include="..\..\Source\HomeIs\Turret.h" />
 	</ItemGroup>

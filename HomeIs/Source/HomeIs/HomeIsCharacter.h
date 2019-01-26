@@ -71,6 +71,11 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class AHomeIsProjectile> ProjectileClass;
 
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+	TSubclassOf<class AMeteor> MeteorClass;
+
+
+
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	class USoundBase* FireSound;
@@ -169,5 +174,6 @@ public:
 	void DealDamage(float damageDealt);
 
 	void ManageBulletCollision(FHitResult collided);
+	void SpawnMeteor();
 };
 

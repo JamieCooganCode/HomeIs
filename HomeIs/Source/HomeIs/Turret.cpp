@@ -37,6 +37,39 @@ void ATurret::Tick(float DeltaTime)
 
 void ATurret::Update()
 {
+	if (!hasTarget)
+	{
+		FindTarget();
+	}
+	else
+	{
+		FVector myLocation = this->GetActorLocation();
+		if (targetActor != nullptr)
+		{
+			FVector playerLocation = targetActor->GetActorLocation();
+			float x = myLocation.X - playerLocation.X;
+			float y = myLocation.Y - playerLocation.Y;
+			float z = myLocation.Z - playerLocation.Z;
+
+			float distance = sqrt((x*x) + (y*y) + (z*z));
+
+
+			if (!(distance < _radius))
+			{
+				hasTarget = false;
+				FindTarget();
+			}
+			else
+			{
+				FollowTarget();
+				Fire();
+			}
+		}	
+	}
+}
+
+void ATurret::FindTarget()
+{
 	TArray<FHitResult> HitObjects;
 
 	FVector StartTrace = GetActorLocation();
@@ -47,32 +80,44 @@ void ATurret::Update()
 	CollisionShape.ShapeType = ECollisionShape::Sphere;
 	CollisionShape.SetSphere(_radius);
 
-	vector<float> distance;
-
 	if (GetWorld()->SweepMultiByChannel(HitObjects, StartTrace, EndTrace, FQuat::FQuat(), ECC_WorldStatic, CollisionShape))
 	{
 		for (auto Object = HitObjects.CreateIterator(); Object; Object++)
 		{
-			AHomeIsCharacter* player = Cast<AHomeIsCharacter>((*Object).GetActor());
-
-			if (player)
+			//player = Cast<AHomeIsCharacter>((*Object).GetActor());
+			IIAttackable* target = Cast<IIAttackable>((*Object).GetActor());
+			if (target)
 			{
-				FVector myLocaiton = this->GetActorLocation();
-				FVector playerLocation = player->GetActorLocation();
+				targetActor = Cast<AActor>(target);
+				targetActor->GetActorLocation();
+			}
 
-				FRotator rotation = FRotationMatrix::MakeFromX(playerLocation - myLocaiton).Rotator();
-				SetActorRotation(rotation);
-				_barrelEnd = this->GetActorLocation();
-
-				FVector temp = this->GetActorForwardVector();
-				temp.Normalize();
-
-				_barrelEnd += temp * 100;
-
-				Fire();
+			if (targetActor)
+			{
+				hasTarget = true;
+				break;
+			}
+			else
+			{
+				targetActor = nullptr;
 			}
 		}
 	}
+}
+
+void ATurret::FollowTarget()
+{
+	FVector myLocation = this->GetActorLocation();
+	FVector playerLocation = targetActor->GetActorLocation();
+
+	FRotator rotation = FRotationMatrix::MakeFromX(playerLocation - myLocation).Rotator();
+	SetActorRotation(rotation);
+	_barrelEnd = this->GetActorLocation();
+
+	FVector temp = this->GetActorForwardVector();
+	temp.Normalize();
+
+	_barrelEnd += temp * 100;
 }
 
 void ATurret::Fire()

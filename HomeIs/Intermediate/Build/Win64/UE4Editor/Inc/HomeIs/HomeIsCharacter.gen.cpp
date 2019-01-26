@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	HOMEIS_API UClass* Z_Construct_UClass_AMeteor_NoRegister();
 	HOMEIS_API UClass* Z_Construct_UClass_AHomeIsProjectile_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
@@ -83,6 +84,10 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireSound_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MeteorClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_MeteorClass;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
 #endif
@@ -229,6 +234,13 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireSound = { UE4CodeGen_Private::EPropertyClass::Object, "FireSound", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, FireSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireSound_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass_MetaData[] = {
+		{ "Category", "Projectile" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass = { UE4CodeGen_Private::EPropertyClass::Class, "MeteorClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010001, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, MeteorClass), Z_Construct_UClass_AMeteor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_ProjectileClass_MetaData[] = {
 		{ "Category", "Projectile" },
 		{ "ModuleRelativePath", "HomeIsCharacter.h" },
@@ -346,6 +358,7 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_bUsingMotionControllers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_ProjectileClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_BaseLookUpRate,
@@ -385,7 +398,7 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHomeIsCharacter, 3979039363);
+	IMPLEMENT_CLASS(AHomeIsCharacter, 2491176096);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHomeIsCharacter(Z_Construct_UClass_AHomeIsCharacter, &AHomeIsCharacter::StaticClass, TEXT("/Script/HomeIs"), TEXT("AHomeIsCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHomeIsCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define HOMEIS_Turret_generated_h
 
-#define HomeIs_Source_HomeIs_Turret_h_12_RPC_WRAPPERS
-#define HomeIs_Source_HomeIs_Turret_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define HomeIs_Source_HomeIs_Turret_h_12_INCLASS_NO_PURE_DECLS \
+#define HomeIs_Source_HomeIs_Turret_h_15_RPC_WRAPPERS
+#define HomeIs_Source_HomeIs_Turret_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define HomeIs_Source_HomeIs_Turret_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATurret(); \
 	friend struct Z_Construct_UClass_ATurret_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ATurret)
 
 
-#define HomeIs_Source_HomeIs_Turret_h_12_INCLASS \
+#define HomeIs_Source_HomeIs_Turret_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesATurret(); \
 	friend struct Z_Construct_UClass_ATurret_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ATurret)
 
 
-#define HomeIs_Source_HomeIs_Turret_h_12_STANDARD_CONSTRUCTORS \
+#define HomeIs_Source_HomeIs_Turret_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ATurret(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ATurret) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define HomeIs_Source_HomeIs_Turret_h_12_ENHANCED_CONSTRUCTORS \
+#define HomeIs_Source_HomeIs_Turret_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ATurret(ATurret&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ATurret); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ATurret)
 
 
-#define HomeIs_Source_HomeIs_Turret_h_12_PRIVATE_PROPERTY_OFFSET
-#define HomeIs_Source_HomeIs_Turret_h_9_PROLOG
-#define HomeIs_Source_HomeIs_Turret_h_12_GENERATED_BODY_LEGACY \
+#define HomeIs_Source_HomeIs_Turret_h_15_PRIVATE_PROPERTY_OFFSET
+#define HomeIs_Source_HomeIs_Turret_h_12_PROLOG
+#define HomeIs_Source_HomeIs_Turret_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HomeIs_Source_HomeIs_Turret_h_12_PRIVATE_PROPERTY_OFFSET \
-	HomeIs_Source_HomeIs_Turret_h_12_RPC_WRAPPERS \
-	HomeIs_Source_HomeIs_Turret_h_12_INCLASS \
-	HomeIs_Source_HomeIs_Turret_h_12_STANDARD_CONSTRUCTORS \
+	HomeIs_Source_HomeIs_Turret_h_15_PRIVATE_PROPERTY_OFFSET \
+	HomeIs_Source_HomeIs_Turret_h_15_RPC_WRAPPERS \
+	HomeIs_Source_HomeIs_Turret_h_15_INCLASS \
+	HomeIs_Source_HomeIs_Turret_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HomeIs_Source_HomeIs_Turret_h_12_GENERATED_BODY \
+#define HomeIs_Source_HomeIs_Turret_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HomeIs_Source_HomeIs_Turret_h_12_PRIVATE_PROPERTY_OFFSET \
-	HomeIs_Source_HomeIs_Turret_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	HomeIs_Source_HomeIs_Turret_h_12_INCLASS_NO_PURE_DECLS \
-	HomeIs_Source_HomeIs_Turret_h_12_ENHANCED_CONSTRUCTORS \
+	HomeIs_Source_HomeIs_Turret_h_15_PRIVATE_PROPERTY_OFFSET \
+	HomeIs_Source_HomeIs_Turret_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	HomeIs_Source_HomeIs_Turret_h_15_INCLASS_NO_PURE_DECLS \
+	HomeIs_Source_HomeIs_Turret_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

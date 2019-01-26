@@ -1,0 +1,18 @@
+----------------------------------------------------------------------------------------------------------------------------------
+Textures
+----------------------------------------------------------------------------------------------------------------------------------
+Oak Barricade Texture - https://www.pexels.com/photo/abstract-antique-background-board-172277/
+Brick - https://www.pexels.com/photo/wall-bricks-220182/
+Floor - https://www.pexels.com/photo/abstract-design-exterior-floor-1260289/
+Roof - https://www.pexels.com/photo/abstract-art-background-decoration-1154738/
+
+
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+Models
+----------------------------------------------------------------------------------------------------------------------------------
+House - https://www.turbosquid.com/FullPreview/Index.cfm/ID/1131150

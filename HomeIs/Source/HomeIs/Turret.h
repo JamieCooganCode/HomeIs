@@ -6,6 +6,9 @@
 #include "GameFramework/Actor.h"
 #include "Turret.generated.h"
 
+class AHomeIsCharacter;
+class IIAttackable;
+
 UCLASS()
 class HOMEIS_API ATurret : public AActor
 {
@@ -25,6 +28,10 @@ public:
 
 	void Update();
 
+	void FindTarget();
+	bool hasTarget = false;
+	void FollowTarget();
+
 	void Fire();
 
 	/** Projectile class to spawn */
@@ -37,4 +44,8 @@ public:
 	FVector _barrelEnd;
 	float _timeSinceLastShot = 0;
 	
+
+private:
+	AHomeIsCharacter* player;
+	AActor* targetActor;
 };
