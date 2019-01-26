@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeHomeIs_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/HomeIs",
 				PKG_CompiledIn | 0x00000000,
-				0x7BBFEF67,
-				0x4BEEB694,
+				0xDD71A3FA,
+				0xCE4C1E23,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

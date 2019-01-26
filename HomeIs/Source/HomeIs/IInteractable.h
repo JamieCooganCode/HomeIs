@@ -13,9 +13,6 @@ class UIInteractable : public UInterface
 	GENERATED_BODY()
 };
 
-/**
- * 
- */
 class HOMEIS_API IIInteractable
 {
 	GENERATED_BODY()

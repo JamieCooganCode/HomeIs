@@ -37,7 +37,6 @@ void AHomeIsProjectile::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, 
 	// Only add impulse and destroy projectile if we hit a physics
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
 	{
-		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
 		IIAttackable* hitActor = Cast<IIAttackable>(OtherActor);
 		if (hitActor)
 		{

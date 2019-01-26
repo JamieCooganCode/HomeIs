@@ -1,29 +1,36 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for HomeIsEditor (.uproject file is newer)
+  Creating makefile for HomeIsEditor (no existing makefile)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for HomeIsEditor
     Running UnrealHeaderTool "C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for HomeIsEditor in 11.816589 seconds
-  Building 18 actions with 8 processes...
-    [1/18] HomeIs.init.gen.cpp
-    [2/18] Meteor.gen.cpp
-    [3/18] HomeIsGameMode.gen.cpp
-    [4/18] HomeIsProjectile.gen.cpp
-    [5/18] IAttackable.gen.cpp
-    [6/18] HomeIsHUD.gen.cpp
-    [7/18] Turret.gen.cpp
-    [8/18] HomeIsCharacter.gen.cpp
-    [9/18] HomeIs.cpp
-    [10/18] IAttackable.cpp
-    [11/18] Meteor.cpp
-    [12/18] HomeIsProjectile.cpp
-    [13/18] HomeIsGameMode.cpp
-    [14/18] HomeIsHUD.cpp
-    [15/18] Turret.cpp
-    [16/18] HomeIsCharacter.cpp
-    [17/18] UE4Editor-HomeIs.lib
+  Reflection code generated for HomeIsEditor in 11.4667689 seconds
+  Building 21 actions with 8 processes...
+    [1/21] IAttackable.gen.cpp
+    [2/21] Testing.gen.cpp
+    [3/21] IInteractable.gen.cpp
+    [4/21] HomeIsProjectile.gen.cpp
+    [5/21] ZombieSpawner.gen.cpp
+    [6/21] HomeIsGameMode.gen.cpp
+    [7/21] HomeIsCharacter.gen.cpp
+    [8/21] HomeIsHUD.gen.cpp
+    [9/21] HomeIs.init.gen.cpp
+    [10/21] IAttackable.cpp
+    [11/21] Barricade.gen.cpp
+    [12/21] Testing.cpp
+    [13/21] IInteractable.cpp
+    [14/21] HomeIsProjectile.cpp
+    [15/21] ZombieSpawner.cpp
+    [16/21] Barricade.cpp
+    [17/21] HomeIsHUD.cpp
+    [18/21] HomeIsGameMode.cpp
+    [19/21] HomeIsCharacter.cpp
+C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Source\HomeIs\HomeIsCharacter.cpp(174): warning C4996: 'FCollisionQueryParams::FCollisionQueryParams': FCollisionQueryParams, to avoid ambiguity, please use other constructor and explicitly provide an FName parameter (not just a string literal) as the first parameter Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    c:\epic\ue4\ue_4.20\engine\source\runtime\engine\public\CollisionQueryParams.h(135): note: see declaration of 'FCollisionQueryParams::FCollisionQueryParams'
+C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Source\HomeIs\HomeIsCharacter.cpp(436): warning C4996: 'FCollisionQueryParams::FCollisionQueryParams': FCollisionQueryParams, to avoid ambiguity, please use other constructor and explicitly provide an FName parameter (not just a string literal) as the first parameter Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    c:\epic\ue4\ue_4.20\engine\source\runtime\engine\public\CollisionQueryParams.h(135): note: see declaration of 'FCollisionQueryParams::FCollisionQueryParams'
+    [20/21] UE4Editor-HomeIs.lib
        Creating library C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
-    [18/18] UE4Editor-HomeIs.dll
+    [21/21] UE4Editor-HomeIs.dll
        Creating library C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\w014100h\Documents\Github\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
   Deploying HomeIsEditor Win64 Development...
-  Total build time: 26.88 seconds (Parallel executor: 5.71 seconds)
+  Total build time: 27.59 seconds (Parallel executor: 7.07 seconds)

@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\HomeIs.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{A6FDBDCB-5FA4-4E00-B23A-5710FB477407}</UniqueIdentifier>
+			<UniqueIdentifier>{2FD78CBB-6944-4290-AD9D-84252432A869}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\HomeIs.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{AA377CF5-1BBB-4291-BD2F-7ADF40FCDD89}</UniqueIdentifier>
+			<UniqueIdentifier>{A54B77F0-2C01-4193-9FA7-21BDB6F2A20D}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,8 +31,14 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\HomeIs">
-			<UniqueIdentifier>{5EFAAB40-0036-4016-A418-CD8450E22196}</UniqueIdentifier>
+			<UniqueIdentifier>{2B90EA2F-0771-4405-A564-60BFE9F17738}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\HomeIs\Barricade.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\Barricade.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
 		<None Include="..\..\Source\HomeIs\HomeIs.Build.cs">
 			<Filter>Source\HomeIs</Filter>
 		</None >
@@ -72,16 +78,34 @@
 		<ClInclude Include="..\..\Source\HomeIs\IAttackable.h">
 			<Filter>Source\HomeIs</Filter>
 		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\IInteractable.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\IInteractable.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\HomeIs\Meteor.cpp">
 			<Filter>Source\HomeIs</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\HomeIs\Meteor.h">
 			<Filter>Source\HomeIs</Filter>
 		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\Testing.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\Testing.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
 		<ClCompile Include="..\..\Source\HomeIs\Turret.cpp">
 			<Filter>Source\HomeIs</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\HomeIs\Turret.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\ZombieSpawner.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\ZombieSpawner.h">
 			<Filter>Source\HomeIs</Filter>
 		</ClInclude >
 	</ItemGroup>
