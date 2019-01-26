@@ -4,11 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\HomeIs.uproject" />
 		<Filter Include="Source">
-<<<<<<< HEAD
-			<UniqueIdentifier>{EBDB34F5-BB72-4353-9A83-18FE6774A545}</UniqueIdentifier>
-=======
-			<UniqueIdentifier>{2FD78CBB-6944-4290-AD9D-84252432A869}</UniqueIdentifier>
->>>>>>> EvenBiggerMergeTests
+			<UniqueIdentifier>{C320E0DD-B7AB-4C8A-960E-B0E1FFC5AFCC}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\HomeIs.Target.cs">
 			<Filter>Source</Filter>
@@ -16,13 +12,8 @@
 		<None Include="..\..\Source\HomeIsEditor.Target.cs">
 			<Filter>Source</Filter>
 		</None >
-<<<<<<< HEAD
-		<Filter Include="Source\HomeIs">
-			<UniqueIdentifier>{A90E1B76-3CD9-4880-83C8-D703E035F5D1}</UniqueIdentifier>
-		</Filter>
-=======
 		<Filter Include="Config">
-			<UniqueIdentifier>{A54B77F0-2C01-4193-9FA7-21BDB6F2A20D}</UniqueIdentifier>
+			<UniqueIdentifier>{303E889F-9CEF-47A3-B05B-26ED18AB22F8}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -40,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\HomeIs">
-			<UniqueIdentifier>{2B90EA2F-0771-4405-A564-60BFE9F17738}</UniqueIdentifier>
+			<UniqueIdentifier>{4E52BAA2-9630-4683-BC89-83260BB704A8}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\HomeIs\Barricade.cpp">
 			<Filter>Source\HomeIs</Filter>
@@ -48,7 +39,6 @@
 		<ClInclude Include="..\..\Source\HomeIs\Barricade.h">
 			<Filter>Source\HomeIs</Filter>
 		</ClInclude >
->>>>>>> EvenBiggerMergeTests
 		<None Include="..\..\Source\HomeIs\HomeIs.Build.cs">
 			<Filter>Source\HomeIs</Filter>
 		</None >
@@ -88,25 +78,6 @@
 		<ClInclude Include="..\..\Source\HomeIs\IAttackable.h">
 			<Filter>Source\HomeIs</Filter>
 		</ClInclude >
-<<<<<<< HEAD
-		<Filter Include="Source\HomeIs\Private">
-			<UniqueIdentifier>{86BC1566-04E3-4930-99FE-A84668F19370}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\HomeIs\Private\TestBox.cpp">
-			<Filter>Source\HomeIs\Private</Filter>
-		</ClCompile >
-		<ClCompile Include="..\..\Source\HomeIs\Private\ZombieBase.cpp">
-			<Filter>Source\HomeIs\Private</Filter>
-		</ClCompile >
-		<Filter Include="Source\HomeIs\Public">
-			<UniqueIdentifier>{D9F15BD6-9251-4A45-8046-DAB4F4E230AC}</UniqueIdentifier>
-		</Filter>
-		<ClInclude Include="..\..\Source\HomeIs\Public\TestBox.h">
-			<Filter>Source\HomeIs\Public</Filter>
-		</ClInclude >
-		<ClInclude Include="..\..\Source\HomeIs\Public\ZombieBase.h">
-			<Filter>Source\HomeIs\Public</Filter>
-=======
 		<ClCompile Include="..\..\Source\HomeIs\IInteractable.cpp">
 			<Filter>Source\HomeIs</Filter>
 		</ClCompile >
@@ -136,7 +107,24 @@
 		</ClCompile >
 		<ClInclude Include="..\..\Source\HomeIs\ZombieSpawner.h">
 			<Filter>Source\HomeIs</Filter>
->>>>>>> EvenBiggerMergeTests
+		</ClInclude >
+		<Filter Include="Source\HomeIs\Private">
+			<UniqueIdentifier>{883AF4B3-F7E8-404A-972F-35662438871E}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\HomeIs\Private\TestBox.cpp">
+			<Filter>Source\HomeIs\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\HomeIs\Private\ZombieBase.cpp">
+			<Filter>Source\HomeIs\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\HomeIs\Public">
+			<UniqueIdentifier>{2C4505BE-FECD-4975-BD72-57EAAD24D602}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\HomeIs\Public\TestBox.h">
+			<Filter>Source\HomeIs\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\HomeIs\Public\ZombieBase.h">
+			<Filter>Source\HomeIs\Public</Filter>
 		</ClInclude >
 	</ItemGroup>
 </Project>
