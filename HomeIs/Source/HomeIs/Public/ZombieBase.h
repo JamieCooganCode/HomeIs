@@ -33,7 +33,7 @@ public:
 	virtual void Tick(float DeltaTime) override;
 	//Attack Function
 	UFUNCTION(BlueprintCallable, Category = "Attack")
-	virtual void Attack(APawn* _pawnAttacking);
+	virtual void Attack(UObject* _actorAttacking);
 	//Deal Damage
 	virtual void DealDamage(float damageDealt);
 	// Called to bind functionality to input

@@ -8,7 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class APawn;
+class UObject;
 #ifdef HOMEIS_ZombieBase_generated_h
 #error "ZombieBase.generated.h already included, missing '#pragma once' in ZombieBase.h"
 #endif
@@ -18,10 +18,10 @@ class APawn;
  \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(APawn,Z_Param__pawnAttacking); \
+		P_GET_OBJECT(UObject,Z_Param__actorAttacking); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Attack(Z_Param__pawnAttacking); \
+		P_THIS->Attack(Z_Param__actorAttacking); \
 		P_NATIVE_END; \
 	} \
  \
@@ -38,10 +38,10 @@ class APawn;
  \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(APawn,Z_Param__pawnAttacking); \
+		P_GET_OBJECT(UObject,Z_Param__actorAttacking); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->Attack(Z_Param__pawnAttacking); \
+		P_THIS->Attack(Z_Param__actorAttacking); \
 		P_NATIVE_END; \
 	} \
  \

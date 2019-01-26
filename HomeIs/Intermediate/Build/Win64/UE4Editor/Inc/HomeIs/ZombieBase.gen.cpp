@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeZombieBase() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_HomeIs();
 	HOMEIS_API UFunction* Z_Construct_UFunction_AZombieBase_Attack();
-	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject_NoRegister();
 	HOMEIS_API UFunction* Z_Construct_UFunction_AZombieBase_PostInitializeComponents();
 	HOMEIS_API UClass* Z_Construct_UClass_UIAttackable_NoRegister();
 // End Cross Module References
@@ -35,18 +35,18 @@ void EmptyLinkFunctionForGeneratedCodeZombieBase() {}
 	{
 		struct ZombieBase_eventAttack_Parms
 		{
-			APawn* _pawnAttacking;
+			UObject* _actorAttacking;
 		};
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp__pawnAttacking;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp__actorAttacking;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
 #endif
 		static const UE4CodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZombieBase_Attack_Statics::NewProp__pawnAttacking = { UE4CodeGen_Private::EPropertyClass::Object, "_pawnAttacking", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(ZombieBase_eventAttack_Parms, _pawnAttacking), Z_Construct_UClass_APawn_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_AZombieBase_Attack_Statics::NewProp__actorAttacking = { UE4CodeGen_Private::EPropertyClass::Object, "_actorAttacking", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000080, 1, nullptr, STRUCT_OFFSET(ZombieBase_eventAttack_Parms, _actorAttacking), Z_Construct_UClass_UObject_NoRegister, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AZombieBase_Attack_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZombieBase_Attack_Statics::NewProp__pawnAttacking,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AZombieBase_Attack_Statics::NewProp__actorAttacking,
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AZombieBase_Attack_Statics::Function_MetaDataParams[] = {
@@ -116,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeZombieBase() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_HomeIs,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AZombieBase_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AZombieBase_Attack, "Attack" }, // 2208584367
+		{ &Z_Construct_UFunction_AZombieBase_Attack, "Attack" }, // 2896458287
 		{ &Z_Construct_UFunction_AZombieBase_PostInitializeComponents, "PostInitializeComponents" }, // 3693065764
 	};
 #if WITH_METADATA
@@ -170,7 +170,7 @@ void EmptyLinkFunctionForGeneratedCodeZombieBase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AZombieBase, 2608741762);
+	IMPLEMENT_CLASS(AZombieBase, 1330564286);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AZombieBase(Z_Construct_UClass_AZombieBase, &AZombieBase::StaticClass, TEXT("/Script/HomeIs"), TEXT("AZombieBase"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AZombieBase);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

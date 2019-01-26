@@ -35,9 +35,9 @@ void AZombieBase::Tick(float DeltaTime)
 		Destroy();
 }
 
-void AZombieBase::Attack(APawn * _pawnAttacking)
+void AZombieBase::Attack(UObject* _actorAttacking)
 {
-	IIAttackable* _IAtt = Cast<IIAttackable>(_pawnAttacking);
+	IIAttackable* _IAtt = Cast<IIAttackable>(_actorAttacking);
 
 	if (_IAtt != nullptr)
 	{
