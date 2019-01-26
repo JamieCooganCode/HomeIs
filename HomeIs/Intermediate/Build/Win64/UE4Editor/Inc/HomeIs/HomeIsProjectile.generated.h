@@ -97,7 +97,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHomeIsProjectile); \
 
 #define HomeIs_Source_HomeIs_HomeIsProjectile_h_12_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CollisionComp() { return STRUCT_OFFSET(AHomeIsProjectile, CollisionComp); } \
-	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AHomeIsProjectile, ProjectileMovement); }
+	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AHomeIsProjectile, ProjectileMovement); } \
+	FORCEINLINE static uint32 __PPO___damage() { return STRUCT_OFFSET(AHomeIsProjectile, _damage); }
 
 
 #define HomeIs_Source_HomeIs_HomeIsProjectile_h_9_PROLOG

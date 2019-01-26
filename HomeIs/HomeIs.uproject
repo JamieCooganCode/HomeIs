@@ -1,13 +1,22 @@
 {
-	"FileVersion": 3,
-	"EngineAssociation": "4.20",
-	"Category": "",
-	"Description": "",
-	"Modules": [
-		{
-			"Name": "HomeIs",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	]
+  "FileVersion": 3,
+  "EngineAssociation": "4.20",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "HomeIs",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "Engine"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "ApexDestruction",
+      "Enabled": true
+    }
+  ]
 }

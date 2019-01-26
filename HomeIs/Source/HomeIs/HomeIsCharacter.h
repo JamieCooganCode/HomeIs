@@ -4,12 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "HomeIs/IAttackable.h"
 #include "HomeIsCharacter.generated.h"
 
 class UInputComponent;
 
 UCLASS(config=Game)
-class AHomeIsCharacter : public ACharacter
+class AHomeIsCharacter : public ACharacter, public IIAttackable
 {
 	GENERATED_BODY()
 
@@ -52,6 +53,8 @@ protected:
 	virtual void BeginPlay();
 
 public:
+
+
 	/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category=Camera)
 	float BaseTurnRate;
@@ -67,6 +70,11 @@ public:
 	/** Projectile class to spawn */
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class AHomeIsProjectile> ProjectileClass;
+
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+	TSubclassOf<class AMeteor> MeteorClass;
+
+
 
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
@@ -131,12 +139,42 @@ protected:
 	 * @returns true if touch controls were enabled.
 	 */
 	bool EnableTouchscreenMovement(UInputComponent* InputComponent);
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	float _health;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	bool _sprinting;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	int  _loadedAmmo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	int _spareAmmo;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	int _ammoMax;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	float _bulletRange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	float _damage;
 public:
 	/** Returns Mesh1P subobject **/
 	FORCEINLINE class USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
 	/** Returns FirstPersonCameraComponent subobject **/
 	FORCEINLINE class UCameraComponent* GetFirstPersonCameraComponent() const { return FirstPersonCameraComponent; }
 
+	void ToggleSprint();
+
+	void Reload();
+
+	const float GetHealth() const;
+	const bool GetSprintState() const;
+	const int GetLoadedAmmo() const;
+	const int GetSpareAmmo() const;
+	const int GetTotalAmmo() const;
+	const int GetGunCapacity() const;
+	const float GetPlayerDamage() const;
+	//IATTACKABLE
+	void DealDamage(float damageDealt);
+
+	void ManageBulletCollision(FHitResult collided);
+	void SpawnMeteor();
+	void AttemptInteract();
 };
 
