@@ -1,4 +1,30 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Creating makefile for HomeIsEditor (no existing makefile)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for HomeIsEditor
+    Running UnrealHeaderTool "C:\Users\r017093h\Documents\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HomeIsEditor in 13.0897946 seconds
+  Building 19 actions with 8 processes...
+    [1/19] SharedPCH.Engine.cpp
+    [2/19] HomeIs.init.gen.cpp
+    [3/19] IAttackable.gen.cpp
+    [4/19] TestBox.cpp
+    [5/19] HomeIsProjectile.gen.cpp
+    [6/19] TestBox.gen.cpp
+    [7/19] HomeIsHUD.gen.cpp
+    [8/19] HomeIsGameMode.gen.cpp
+    [9/19] HomeIsCharacter.gen.cpp
+    [10/19] IAttackable.cpp
+    [11/19] HomeIs.cpp
+    [12/19] HomeIsProjectile.cpp
+    [13/19] ZombieBase.cpp
+    [14/19] HomeIsGameMode.cpp
+    [15/19] HomeIsHUD.cpp
+    [16/19] ZombieBase.gen.cpp
+    [17/19] HomeIsCharacter.cpp
+    [18/19] UE4Editor-HomeIs.lib
+       Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
+    [19/19] UE4Editor-HomeIs.dll
+       Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
   Deploying HomeIsEditor Win64 Development...
-  Total build time: 2.42 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 88.78 seconds (Parallel executor: 43.10 seconds)

@@ -1,79 +1,76 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\HomeIs.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{341FD7ED-9036-4E97-A3ED-94A052161777}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\HomeIs.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\HomeIsEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Source\HomeIs">
-      <UniqueIdentifier>{08E642B5-2D90-4A70-AFAB-43FCF684EA62}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\HomeIs\HomeIs.Build.cs">
-      <Filter>Source\HomeIs</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIs.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIs.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIsCharacter.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIsCharacter.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIsGameMode.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIsGameMode.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIsHUD.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIsHUD.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\HomeIsProjectile.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\HomeIsProjectile.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\HomeIs\IAttackable.h">
-      <Filter>Source\HomeIs</Filter>
-    </ClInclude>
-    <Filter Include="Source\HomeIs\Private">
-      <UniqueIdentifier>{113AEE1E-C82C-435A-B661-9A8E262E6274}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Source\HomeIs\Private\ZombieBase.cpp">
-      <Filter>Source\HomeIs\Private</Filter>
-    </ClCompile>
-    <Filter Include="Source\HomeIs\Public">
-      <UniqueIdentifier>{BFEE7ED5-27F3-4604-9BCA-522A797BAC6E}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Source\HomeIs\Public\ZombieBase.h">
-      <Filter>Source\HomeIs\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\HomeIs\Public\TestBox.h">
-      <Filter>Source\HomeIs\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\HomeIs\Private\TestBox.cpp">
-      <Filter>Source\HomeIs\Private</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\HomeIs.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{EBDB34F5-BB72-4353-9A83-18FE6774A545}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HomeIs.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\HomeIsEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Source\HomeIs">
+			<UniqueIdentifier>{A90E1B76-3CD9-4880-83C8-D703E035F5D1}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\HomeIs\HomeIs.Build.cs">
+			<Filter>Source\HomeIs</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIs.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIs.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIsCharacter.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIsCharacter.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIsGameMode.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIsGameMode.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIsHUD.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIsHUD.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\HomeIsProjectile.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\HomeIsProjectile.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\IAttackable.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<Filter Include="Source\HomeIs\Private">
+			<UniqueIdentifier>{86BC1566-04E3-4930-99FE-A84668F19370}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\HomeIs\Private\TestBox.cpp">
+			<Filter>Source\HomeIs\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\HomeIs\Private\ZombieBase.cpp">
+			<Filter>Source\HomeIs\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\HomeIs\Public">
+			<UniqueIdentifier>{D9F15BD6-9251-4A45-8046-DAB4F4E230AC}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\HomeIs\Public\TestBox.h">
+			<Filter>Source\HomeIs\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\HomeIs\Public\ZombieBase.h">
+			<Filter>Source\HomeIs\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
