@@ -1,9 +1,3 @@
-<<<<<<< HEAD
 C:\Users\r017093h\Documents\HomeIs\HomeIs\Source\HomeIs\HomeIs.Build.cs
 C:\Users\r017093h\Documents\HomeIs\HomeIs\Source\HomeIs.Target.cs
 C:\Users\r017093h\Documents\HomeIs\HomeIs\Source\HomeIsEditor.Target.cs
-=======
-C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Source\HomeIs\HomeIs.Build.cs
-C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Source\HomeIs.Target.cs
-C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Source\HomeIsEditor.Target.cs
->>>>>>> PlayerStuff

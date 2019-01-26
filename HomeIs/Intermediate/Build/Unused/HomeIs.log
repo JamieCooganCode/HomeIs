@@ -1,50 +1,19 @@
-<<<<<<< HEAD
-﻿  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for HomeIsEditor (no existing makefile)
-  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for HomeIsEditor
-    Running UnrealHeaderTool "C:\Users\r017093h\Documents\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for HomeIsEditor in 11.529977 seconds
-  Building 14 actions with 8 processes...
-    [1/14] PCLaunch.rc
-    [2/14] SharedPCH.Engine.cpp
-    [3/14] HomeIs.init.gen.cpp
-    [4/14] HomeIsGameMode.gen.cpp
-    [5/14] HomeIsProjectile.cpp
-    [6/14] HomeIsHUD.gen.cpp
-    [7/14] HomeIsCharacter.gen.cpp
-    [8/14] HomeIsGameMode.cpp
-    [9/14] HomeIsHUD.cpp
-    [10/14] HomeIs.cpp
-    [11/14] HomeIsProjectile.gen.cpp
-    [12/14] HomeIsCharacter.cpp
-    [13/14] UE4Editor-HomeIs.lib
-       Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
-    [14/14] UE4Editor-HomeIs.dll
-       Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
-  Deploying HomeIsEditor Win64 Development...
-  Total build time: 90.07 seconds (Parallel executor: 32.22 seconds)
-=======
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for HomeIsEditor (no existing makefile)
   Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for HomeIsEditor
-    Running UnrealHeaderTool "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for HomeIsEditor in 12.1080913 seconds
-  Deleting old hot reload file: "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-6046.dll".
-  Deleting old hot reload file: "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-6046.pdb".
-  Building 8 actions with 8 processes...
-    [1/8] IAttackable.cpp
-    [2/8] HomeIs.init.gen.cpp
-    [3/8] IAttackable.gen.cpp
-    [4/8] HomeIsGameMode.cpp
-    [5/8] HomeIsCharacter.gen.cpp
-    [6/8] HomeIsCharacter.cpp
-    [7/8] UE4Editor-HomeIs.lib
-       Creating library C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
-    [8/8] UE4Editor-HomeIs.dll
-       Creating library C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
+    Running UnrealHeaderTool "C:\Users\r017093h\Documents\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HomeIsEditor in 11.1359802 seconds
+  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-5767.dll".
+  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-5767.pdb".
+  Building 6 actions with 8 processes...
+    [1/6] HomeIs.init.gen.cpp
+    [2/6] TestBox.cpp
+    [3/6] ZombieBase.cpp
+    [4/6] TestBox.gen.cpp
+    [5/6] UE4Editor-HomeIs.lib
+       Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
+    [6/6] UE4Editor-HomeIs.dll
+       Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
   Deploying HomeIsEditor Win64 Development...
-  Total build time: 66.80 seconds (Parallel executor: 5.44 seconds)
->>>>>>> PlayerStuff
+  Total build time: 21.13 seconds (Parallel executor: 2.00 seconds)
