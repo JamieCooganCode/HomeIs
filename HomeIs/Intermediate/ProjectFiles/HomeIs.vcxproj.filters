@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\HomeIs.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{341FD7ED-9036-4E97-A3ED-94A052161777}</UniqueIdentifier>
+      <UniqueIdentifier>{39FC59C9-C401-4B91-B81A-4D7807B448E2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HomeIs.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,26 @@
     <None Include="..\..\Source\HomeIsEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{8FBA44B0-0510-473D-AFFC-175DE63F08A1}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\HomeIs">
-      <UniqueIdentifier>{08E642B5-2D90-4A70-AFAB-43FCF684EA62}</UniqueIdentifier>
+      <UniqueIdentifier>{BA5D69A1-1443-49A8-A294-76C130A87289}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\HomeIs\HomeIs.Build.cs">
       <Filter>Source\HomeIs</Filter>
@@ -47,9 +65,8 @@
     <ClInclude Include="..\..\Source\HomeIs\HomeIsProjectile.h">
       <Filter>Source\HomeIs</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp">
-      <Filter>Source\HomeIs</Filter>
-    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
     <ClInclude Include="..\..\Source\HomeIs\IAttackable.h">
       <Filter>Source\HomeIs</Filter>
     </ClInclude>
@@ -58,13 +75,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\HomeIs\Public\TestBox.h">
-      <Filter>Source\HomeIs\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\HomeIs\Private\TestBox.cpp">
-      <Filter>Source\HomeIs\Private</Filter>
+    <ClCompile Include="..\..\Source\HomeIs\IAttackable.cpp">
+      <Filter>Source\HomeIs</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\HomeIs\Testing.cpp">
       <Filter>Source\HomeIs</Filter>
