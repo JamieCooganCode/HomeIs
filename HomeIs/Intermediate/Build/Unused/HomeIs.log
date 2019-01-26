@@ -1,9 +1,17 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Building 3 actions with 8 processes...
-    [1/3] Barricade.cpp
-    [2/3] UE4Editor-HomeIs.lib
+  Creating makefile for HomeIsEditor (no existing makefile)
+  Using Visual Studio 2017 14.14.26428 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\VC\Tools\MSVC\14.14.26428) and Windows 10.0.17134.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Parsing headers for HomeIsEditor
+    Running UnrealHeaderTool "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HomeIsEditor in 12.0712193 seconds
+  Deleting old hot reload file: "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-2097.dll".
+  Deleting old hot reload file: "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-2097.pdb".
+  Building 4 actions with 8 processes...
+    [1/4] ZombieSpawner.cpp
+    [2/4] ZombieSpawner.gen.cpp
+    [3/4] UE4Editor-HomeIs.lib
        Creating library C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
-    [3/3] UE4Editor-HomeIs.dll
+    [4/4] UE4Editor-HomeIs.dll
        Creating library C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
   Deploying HomeIsEditor Win64 Development...
-  Total build time: 4.98 seconds (Parallel executor: 2.27 seconds)
+  Total build time: 23.59 seconds (Parallel executor: 2.04 seconds)

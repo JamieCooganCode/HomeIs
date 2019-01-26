@@ -410,6 +410,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\HomeIs-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\HomeIs\ZombieSpawner.cpp" />
+    <ClInclude Include="..\..\Source\HomeIs\ZombieSpawner.h" />
     <None Include="..\..\HomeIs.uproject" />
     <None Include="..\..\Source\HomeIs.Target.cs" />
     <None Include="..\..\Source\HomeIsEditor.Target.cs" />

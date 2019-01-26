@@ -88,9 +88,15 @@
     <ClInclude Include="..\..\Source\HomeIs\IInteractable.h">
       <Filter>Source\HomeIs</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\HomeIs\ZombieSpawner.h">
+      <Filter>Source\HomeIs</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\HomeIs\IInteractable.cpp">
+      <Filter>Source\HomeIs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\HomeIs\ZombieSpawner.cpp">
       <Filter>Source\HomeIs</Filter>
     </ClCompile>
   </ItemGroup>
