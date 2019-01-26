@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodeBarricade() {}
 	UPackage* Z_Construct_UPackage__Script_HomeIs();
 	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	HOMEIS_API UClass* Z_Construct_UClass_UIAttackable_NoRegister();
+	HOMEIS_API UClass* Z_Construct_UClass_UIInteractable_NoRegister();
 // End Cross Module References
 	void ABarricade::StaticRegisterNativesABarricade()
 	{
@@ -45,6 +46,14 @@ void EmptyLinkFunctionForGeneratedCodeBarricade() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__health_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp__health;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__repairCooldown_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__repairCooldown;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__timeSinceRepair_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__timeSinceRepair;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
@@ -82,13 +91,30 @@ void EmptyLinkFunctionForGeneratedCodeBarricade() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ABarricade_Statics::NewProp__health = { UE4CodeGen_Private::EPropertyClass::Int, "_health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ABarricade, _health), METADATA_PARAMS(Z_Construct_UClass_ABarricade_Statics::NewProp__health_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABarricade_Statics::NewProp__health_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABarricade_Statics::NewProp__repairCooldown_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "Barricade.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABarricade_Statics::NewProp__repairCooldown = { UE4CodeGen_Private::EPropertyClass::Float, "_repairCooldown", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ABarricade, _repairCooldown), METADATA_PARAMS(Z_Construct_UClass_ABarricade_Statics::NewProp__repairCooldown_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABarricade_Statics::NewProp__repairCooldown_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABarricade_Statics::NewProp__timeSinceRepair_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "Barricade.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ABarricade_Statics::NewProp__timeSinceRepair = { UE4CodeGen_Private::EPropertyClass::Float, "_timeSinceRepair", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(ABarricade, _timeSinceRepair), METADATA_PARAMS(Z_Construct_UClass_ABarricade_Statics::NewProp__timeSinceRepair_MetaData, ARRAY_COUNT(Z_Construct_UClass_ABarricade_Statics::NewProp__timeSinceRepair_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABarricade_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABarricade_Statics::NewProp__myRaycastCollider,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABarricade_Statics::NewProp__maxHealth,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABarricade_Statics::NewProp__health,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABarricade_Statics::NewProp__repairCooldown,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABarricade_Statics::NewProp__timeSinceRepair,
 	};
 		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ABarricade_Statics::InterfaceParams[] = {
 			{ Z_Construct_UClass_UIAttackable_NoRegister, (int32)VTABLE_OFFSET(ABarricade, IIAttackable), false },
+			{ Z_Construct_UClass_UIInteractable_NoRegister, (int32)VTABLE_OFFSET(ABarricade, IIInteractable), false },
 		};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABarricade_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABarricade>::IsAbstract,
@@ -113,7 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeBarricade() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABarricade, 3287321247);
+	IMPLEMENT_CLASS(ABarricade, 1939018356);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABarricade(Z_Construct_UClass_ABarricade, &ABarricade::StaticClass, TEXT("/Script/HomeIs"), TEXT("ABarricade"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABarricade);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

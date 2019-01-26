@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\Barricade.cpp.obj"
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\HomeIs.cpp.obj"
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\HomeIsCharacter.cpp.obj"
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\HomeIsGameMode.cpp.obj"
@@ -14,6 +15,7 @@
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\HomeIsProjectile.cpp.obj"
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\IAttackable.cpp.obj"
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\Testing.cpp.obj"
+"C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\Barricade.gen.cpp.obj"
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\HomeIs.init.gen.cpp.obj"
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\HomeIsCharacter.gen.cpp.obj"
 "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\HomeIsGameMode.gen.cpp.obj"

@@ -10,6 +10,9 @@ ABarricade::ABarricade()
 	PrimaryActorTick.bCanEverTick = true;
 	_myRaycastCollider = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("raycastCollider"));
 	_myRaycastCollider->SetupAttachment(this->GetRootComponent());
+	_myRaycastCollider->SetCollisionResponseToChannel(ECollisionChannel::ECC_GameTraceChannel3, ECollisionResponse::ECR_Ignore);
+	_myRaycastCollider->SetCollisionResponseToChannel(ECollisionChannel::ECC_GameTraceChannel2, ECollisionResponse::ECR_Block);
+	_myRaycastCollider->SetHiddenInGame(true);
 }
 
 // Called when the game starts or when spawned
@@ -23,7 +26,7 @@ void ABarricade::BeginPlay()
 void ABarricade::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-
+	_timeSinceRepair += DeltaTime;
 }
 
 void ABarricade::DealDamage(float damageDealt)
@@ -32,26 +35,36 @@ void ABarricade::DealDamage(float damageDealt)
 	if (_health <= 0)
 	{
 		_myRaycastCollider->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Ignore);
-		_myRaycastCollider->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility, ECollisionResponse::ECR_Block);
+		_myRaycastCollider->SetCollisionResponseToChannel(ECollisionChannel::ECC_GameTraceChannel2, ECollisionResponse::ECR_Block);
 		UE_LOG(LogTemp, Warning, TEXT("BROKE"));
 	}
 }
 
 void ABarricade::Repair(int repairAmmount)
 {
-	_health += repairAmmount;
-	if (_health <= 0)
+	if (_timeSinceRepair > _repairCooldown)
 	{
-		_health = 1;
-	}
-	else if (_health > _maxHealth)
-	{
-		_health = _maxHealth;
-	}
+		_health += repairAmmount;
+		if (_health <= 0)
+		{
+			_health = 1;
+		}
+		else if (_health > _maxHealth)
+		{
+			_health = _maxHealth;
+		}
 
-	if (_health == 1)
-	{
-		_myRaycastCollider->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Block);
+		if (_health == 1)
+		{
+			_myRaycastCollider->SetCollisionResponseToAllChannels(ECollisionResponse::ECR_Block);
+			_myRaycastCollider->SetCollisionResponseToChannel(ECollisionChannel::ECC_GameTraceChannel3, ECollisionResponse::ECR_Ignore);
+		}
+		_timeSinceRepair = 0.0f;
 	}
+}
+
+void ABarricade::Interact()
+{
+	Repair(1);
 }
 

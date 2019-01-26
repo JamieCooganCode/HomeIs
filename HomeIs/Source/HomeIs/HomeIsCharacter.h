@@ -169,5 +169,6 @@ public:
 	void DealDamage(float damageDealt);
 
 	void ManageBulletCollision(FHitResult collided);
+	void AttemptInteract();
 };
 

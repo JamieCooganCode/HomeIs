@@ -5,11 +5,12 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
 #include "HomeIs/IAttackable.h"
+#include "HomeIs/IInteractable.h"
 #include "Components/StaticMeshComponent.h"
 #include "Barricade.generated.h"
 
 UCLASS()
-class HOMEIS_API ABarricade : public AActor, public IIAttackable
+class HOMEIS_API ABarricade : public AActor, public IIAttackable, public IIInteractable
 {
 	GENERATED_BODY()
 	
@@ -20,7 +21,10 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	float _timeSinceRepair;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	float _repairCooldown;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
 	int _health;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
@@ -33,4 +37,5 @@ public:
 
 	void DealDamage(float damageDealt);
 	void Repair(int repairAmmount);
+	void Interact();
 };
