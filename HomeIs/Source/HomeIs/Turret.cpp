@@ -8,6 +8,7 @@
 #include <vector>
 #include "Kismet/KismetMathLibrary.h"
 #include "IAttackable.h"
+#include "ZombieBase.h"
 
 using namespace std;
 
@@ -29,8 +30,9 @@ void ATurret::BeginPlay()
 // Called every frame
 void ATurret::Tick(float DeltaTime)
 {
-	Super::Tick(DeltaTime);
-	_timeSinceLastShot += DeltaTime;
+	dt = DeltaTime;
+	Super::Tick(dt);
+	_timeSinceLastShot += dt;
 	Update();
 
 }
@@ -46,25 +48,46 @@ void ATurret::Update()
 		FVector myLocation = this->GetActorLocation();
 		if (targetActor != nullptr)
 		{
-			FVector playerLocation = targetActor->GetActorLocation();
-			float x = myLocation.X - playerLocation.X;
-			float y = myLocation.Y - playerLocation.Y;
-			float z = myLocation.Z - playerLocation.Z;
-
-			float distance = sqrt((x*x) + (y*y) + (z*z));
-
-
-			if (!(distance < _radius))
+			if (targetActor->GetName() != "Invalid")
 			{
-				hasTarget = false;
-				FindTarget();
+				if (Cast<IIAttackable>(targetActor))
+				{
+					if (Cast<IIAttackable>(targetActor)->AmAlive())
+					{
+						FVector playerLocation = targetActor->GetActorLocation();
+						float x = myLocation.X - playerLocation.X;
+						float y = myLocation.Y - playerLocation.Y;
+						float z = myLocation.Z - playerLocation.Z;
+
+						float distance = sqrt((x*x) + (y*y) + (z*z));
+
+
+						if (!(distance < _radius))
+						{
+							hasTarget = false;
+							FindTarget();
+						}
+						else
+						{
+							FollowTarget();
+							Fire();
+						}
+					}
+					else
+					{
+						hasTarget = false;
+					}
+				}
+				else
+				{
+					hasTarget = false;
+				}
 			}
-			else
-			{
-				FollowTarget();
-				Fire();
-			}
-		}	
+		}
+		else
+		{
+			hasTarget = false;
+		}
 	}
 }
 
@@ -134,7 +157,7 @@ void ATurret::Fire()
 
 			//Set Spawn Collision Handling Override
 			FActorSpawnParameters ActorSpawnParams;
-			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
 			// spawn the projectile at the muzzle
 			World->SpawnActor<AHomeIsProjectile>(ProjectileClass, SpawnLocation, SpawnRotation, ActorSpawnParams);

@@ -4,3 +4,8 @@
 
 
 // Add default functionality here for any IIAttackable functions that are not pure virtual.
+
+const bool IIAttackable::AmAlive() const
+{
+	return !_amDead;
+}

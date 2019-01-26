@@ -31,6 +31,7 @@ class HOMEIS_API IIAttackable
 	// Add interface functions to this class. This is the class that will be inherited to implement this interface.
 public:
 	Type _type = Type::PLAYER;
-	
+	bool _amDead = false;
 	virtual void DealDamage(float damageDealt) = 0;
+	virtual const bool AmAlive() const;
 };

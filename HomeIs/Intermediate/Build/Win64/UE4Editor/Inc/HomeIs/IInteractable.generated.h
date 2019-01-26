@@ -84,7 +84,7 @@ public: \
 
 
 #define HomeIs_Source_HomeIs_IInteractable_h_10_PROLOG
-#define HomeIs_Source_HomeIs_IInteractable_h_21_GENERATED_BODY_LEGACY \
+#define HomeIs_Source_HomeIs_IInteractable_h_18_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	HomeIs_Source_HomeIs_IInteractable_h_13_RPC_WRAPPERS \
@@ -93,7 +93,7 @@ public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HomeIs_Source_HomeIs_IInteractable_h_21_GENERATED_BODY \
+#define HomeIs_Source_HomeIs_IInteractable_h_18_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	HomeIs_Source_HomeIs_IInteractable_h_13_RPC_WRAPPERS_NO_PURE_DECLS \

@@ -43,6 +43,7 @@ public:
 
 	FVector _barrelEnd;
 	float _timeSinceLastShot = 0;
+	float dt;
 	
 
 private:
