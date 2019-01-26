@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 	ENGINE_API UClass* Z_Construct_UClass_UAnimMontage_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	HOMEIS_API UClass* Z_Construct_UClass_AMeteor_NoRegister();
 	HOMEIS_API UClass* Z_Construct_UClass_AHomeIsProjectile_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	HEADMOUNTEDDISPLAY_API UClass* Z_Construct_UClass_UMotionControllerComponent_NoRegister();
@@ -41,6 +42,14 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__damage_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__damage;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__bulletRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__bulletRange;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__ammoMax_MetaData[];
 #endif
@@ -75,6 +84,10 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_FireSound_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_FireSound;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MeteorClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_MeteorClass;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileClass_MetaData[];
 #endif
@@ -139,6 +152,20 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		{ "ModuleRelativePath", "HomeIsCharacter.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage = { UE4CodeGen_Private::EPropertyClass::Float, "_damage", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, _damage), METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange_MetaData[] = {
+		{ "Category", "stats" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange = { UE4CodeGen_Private::EPropertyClass::Float, "_bulletRange", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, _bulletRange), METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__ammoMax_MetaData[] = {
 		{ "Category", "stats" },
@@ -206,6 +233,13 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireSound = { UE4CodeGen_Private::EPropertyClass::Object, "FireSound", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, FireSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireSound_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireSound_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass_MetaData[] = {
+		{ "Category", "Projectile" },
+		{ "ModuleRelativePath", "HomeIsCharacter.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass = { UE4CodeGen_Private::EPropertyClass::Class, "MeteorClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010001, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, MeteorClass), Z_Construct_UClass_AMeteor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_ProjectileClass_MetaData[] = {
 		{ "Category", "Projectile" },
@@ -314,6 +348,8 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P = { UE4CodeGen_Private::EPropertyClass::Object, "Mesh1P", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00400000000b0009, 1, nullptr, STRUCT_OFFSET(AHomeIsCharacter, Mesh1P), Z_Construct_UClass_USkeletalMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P_MetaData, ARRAY_COUNT(Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_Mesh1P_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AHomeIsCharacter_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__damage,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__bulletRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__ammoMax,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__spareAmmo,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp__loadedAmmo,
@@ -322,6 +358,7 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_bUsingMotionControllers,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireAnimation,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_FireSound,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_MeteorClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_ProjectileClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_GunOffset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AHomeIsCharacter_Statics::NewProp_BaseLookUpRate,
@@ -361,7 +398,7 @@ void EmptyLinkFunctionForGeneratedCodeHomeIsCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AHomeIsCharacter, 211372481);
+	IMPLEMENT_CLASS(AHomeIsCharacter, 2491176096);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AHomeIsCharacter(Z_Construct_UClass_AHomeIsCharacter, &AHomeIsCharacter::StaticClass, TEXT("/Script/HomeIs"), TEXT("AHomeIsCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AHomeIsCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

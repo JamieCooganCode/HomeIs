@@ -19,6 +19,9 @@ class AHomeIsProjectile : public AActor
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
 	class UProjectileMovementComponent* ProjectileMovement;
 
+	UPROPERTY(EditAnywhere, Category = Damage)
+		float _damage;
+
 public:
 	AHomeIsProjectile();
 

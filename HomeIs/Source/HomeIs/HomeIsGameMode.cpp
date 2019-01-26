@@ -4,7 +4,8 @@
 #include "HomeIsHUD.h"
 #include "HomeIsCharacter.h"
 #include "UObject/ConstructorHelpers.h"
-
+#include "Engine/World.h"
+#include "Kismet/GameplayStatics.h"
 AHomeIsGameMode::AHomeIsGameMode()
 	: Super()
 {
@@ -15,4 +16,6 @@ AHomeIsGameMode::AHomeIsGameMode()
 
 	// use our custom HUD class
 	HUDClass = AHomeIsHUD::StaticClass();
+	/*TArray<AActor*> spawners;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), );*/
 }

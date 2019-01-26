@@ -29,7 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeIAttackable() {}
 		return Singleton;
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_Type(Type_StaticEnum, TEXT("/Script/HomeIs"), TEXT("Type"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_HomeIs_Type_CRC() { return 1936769036U; }
+	uint32 Get_Z_Construct_UEnum_HomeIs_Type_CRC() { return 2797350830U; }
 	UEnum* Z_Construct_UEnum_HomeIs_Type()
 	{
 #if WITH_HOT_RELOAD
@@ -43,9 +43,11 @@ void EmptyLinkFunctionForGeneratedCodeIAttackable() {}
 			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
 				{ "Type::PLAYER", (int64)Type::PLAYER },
 				{ "Type::ZOMBIE", (int64)Type::ZOMBIE },
+				{ "Type::BARRICADE", (int64)Type::BARRICADE },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BARRICADE.DisplayName", "Barricade" },
 				{ "BlueprintType", "true" },
 				{ "ModuleRelativePath", "IAttackable.h" },
 				{ "PLAYER.DisplayName", "Player" },

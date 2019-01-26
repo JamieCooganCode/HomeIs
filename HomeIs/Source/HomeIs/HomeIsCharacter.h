@@ -71,6 +71,11 @@ public:
 	UPROPERTY(EditDefaultsOnly, Category=Projectile)
 	TSubclassOf<class AHomeIsProjectile> ProjectileClass;
 
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+	TSubclassOf<class AMeteor> MeteorClass;
+
+
+
 	/** Sound to play each time we fire */
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Gameplay)
 	class USoundBase* FireSound;
@@ -144,6 +149,10 @@ protected:
 	int _spareAmmo;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
 	int _ammoMax;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	float _bulletRange;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "stats")
+	float _damage;
 public:
 	/** Returns Mesh1P subobject **/
 	FORCEINLINE class USkeletalMeshComponent* GetMesh1P() const { return Mesh1P; }
@@ -160,7 +169,12 @@ public:
 	const int GetSpareAmmo() const;
 	const int GetTotalAmmo() const;
 	const int GetGunCapacity() const;
+	const float GetPlayerDamage() const;
 	//IATTACKABLE
 	void DealDamage(float damageDealt);
+
+	void ManageBulletCollision(FHitResult collided);
+	void SpawnMeteor();
+	void AttemptInteract();
 };
 

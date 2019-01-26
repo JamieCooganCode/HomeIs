@@ -4,7 +4,11 @@
 	<ItemGroup>
 		<None Include="..\..\HomeIs.uproject" />
 		<Filter Include="Source">
+<<<<<<< HEAD
 			<UniqueIdentifier>{EBDB34F5-BB72-4353-9A83-18FE6774A545}</UniqueIdentifier>
+=======
+			<UniqueIdentifier>{2FD78CBB-6944-4290-AD9D-84252432A869}</UniqueIdentifier>
+>>>>>>> EvenBiggerMergeTests
 		</Filter>
 		<None Include="..\..\Source\HomeIs.Target.cs">
 			<Filter>Source</Filter>
@@ -12,9 +16,39 @@
 		<None Include="..\..\Source\HomeIsEditor.Target.cs">
 			<Filter>Source</Filter>
 		</None >
+<<<<<<< HEAD
 		<Filter Include="Source\HomeIs">
 			<UniqueIdentifier>{A90E1B76-3CD9-4880-83C8-D703E035F5D1}</UniqueIdentifier>
 		</Filter>
+=======
+		<Filter Include="Config">
+			<UniqueIdentifier>{A54B77F0-2C01-4193-9FA7-21BDB6F2A20D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\HomeIs">
+			<UniqueIdentifier>{2B90EA2F-0771-4405-A564-60BFE9F17738}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\HomeIs\Barricade.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\Barricade.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+>>>>>>> EvenBiggerMergeTests
 		<None Include="..\..\Source\HomeIs\HomeIs.Build.cs">
 			<Filter>Source\HomeIs</Filter>
 		</None >
@@ -54,6 +88,7 @@
 		<ClInclude Include="..\..\Source\HomeIs\IAttackable.h">
 			<Filter>Source\HomeIs</Filter>
 		</ClInclude >
+<<<<<<< HEAD
 		<Filter Include="Source\HomeIs\Private">
 			<UniqueIdentifier>{86BC1566-04E3-4930-99FE-A84668F19370}</UniqueIdentifier>
 		</Filter>
@@ -71,6 +106,37 @@
 		</ClInclude >
 		<ClInclude Include="..\..\Source\HomeIs\Public\ZombieBase.h">
 			<Filter>Source\HomeIs\Public</Filter>
+=======
+		<ClCompile Include="..\..\Source\HomeIs\IInteractable.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\IInteractable.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\Meteor.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\Meteor.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\Testing.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\Testing.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\Turret.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\Turret.h">
+			<Filter>Source\HomeIs</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\HomeIs\ZombieSpawner.cpp">
+			<Filter>Source\HomeIs</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\HomeIs\ZombieSpawner.h">
+			<Filter>Source\HomeIs</Filter>
+>>>>>>> EvenBiggerMergeTests
 		</ClInclude >
 	</ItemGroup>
 </Project>
