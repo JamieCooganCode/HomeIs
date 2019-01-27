@@ -18,6 +18,12 @@ void AZombieSpawner::BeginPlay()
 	Super::BeginPlay();
 }
 
+void AZombieSpawner::PostInitializeComponents()
+{
+	Super::PostInitializeComponents();
+}
+
+
 // Called every frame
 void AZombieSpawner::Tick(float DeltaTime)
 {
@@ -31,9 +37,9 @@ void AZombieSpawner::Tick(float DeltaTime)
 			FActorSpawnParameters spawnInfo;
 			spawnInfo.Owner = this;
 			spawnInfo.Instigator = Instigator;
-			spawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
-			FVector pos = GetActorLocation() + FVector(0.0f, 0.0f, 10.0f);
-			GetWorld()->SpawnActor<AZombieBase>(thingsToSpawn[0], pos, GetActorRotation(), spawnInfo);
+			spawnInfo.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+			FVector pos = GetActorLocation() + FVector(0.0f, 0.0f, -210.0f);
+			AZombieBase* zombie = GetWorld()->SpawnActor<AZombieBase>(thingsToSpawn[0], pos, GetActorRotation(), spawnInfo);
 			thingsToSpawn.RemoveSingle(thingsToSpawn[0]);
 
 			timeSinceLastSpawn = 0.0f;

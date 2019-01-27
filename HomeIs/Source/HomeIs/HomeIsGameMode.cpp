@@ -54,7 +54,7 @@ void AHomeIsGameMode::Tick(float DeltaTime)
 		if (startNewWave)
 		{
 			waveCooldown += DeltaTime;
-			if (waveCooldown > 10.0f)
+			if (waveCooldown > 1.0f)
 			{
 				int zombiesToSpawn = 5 * wave;
 				int numberOfSpawners = spawners.Num();
