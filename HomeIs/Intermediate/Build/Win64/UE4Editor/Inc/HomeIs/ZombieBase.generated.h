@@ -8,7 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-class UObject;
+struct FVector;
+class AActor;
 #ifdef HOMEIS_ZombieBase_generated_h
 #error "ZombieBase.generated.h already included, missing '#pragma once' in ZombieBase.h"
 #endif
@@ -16,9 +17,43 @@ class UObject;
 
 #define HomeIs_Source_HomeIs_Public_ZombieBase_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetTargetPosition) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->GetTargetPosition(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCheckIfNearTarget) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->CheckIfNearTarget(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGoToTarget) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_deltaTime); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GoToTarget(Z_Param_deltaTime); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDealDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_damageDealt); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DealDamage(Z_Param_damageDealt); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(UObject,Z_Param__actorAttacking); \
+		P_GET_OBJECT(AActor,Z_Param__actorAttacking); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->Attack(Z_Param__actorAttacking); \
@@ -36,9 +71,43 @@ class UObject;
 
 #define HomeIs_Source_HomeIs_Public_ZombieBase_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetTargetPosition) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->GetTargetPosition(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCheckIfNearTarget) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->CheckIfNearTarget(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGoToTarget) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_deltaTime); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->GoToTarget(Z_Param_deltaTime); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execDealDamage) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_damageDealt); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->DealDamage(Z_Param_damageDealt); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAttack) \
 	{ \
-		P_GET_OBJECT(UObject,Z_Param__actorAttacking); \
+		P_GET_OBJECT(AActor,Z_Param__actorAttacking); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->Attack(Z_Param__actorAttacking); \

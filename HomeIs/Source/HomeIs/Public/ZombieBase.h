@@ -27,18 +27,41 @@ public:
 	float _health;
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 	float _damage;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	float _damageReach;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	float _movementSpeed;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	float _radius;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	AActor* _targetActor;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	class USphereComponent * _viewSphere;
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	//Attack Function
 	UFUNCTION(BlueprintCallable, Category = "Attack")
-	virtual void Attack(UObject* _actorAttacking);
+	void Attack(AActor * _actorAttacking);
 	//Deal Damage
+	UFUNCTION(BlueprintCallable, Category = "Attack")
 	virtual void DealDamage(float damageDealt);
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-private:
+	UFUNCTION(BlueprintCallable, Category = "Target")
+	void GoToTarget(float deltaTime);
+	void FindTarget();
+	UFUNCTION(BlueprintCallable, Category = "Target")
+	bool CheckIfNearTarget();
+	UFUNCTION(BlueprintCallable, Category = "Target")
+	FVector GetTargetPosition();
 
+private:
+	float dT;
+	FVector _vectorBetween;
+	FVector newLocation;
+	FRotator rotation;
 	
 };
