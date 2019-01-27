@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "HomeIs/Public/ZombieBase.h"
 #include "ZombieSpawner.generated.h"
 
 UCLASS()
@@ -23,5 +24,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 	
-	
+	TArray<TSubclassOf<AZombieBase>> thingsToSpawn;
+
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	float timeSinceLastSpawn;
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	float cooldownBetweenSpawns;
+	UPROPERTY(EditAnywhere, Category = "Stats")
+	TSubclassOf<AZombieBase> mySpawn;
 };

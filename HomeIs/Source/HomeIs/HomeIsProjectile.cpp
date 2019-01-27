@@ -5,6 +5,7 @@
 #include "Components/SphereComponent.h"
 #include "IAttackable.h"
 
+
 AHomeIsProjectile::AHomeIsProjectile() 
 {
 	// Use a sphere as a simple collision representation
