@@ -20,7 +20,7 @@ public:
 	int wave;
 
 	virtual void Tick(float DeltaTime) override;
-
+	float waveCooldown;
 };
 
 

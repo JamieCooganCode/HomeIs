@@ -22,6 +22,7 @@ AHomeIsGameMode::AHomeIsGameMode()
 	HUDClass = AHomeIsHUD::StaticClass();
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), AZombieSpawner::StaticClass(), spawners);
 	PrimaryActorTick.bCanEverTick = true;
+	waveCooldown = 0.0f;
 }
 
 void AHomeIsGameMode::Tick(float DeltaTime)
@@ -29,38 +30,46 @@ void AHomeIsGameMode::Tick(float DeltaTime)
 	if (spawners.Num() > 0)
 	{
 		bool startNewWave = true;
-		TArray<AActor*> zombiesInWorld;
-		UGameplayStatics::GetAllActorsOfClass(GetWorld(), AZombieBase::StaticClass(), zombiesInWorld);
+		if (waveCooldown == 0.0f)
+		{
+			TArray<AActor*> zombiesInWorld;
+			UGameplayStatics::GetAllActorsOfClass(GetWorld(), AZombieBase::StaticClass(), zombiesInWorld);
 
-		if (zombiesInWorld.Num() > 0)
-		{
-			startNewWave = false;
-		}
-		else
-		{
-			for (int i = 0; i < spawners.Num(); i++)
+			if (zombiesInWorld.Num() > 0)
 			{
-				for (int j = 0; j < ((AZombieSpawner*)spawners[i])->thingsToSpawn.Num(); j++)
+				startNewWave = false;
+			}
+			else
+			{
+				for (int i = 0; i < spawners.Num(); i++)
 				{
-					startNewWave = false;
+					for (int j = 0; j < ((AZombieSpawner*)spawners[i])->thingsToSpawn.Num(); j++)
+					{
+						startNewWave = false;
+					}
 				}
 			}
 		}
 
 		if (startNewWave)
 		{
-			int zombiesToSpawn = 5 * wave;
-			int numberOfSpawners = spawners.Num();
-			int j = 0;
-			for (size_t i = 0; i < zombiesToSpawn; i++)
+			waveCooldown += DeltaTime;
+			if (waveCooldown > 10.0f)
 			{
-				if (i - (j * numberOfSpawners) >= numberOfSpawners)
+				int zombiesToSpawn = 5 * wave;
+				int numberOfSpawners = spawners.Num();
+				int j = 0;
+				for (size_t i = 0; i < zombiesToSpawn; i++)
 				{
-					j++;
+					if (i - (j * numberOfSpawners) >= numberOfSpawners)
+					{
+						j++;
+					}
+					((AZombieSpawner*)spawners[i - (j * numberOfSpawners)])->thingsToSpawn.Push(((AZombieSpawner*)spawners[i - (j * numberOfSpawners)])->mySpawn);
 				}
-				((AZombieSpawner*)spawners[i - (j * numberOfSpawners)])->thingsToSpawn.Push(((AZombieSpawner*)spawners[i - (j * numberOfSpawners)])->mySpawn);
+				wave++;
+				waveCooldown = 0.0f;
 			}
-			wave++;
 		}
 	}
 	else
