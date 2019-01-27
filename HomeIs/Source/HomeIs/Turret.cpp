@@ -62,10 +62,10 @@ void ATurret::Update()
 						float distance = sqrt((x*x) + (y*y) + (z*z));
 
 
-						if (!(distance < _radius))
+						if (distance > _radius)
 						{
 							hasTarget = false;
-							FindTarget();
+ 							FindTarget();
 						}
 						else
 						{
@@ -83,6 +83,10 @@ void ATurret::Update()
 					hasTarget = false;
 				}
 			}
+			else
+			{
+				hasTarget = false;
+			}
 		}
 		else
 		{
@@ -94,6 +98,7 @@ void ATurret::Update()
 void ATurret::FindTarget()
 {
 	TArray<FHitResult> HitObjects;
+	targetActor = nullptr;
 
 	FVector StartTrace = GetActorLocation();
 	FVector EndTrace = StartTrace;

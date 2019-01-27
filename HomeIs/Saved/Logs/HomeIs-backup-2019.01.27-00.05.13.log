@@ -1,0 +1,1032 @@
+﻿Log file open, 01/27/19 00:00:34
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HomeIs
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.466048
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.346s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.007s to delete old logs.
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPerson! Old: /Script/MyProject2.TP_FirstPerson, New: /Script/HomeIs.TP_FirstPerson
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for /Script/TP_FirstPerson! Old: /Script/MyProject2, New: /Script/HomeIs
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonProjectile! Old: MyProject2Projectile, New: HomeIsProjectile
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonProjectile! Old: MyProject2Projectile, New: HomeIsProjectile
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonHUD! Old: MyProject2HUD, New: HomeIsHUD
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonHUD! Old: MyProject2HUD, New: HomeIsHUD
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonGameMode! Old: MyProject2GameMode, New: HomeIsGameMode
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonGameMode! Old: MyProject2GameMode, New: HomeIsGameMode
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonCharacter! Old: MyProject2Character, New: HomeIsCharacter
+LogLinker: Error: AddRedirectList(C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonCharacter! Old: MyProject2Character, New: HomeIsCharacter
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.27-00.00.35:165][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.27-00.00.35:165][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.27-00.00.35:205][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.27-00.00.35:206][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.27-00.00.35:206][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.27-00.00.35:206][  0]LogInit: Computer: D102-12
+[2019.01.27-00.00.35:207][  0]LogInit: User: c013767h
+[2019.01.27-00.00.35:207][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.27-00.00.35:207][  0]LogInit: High frequency timer resolution =3.410072 MHz
+[2019.01.27-00.00.35:207][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.27-00.00.35:207][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.27-00.00.35:207][  0]LogMemory: Process Physical Memory: 101.06 MB used, 101.06 MB peak
+[2019.01.27-00.00.35:207][  0]LogMemory: Process Virtual Memory: 90.95 MB used, 90.95 MB peak
+[2019.01.27-00.00.35:207][  0]LogMemory: Physical Memory: 5944.17 MB used,  10356.07 MB free, 16300.24 MB total
+[2019.01.27-00.00.35:208][  0]LogMemory: Virtual Memory: 4640.35 MB used,  10356.07 MB free, 134217728.00 MB total
+[2019.01.27-00.00.35:406][  0]LogInit: Using OS detected language (en-US).
+[2019.01.27-00.00.35:406][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.27-00.00.35:407][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.27-00.00.35:930][  0]LogStreaming: Display: Took  0.524s to InitEngineTextLocalization.
+[2019.01.27-00.00.35:931][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.27-00.00.36:001][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.27-00.00.36:001][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.27-00.00.36:396][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.27-00.00.36:396][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.27-00.00.36:497][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.27-00.00.36:497][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.27-00.00.36:503][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.27-00.00.36:503][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.27-00.00.36:503][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.27-00.00.36:514][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.27-00.00.36:514][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.27-00.00.36:515][  0]LogWindows: EnumDisplayDevices:
+[2019.01.27-00.00.36:515][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.27-00.00.36:515][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.27-00.00.36:516][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.27-00.00.36:517][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.27-00.00.36:517][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.27-00.00.36:517][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.27-00.00.36:517][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.27-00.00.36:517][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.27-00.00.36:517][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.27-00.00.36:567][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.27-00.00.36:586][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.27-00.00.36:589][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Intermediate/Shaders/WorkingDirectory/16428/).
+[2019.01.27-00.00.36:590][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/c013767h/AppData/Local/Temp/UnrealShaderWorkingDir/FFF625EB4797C2F60A4A14996243B656/'.
+[2019.01.27-00.00.36:963][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.27-00.00.36:984][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.27-00.00.37:006][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.27-00.00.37:028][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.27-00.00.37:048][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.27-00.00.37:068][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.27-00.00.37:087][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.27-00.00.37:107][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.27-00.00.37:119][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.27-00.00.37:215][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:215][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:215][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:215][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:215][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:215][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:215][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:215][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:216][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:216][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:216][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:216][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:216][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:216][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:216][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:216][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:216][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:217][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-00.00.37:225][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.27-00.00.37:349][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.27-00.00.37:350][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.27-00.00.37:392][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.27-00.00.37:392][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.27-00.00.37:410][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.27-00.00.37:435][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.27-00.00.37:456][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.27-00.00.37:486][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.27-00.00.37:500][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.27-00.00.37:500][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.27-00.00.37:686][  0]LogXGEController: Cleaning working directory: C:/Users/c013767h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.27-00.00.37:687][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.27-00.00.37:687][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.27-00.00.37:687][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.27-00.00.38:799][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.27-00.00.38:891][  0]LogDerivedDataCache: Loaded boot cache 0.09s 73MB C:/Users/c013767h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.27-00.00.38:893][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/c013767h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.27-00.00.38:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/c013767h/Documents/GitHub/HomeIs/HomeIs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.27-00.00.38:893][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.27-00.00.38:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/c013767h/Documents/GitHub/HomeIs/HomeIs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.27-00.00.38:893][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.27-00.00.38:906][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.27-00.00.38:921][  0]LogDerivedDataCache: Using Local data cache path C:/Users/c013767h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.27-00.00.38:921][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.27-00.00.38:921][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.27-00.00.38:941][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.27-00.00.38:942][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.27-00.00.38:943][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.27-00.00.39:040][  0]LogAssetRegistry: FAssetRegistry took 0.0301 seconds to start up
+[2019.01.27-00.00.39:494][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.27-00.00.39:685][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.27-00.00.39:695][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.27-00.00.39:695][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.27-00.00.39:695][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.27-00.00.39:695][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.27-00.00.39:717][  0]LogNetVersion: HomeIs 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4178729889)
+[2019.01.27-00.00.40:505][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.252701 seconds
+[2019.01.27-00.00.40:516][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.27-00.00.40:516][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.27-00.00.40:516][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.27-00.00.41:743][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.27-00.00.41:761][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.27-00.00.42:431][  0]SourceControl: Source control is disabled
+[2019.01.27-00.00.42:432][  0]SourceControl: Source control is disabled
+[2019.01.27-00.00.42:436][  0]SourceControl: Source control is disabled
+[2019.01.27-00.00.42:440][  0]SourceControl: Source control is disabled
+[2019.01.27-00.00.42:734][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.27-00.00.42:831][  0]LogOcInput: OculusInput pre-init called
+[2019.01.27-00.00.42:909][  0]LogEngine: Initializing Engine...
+[2019.01.27-00.00.42:910][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.27-00.00.42:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.27-00.00.42:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.27-00.00.42:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.27-00.00.42:912][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.27-00.00.43:158][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.27-00.00.43:185][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.27-00.00.43:205][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-00.00.43:265][  0]LogInit: FAudioDevice initialized.
+[2019.01.27-00.00.43:266][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.27-00.00.43:397][  0]LogDerivedDataCache: Saved boot cache 0.13s 73MB C:/Users/c013767h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.27-00.00.43:419][  0]LogInit: Texture streaming: Enabled
+[2019.01.27-00.00.43:471][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.27-00.00.43:500][  0]LogInit: Transaction tracking system initialized
+[2019.01.27-00.00.43:618][  0]BlueprintLog: New page: Editor Load
+[2019.01.27-00.00.44:048][  0]LocalizationService: Localization service is disabled
+[2019.01.27-00.00.44:516][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.27-00.00.44:516][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.27-00.00.44:516][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.27-00.00.44:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.27-00.00.44:516][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.27-00.00.44:517][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.27-00.00.44:517][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.27-00.00.44:574][  0]LogFileCache: Scanning file cache for directory 'C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Content/' took 0.03s
+[2019.01.27-00.00.44:801][  0]SourceControl: Source control is disabled
+[2019.01.27-00.00.44:802][  0]Cmd: MAP LOAD FILE="../../../../../../Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.27-00.00.44:803][  0]LightingResults: New page: Lighting Build
+[2019.01.27-00.00.44:808][  0]MapCheck: New page: Map Check
+[2019.01.27-00.00.44:808][  0]LightingResults: New page: Lighting Build
+[2019.01.27-00.00.46:149][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-00.00.46:170][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.27-00.00.46:211][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.27-00.00.46:468][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 256.665ms to complete.
+[2019.01.27-00.00.46:468][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.666
+[2019.01.27-00.00.46:614][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-00.00.46:628][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-00.00.46:639][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-00.00.46:654][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-00.00.46:668][  0]LogCollectionManager: Loaded 0 collections in 0.004387 seconds
+[2019.01.27-00.00.46:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Saved/Collections/' took 0.01s
+[2019.01.27-00.00.46:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Content/Developers/c013767h/Collections/' took 0.01s
+[2019.01.27-00.00.46:721][  0]LogFileCache: Scanning file cache for directory 'C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Content/Collections/' took 0.01s
+[2019.01.27-00.00.46:721][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.27-00.00.46:733][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2594 classes and 611 folders.
+[2019.01.27-00.00.46:746][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.27-00.00.46:838][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.27-00.00.46:848][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.01.27-00.00.46:864][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.27-00.00.46:867][  0]LogSlate: Took 0.000467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.27-00.00.46:875][  0]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.27-00.00.46:876][  0]LogSlate: Took 0.000164 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.01.27-00.00.47:021][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.27-00.00.47:163][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.27-00.00.47:164][  0]LogLoad: (Engine Initialization) Total time: 15.67 seconds
+[2019.01.27-00.00.47:164][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.27-00.00.47:196][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.27-00.00.47:232][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.27-00.00.47:292][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/c013767h/Documents/GitHub/HomeIs/HomeIs/Content/' took 0.08s
+[2019.01.27-00.00.47:313][  1]LogAssetRegistry: Asset discovery search completed in 8.2974 seconds
+[2019.01.27-00.00.47:317][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.01.27-00.00.47:318][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000412 seconds (updated 0 objects)
+[2019.01.27-00.00.48:682][154]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-00.00.48:757][163]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-00.00.48:782][163]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-00.00.48:783][163]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-00.00.48:798][163]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 00:00:48)
+[2019.01.27-00.00.48:798][163]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-00.00.48:830][163]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031699s)
+[2019.01.27-00.00.48:831][163]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-00.00.48:832][163]LogPlayLevel: PIE: World Init took: (0.001770s)
+[2019.01.27-00.00.48:832][163]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.034541s)
+[2019.01.27-00.00.48:861][163]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.01.27-00.00.48:877][163]LogInit: FAudioDevice initialized.
+[2019.01.27-00.00.48:927][163]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-00.00.48:931][163]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-00.00.48
+[2019.01.27-00.00.48:934][163]LogWorld: Bringing up level for play took: 0.004705
+[2019.01.27-00.00.48:980][163]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 10 classes and 0 folders.
+[2019.01.27-00.00.48:987][163]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.394
+[2019.01.27-00.00.48:988][163]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-00.00.49:006][163]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.17:559][164]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.17:594][165]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.17:595][165]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.27-00.01.17:947][166]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:278][167]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:279][167]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.27-00.01.18:582][168]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:603][169]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:615][170]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:638][171]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:676][172]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:706][173]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:732][174]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:757][175]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:757][175]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-481.000 Y=1201.000 Z=268.372
+[2019.01.27-00.01.18:784][176]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:808][177]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:836][178]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:845][179]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:854][180]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:863][181]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:872][182]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:880][183]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:889][184]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:897][185]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:906][186]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:914][187]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:922][188]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:930][189]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:939][190]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:947][191]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:955][192]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:964][193]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:972][194]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:980][195]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:989][196]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.18:999][197]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:007][198]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:016][199]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:024][200]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:032][201]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:041][202]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:049][203]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:057][204]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:066][205]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:074][206]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:082][207]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:091][208]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:099][209]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:107][210]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:116][211]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:124][212]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:132][213]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:141][214]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:149][215]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:157][216]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:166][217]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:174][218]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:183][219]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:191][220]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:199][221]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:209][222]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:217][223]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:225][224]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:234][225]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:242][226]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:251][227]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:251][227]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-336.994 Y=1318.428 Z=268.372
+[2019.01.27-00.01.19:259][228]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:268][229]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:277][230]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:286][231]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:294][232]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:302][233]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:311][234]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:319][235]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:327][236]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:336][237]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:344][238]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:352][239]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:361][240]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:369][241]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:377][242]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:385][243]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:394][244]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:402][245]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:411][246]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:419][247]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:428][248]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:436][249]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:444][250]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:453][251]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:461][252]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:469][253]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:478][254]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:486][255]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:495][256]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:503][257]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:511][258]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:519][259]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:528][260]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:536][261]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:544][262]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:553][263]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:561][264]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:569][265]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:578][266]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:586][267]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:595][268]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:603][269]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:611][270]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:619][271]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:628][272]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:636][273]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:645][274]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:653][275]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:661][276]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:671][277]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:671][277]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-135.764 Y=1467.364 Z=268.372
+[2019.01.27-00.01.19:679][278]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:687][279]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:695][280]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:704][281]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:712][282]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:720][283]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:729][284]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:737][285]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:745][286]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:754][287]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:762][288]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:771][289]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:779][290]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:787][291]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:796][292]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:804][293]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:812][294]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:820][295]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:829][296]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:837][297]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:846][298]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:854][299]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:862][300]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:871][301]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:879][302]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:887][303]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:896][304]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:904][305]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:912][306]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:920][307]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:929][308]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:937][309]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:945][310]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:954][311]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:962][312]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:970][313]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:979][314]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:987][315]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.19:996][316]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:004][317]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:012][318]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:021][319]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:029][320]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:037][321]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:045][322]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:054][323]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:062][324]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:071][325]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:079][326]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:087][327]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:096][328]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:104][329]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:112][330]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:121][331]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:129][332]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:137][333]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:146][334]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:146][334]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-3.193 Y=1716.321 Z=268.372
+[2019.01.27-00.01.20:154][335]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:161][336]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:170][337]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:178][338]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:186][339]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:195][340]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:203][341]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:211][342]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:220][343]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:228][344]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:236][345]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:245][346]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:253][347]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:261][348]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:270][349]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:278][350]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:286][351]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:295][352]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:303][353]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:311][354]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:320][355]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:328][356]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:336][357]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:345][358]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:353][359]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:361][360]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:370][361]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:378][362]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:386][363]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:395][364]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:403][365]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:411][366]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:420][367]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:428][368]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:437][369]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:445][370]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:453][371]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:461][372]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:470][373]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:478][374]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:488][375]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:495][376]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:503][377]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:512][378]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:520][379]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:528][380]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:537][381]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:545][382]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:553][383]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:562][384]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:570][385]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:570][385]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=67.442 Y=1836.665 Z=268.372
+[2019.01.27-00.01.20:578][386]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:587][387]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:595][388]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:603][389]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:612][390]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:620][391]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:628][392]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:637][393]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:645][394]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:653][395]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:662][396]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:670][397]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:678][398]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:687][399]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:695][400]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:703][401]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:714][402]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:720][403]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:729][404]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:737][405]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:746][406]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:754][407]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:762][408]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:771][409]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:779][410]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:787][411]LogTemp: Warning: 100.000000
+[2019.01.27-00.01.20:794][412]LogTemp: Warning: 1
+[2019.01.27-00.01.20:795][412]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.20:795][412]LogTemp: Warning: 3
+[2019.01.27-00.01.20:797][412]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:809][413]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:817][414]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:825][415]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:834][416]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:842][417]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:850][418]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:859][419]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:867][420]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:876][421]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:884][422]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:892][423]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:901][424]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:909][425]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:918][426]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:925][427]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:934][428]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:942][429]LogTemp: Warning: 95.000000
+[2019.01.27-00.01.20:949][430]LogTemp: Warning: 1
+[2019.01.27-00.01.20:950][430]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.20:950][430]LogTemp: Warning: 3
+[2019.01.27-00.01.20:952][430]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.20:959][431]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.20:967][432]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.20:976][433]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.20:985][434]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.20:992][435]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:002][436]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:009][437]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:018][438]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:026][439]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:034][440]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:042][441]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:051][442]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:059][443]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:067][444]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:076][445]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:084][446]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:092][447]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:101][448]LogTemp: Warning: 90.000000
+[2019.01.27-00.01.21:108][449]LogTemp: Warning: 1
+[2019.01.27-00.01.21:108][449]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.21:108][449]LogTemp: Warning: 3
+[2019.01.27-00.01.21:110][449]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:118][450]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:118][450]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=54.783 Y=1825.217 Z=268.372
+[2019.01.27-00.01.21:126][451]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:134][452]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:142][453]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:151][454]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:159][455]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:168][456]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:176][457]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:184][458]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:192][459]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:201][460]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:209][461]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:218][462]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:226][463]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:234][464]LogTemp: Warning: 85.000000
+[2019.01.27-00.01.21:241][465]LogTemp: Warning: 1
+[2019.01.27-00.01.21:242][465]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.21:242][465]LogTemp: Warning: 3
+[2019.01.27-00.01.21:244][465]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:251][466]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:259][467]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:268][468]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:276][469]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:284][470]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:292][471]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:302][472]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:309][473]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:318][474]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:326][475]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:335][476]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:343][477]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:351][478]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:359][479]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:368][480]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:376][481]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:384][482]LogTemp: Warning: 80.000000
+[2019.01.27-00.01.21:391][483]LogTemp: Warning: 1
+[2019.01.27-00.01.21:392][483]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.21:392][483]LogTemp: Warning: 3
+[2019.01.27-00.01.21:394][483]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:402][484]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:411][485]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:419][486]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:427][487]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:436][488]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:444][489]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:452][490]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:461][491]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:469][492]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:477][493]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:486][494]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:494][495]LogTemp: Warning: 75.000000
+[2019.01.27-00.01.21:502][496]LogTemp: Warning: 1
+[2019.01.27-00.01.21:502][496]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.21:502][496]LogTemp: Warning: 3
+[2019.01.27-00.01.21:505][496]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:512][497]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:520][498]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:528][499]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:536][500]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:545][501]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:553][502]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:561][503]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:570][504]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:578][505]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:586][506]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:595][507]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:603][508]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:611][509]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:620][510]LogTemp: Warning: 70.000000
+[2019.01.27-00.01.21:627][511]LogTemp: Warning: 1
+[2019.01.27-00.01.21:627][511]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.21:627][511]LogTemp: Warning: 3
+[2019.01.27-00.01.21:629][511]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:636][512]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:645][513]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:653][514]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:661][515]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:670][516]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:670][516]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-114.393 Y=1671.611 Z=268.372
+[2019.01.27-00.01.21:678][517]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:686][518]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:695][519]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:703][520]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:711][521]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:720][522]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:728][523]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:736][524]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:745][525]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:753][526]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:761][527]LogTemp: Warning: 65.000000
+[2019.01.27-00.01.21:769][528]LogTemp: Warning: 1
+[2019.01.27-00.01.21:769][528]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.21:769][528]LogTemp: Warning: 3
+[2019.01.27-00.01.21:771][528]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:778][529]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:786][530]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:795][531]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:803][532]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:811][533]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:820][534]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:828][535]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:836][536]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:845][537]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:853][538]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:861][539]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:870][540]LogTemp: Warning: 60.000000
+[2019.01.27-00.01.21:877][541]LogTemp: Warning: 1
+[2019.01.27-00.01.21:877][541]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.21:877][541]LogTemp: Warning: 3
+[2019.01.27-00.01.21:879][541]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:886][542]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:895][543]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:903][544]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:912][545]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:920][546]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:928][547]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:936][548]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:945][549]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:953][550]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:961][551]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:970][552]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:978][553]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:987][554]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.21:995][555]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:004][556]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:012][557]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:021][558]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:028][559]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:036][560]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:045][561]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:053][562]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:062][563]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:070][564]LogTemp: Warning: 55.000000
+[2019.01.27-00.01.22:077][565]LogTemp: Warning: 1
+[2019.01.27-00.01.22:078][565]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.22:078][565]LogTemp: Warning: 3
+[2019.01.27-00.01.22:080][565]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:087][566]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:095][567]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:104][568]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:112][569]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:122][570]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:129][571]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:137][572]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:147][573]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:154][574]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:163][575]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:171][576]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:179][577]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:188][578]LogTemp: Warning: 50.000000
+[2019.01.27-00.01.22:188][578]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-114.393 Y=1671.611 Z=268.372
+[2019.01.27-00.01.22:195][579]LogTemp: Warning: 1
+[2019.01.27-00.01.22:195][579]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.22:195][579]LogTemp: Warning: 3
+[2019.01.27-00.01.22:198][579]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:205][580]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:213][581]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:221][582]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:230][583]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:238][584]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:246][585]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:254][586]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:263][587]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:271][588]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:279][589]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:288][590]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:296][591]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:304][592]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:313][593]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:321][594]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:329][595]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:338][596]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:347][597]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:354][598]LogTemp: Warning: 45.000000
+[2019.01.27-00.01.22:362][599]LogTemp: Warning: 1
+[2019.01.27-00.01.22:362][599]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.22:362][599]LogTemp: Warning: 3
+[2019.01.27-00.01.22:364][599]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:371][600]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:379][601]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:388][602]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:396][603]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:405][604]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:413][605]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:421][606]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:429][607]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:438][608]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:446][609]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:454][610]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:463][611]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:471][612]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:479][613]LogTemp: Warning: 40.000000
+[2019.01.27-00.01.22:487][614]LogTemp: Warning: 1
+[2019.01.27-00.01.22:487][614]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.22:487][614]LogTemp: Warning: 3
+[2019.01.27-00.01.22:489][614]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:496][615]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:505][616]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:513][617]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:521][618]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:529][619]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:538][620]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:546][621]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:555][622]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:563][623]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:571][624]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:579][625]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:588][626]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:595][627]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:605][628]LogTemp: Warning: 35.000000
+[2019.01.27-00.01.22:611][629]LogTemp: Warning: 1
+[2019.01.27-00.01.22:611][629]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.22:611][629]LogTemp: Warning: 3
+[2019.01.27-00.01.22:613][629]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:620][630]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:629][631]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:637][632]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:645][633]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:654][634]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:662][635]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:670][636]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:679][637]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:687][638]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:695][639]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:704][640]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:712][641]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:712][641]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-114.393 Y=1671.611 Z=268.372
+[2019.01.27-00.01.22:720][642]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:729][643]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:737][644]LogTemp: Warning: 30.000000
+[2019.01.27-00.01.22:744][645]LogTemp: Warning: 1
+[2019.01.27-00.01.22:744][645]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.22:745][645]LogTemp: Warning: 3
+[2019.01.27-00.01.22:747][645]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:755][646]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:763][647]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:771][648]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:779][649]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:787][650]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:796][651]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:805][652]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:813][653]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:821][654]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:829][655]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:838][656]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:846][657]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:854][658]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:863][659]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:871][660]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:879][661]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:888][662]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:896][663]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:904][664]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:913][665]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:921][666]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:929][667]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:938][668]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:946][669]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:954][670]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:963][671]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:971][672]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:979][673]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:988][674]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.22:996][675]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.23:005][676]LogTemp: Warning: 25.000000
+[2019.01.27-00.01.23:012][677]LogTemp: Warning: 1
+[2019.01.27-00.01.23:012][677]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.23:012][677]LogTemp: Warning: 3
+[2019.01.27-00.01.23:014][677]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:021][678]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:029][679]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:038][680]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:046][681]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:055][682]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:063][683]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:071][684]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:080][685]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:088][686]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:096][687]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:105][688]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:113][689]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:121][690]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:130][691]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:138][692]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:146][693]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:155][694]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:163][695]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:171][696]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:180][697]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:188][698]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:196][699]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:205][700]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:213][701]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:221][702]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:230][703]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:238][704]LogTemp: Warning: 20.000000
+[2019.01.27-00.01.23:238][704]LogBlueprintUserMessages: [SUpdateTargetPosition_C_0] X=-114.393 Y=1671.611 Z=268.372
+[2019.01.27-00.01.23:245][705]LogTemp: Warning: 1
+[2019.01.27-00.01.23:246][705]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.23:246][705]LogTemp: Warning: 3
+[2019.01.27-00.01.23:248][705]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:255][706]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:263][707]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:271][708]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:280][709]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:288][710]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:296][711]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:305][712]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:313][713]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:322][714]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:330][715]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:338][716]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:346][717]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:355][718]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:363][719]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:372][720]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:380][721]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:388][722]LogTemp: Warning: 15.000000
+[2019.01.27-00.01.23:395][723]LogTemp: Warning: 1
+[2019.01.27-00.01.23:396][723]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.23:396][723]LogTemp: Warning: 3
+[2019.01.27-00.01.23:398][723]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:405][724]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:413][725]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:421][726]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:430][727]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:438][728]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:446][729]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:455][730]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:463][731]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:472][732]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:480][733]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:488][734]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:496][735]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:505][736]LogTemp: Warning: 10.000000
+[2019.01.27-00.01.23:512][737]LogTemp: Warning: 1
+[2019.01.27-00.01.23:513][737]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.23:513][737]LogTemp: Warning: 3
+[2019.01.27-00.01.23:515][737]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:522][738]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:530][739]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:538][740]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:547][741]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:555][742]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:563][743]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:572][744]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:580][745]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:589][746]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:597][747]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:606][748]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:616][749]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:624][750]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:633][751]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:641][752]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:649][753]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:658][754]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:666][755]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:674][756]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:683][757]LogTemp: Warning: 5.000000
+[2019.01.27-00.01.23:690][758]LogTemp: Warning: 1
+[2019.01.27-00.01.23:690][758]LogTemp: Warning: 2CollisionCylinder
+[2019.01.27-00.01.23:690][758]LogTemp: Warning: 3
+[2019.01.27-00.01.23:692][758]LogTemp: Warning: 0.000000

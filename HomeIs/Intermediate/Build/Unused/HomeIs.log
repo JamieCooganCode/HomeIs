@@ -1,4 +1,14 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Target is up to date
+  Parsing headers for HomeIsEditor
+    Running UnrealHeaderTool "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for HomeIsEditor in 12.5158717 seconds
+  Building 5 actions with 8 processes...
+    [1/5] HomeIsGameMode.gen.cpp
+    [2/5] ZombieSpawner.cpp
+    [3/5] HomeIsGameMode.cpp
+    [4/5] UE4Editor-HomeIs.lib
+       Creating library C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
+    [5/5] UE4Editor-HomeIs.dll
+       Creating library C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\c013767h\Documents\GitHub\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
   Deploying HomeIsEditor Win64 Development...
-  Total build time: 2.52 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 18.30 seconds (Parallel executor: 3.09 seconds)
