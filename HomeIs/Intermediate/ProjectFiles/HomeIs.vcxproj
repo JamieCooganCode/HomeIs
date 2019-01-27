@@ -444,8 +444,12 @@
 		<ClInclude Include="..\..\Source\HomeIs\Turret.h" />
 		<ClCompile Include="..\..\Source\HomeIs\ZombieSpawner.cpp" />
 		<ClInclude Include="..\..\Source\HomeIs\ZombieSpawner.h" />
+		<ClCompile Include="..\..\Source\HomeIs\Private\Furniture.cpp" />
+		<ClCompile Include="..\..\Source\HomeIs\Private\Pickup.cpp" />
 		<ClCompile Include="..\..\Source\HomeIs\Private\TestBox.cpp" />
 		<ClCompile Include="..\..\Source\HomeIs\Private\ZombieBase.cpp" />
+		<ClInclude Include="..\..\Source\HomeIs\Public\Furniture.h" />
+		<ClInclude Include="..\..\Source\HomeIs\Public\Pickup.h" />
 		<ClInclude Include="..\..\Source\HomeIs\Public\TestBox.h" />
 		<ClInclude Include="..\..\Source\HomeIs\Public\ZombieBase.h" />
 	</ItemGroup>

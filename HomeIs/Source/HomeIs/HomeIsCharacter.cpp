@@ -479,3 +479,8 @@ void AHomeIsCharacter::SpawnMeteor()
 		}
 	}
 }
+
+void AHomeIsCharacter::AddAmmo(int ammoChange)
+{
+	_spareAmmo += ammoChange;
+}

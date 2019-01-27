@@ -33,6 +33,7 @@ void AZombieBase::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 	_viewSphere->SetSphereRadius(_radius);
+	_viewSphere->SetCollisionProfileName("SphereCollision");
 	this->SetActorHiddenInGame(false);
 }
 

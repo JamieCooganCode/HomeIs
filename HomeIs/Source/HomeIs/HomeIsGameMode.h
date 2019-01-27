@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "GameFramework/Actor.h"
+#include "HomeIs/Public/ZombieBase.h"
 #include "HomeIsGameMode.generated.h"
 
 UCLASS(minimalapi)
@@ -13,6 +15,12 @@ class AHomeIsGameMode : public AGameModeBase
 
 public:
 	AHomeIsGameMode();
+	TArray<AActor*> spawners;
+
+	int wave;
+
+	virtual void Tick(float DeltaTime) override;
+	float waveCooldown;
 };
 
 

@@ -1,24 +1,17 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
   Parsing headers for HomeIsEditor
     Running UnrealHeaderTool "C:\Users\r017093h\Documents\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for HomeIsEditor in 12.4443954 seconds
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-2656.dll".
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-2656.pdb".
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-6632.dll".
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-6632.pdb".
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-6798.dll".
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-6798.pdb".
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-6810.dll".
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-6810.pdb".
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-7904.dll".
-  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-7904.pdb".
-  Building 5 actions with 8 processes...
-    [1/5] ZombieBase.gen.cpp
-    [2/5] ZombieBase.cpp
-    [3/5] Turret.cpp
-    [4/5] UE4Editor-HomeIs.lib
+  Reflection code generated for HomeIsEditor in 11.0828095 seconds
+  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-2522.dll".
+  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-2522.pdb".
+  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-5798.dll".
+  Deleting old hot reload file: "C:\Users\r017093h\Documents\HomeIs\HomeIs\Binaries\Win64\UE4Editor-HomeIs-5798.pdb".
+  Building 4 actions with 8 processes...
+    [1/4] Turret.gen.cpp
+    [2/4] Turret.cpp
+    [3/4] UE4Editor-HomeIs.lib
        Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.exp
-    [5/5] UE4Editor-HomeIs.dll
+    [4/4] UE4Editor-HomeIs.dll
        Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs.suppressed.exp
   Deploying HomeIsEditor Win64 Development...
-  Total build time: 18.78 seconds (Parallel executor: 3.25 seconds)
+  Total build time: 17.23 seconds (Parallel executor: 3.25 seconds)

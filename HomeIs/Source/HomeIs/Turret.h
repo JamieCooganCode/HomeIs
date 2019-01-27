@@ -13,8 +13,8 @@ UCLASS()
 class HOMEIS_API ATurret : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	ATurret();
 
@@ -22,7 +22,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -44,9 +44,9 @@ public:
 	FVector _barrelEnd;
 	float _timeSinceLastShot = 0;
 	float dt;
-	
+
 
 private:
-	AHomeIsCharacter* player;
+	AHomeIsCharacter * player;
 	AActor* targetActor;
 };

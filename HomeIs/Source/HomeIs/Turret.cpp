@@ -15,7 +15,7 @@ using namespace std;
 // Sets default values
 ATurret::ATurret()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -24,7 +24,7 @@ ATurret::ATurret()
 void ATurret::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -62,7 +62,7 @@ void ATurret::Update()
 						float distance = sqrt((x*x) + (y*y) + (z*z));
 
 
-						if (!(distance < _radius))
+						if (distance > _radius)
 						{
 							hasTarget = false;
 							FindTarget();
@@ -83,6 +83,10 @@ void ATurret::Update()
 					hasTarget = false;
 				}
 			}
+			else
+			{
+				hasTarget = false;
+			}
 		}
 		else
 		{
@@ -94,6 +98,7 @@ void ATurret::Update()
 void ATurret::FindTarget()
 {
 	TArray<FHitResult> HitObjects;
+	targetActor = nullptr;
 
 	FVector StartTrace = GetActorLocation();
 	FVector EndTrace = StartTrace;
@@ -108,7 +113,7 @@ void ATurret::FindTarget()
 		for (auto Object = HitObjects.CreateIterator(); Object; Object++)
 		{
 			//player = Cast<AHomeIsCharacter>((*Object).GetActor());
-			IIAttackable* target = Cast<IIAttackable>((*Object).GetActor());
+			AZombieBase* target = Cast<AZombieBase>((*Object).GetActor());
 			if (target)
 			{
 				targetActor = Cast<AActor>(target);

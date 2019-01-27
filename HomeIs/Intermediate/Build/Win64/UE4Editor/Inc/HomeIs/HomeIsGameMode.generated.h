@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define HOMEIS_HomeIsGameMode_generated_h
 
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_12_RPC_WRAPPERS
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_12_INCLASS_NO_PURE_DECLS \
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_14_RPC_WRAPPERS
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAHomeIsGameMode(); \
 	friend struct Z_Construct_UClass_AHomeIsGameMode_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AHomeIsGameMode)
 
 
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_12_INCLASS \
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAHomeIsGameMode(); \
 	friend struct Z_Construct_UClass_AHomeIsGameMode_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AHomeIsGameMode)
 
 
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_12_STANDARD_CONSTRUCTORS \
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	HOMEIS_API AHomeIsGameMode(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AHomeIsGameMode) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_12_ENHANCED_CONSTRUCTORS \
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	HOMEIS_API AHomeIsGameMode(AHomeIsGameMode&&); \
@@ -57,26 +57,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AHomeIsGameMode); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AHomeIsGameMode)
 
 
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_12_PRIVATE_PROPERTY_OFFSET
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_9_PROLOG
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_12_GENERATED_BODY_LEGACY \
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_14_PRIVATE_PROPERTY_OFFSET
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_11_PROLOG
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HomeIs_Source_HomeIs_HomeIsGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	HomeIs_Source_HomeIs_HomeIsGameMode_h_12_RPC_WRAPPERS \
-	HomeIs_Source_HomeIs_HomeIsGameMode_h_12_INCLASS \
-	HomeIs_Source_HomeIs_HomeIsGameMode_h_12_STANDARD_CONSTRUCTORS \
+	HomeIs_Source_HomeIs_HomeIsGameMode_h_14_PRIVATE_PROPERTY_OFFSET \
+	HomeIs_Source_HomeIs_HomeIsGameMode_h_14_RPC_WRAPPERS \
+	HomeIs_Source_HomeIs_HomeIsGameMode_h_14_INCLASS \
+	HomeIs_Source_HomeIs_HomeIsGameMode_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define HomeIs_Source_HomeIs_HomeIsGameMode_h_12_GENERATED_BODY \
+#define HomeIs_Source_HomeIs_HomeIsGameMode_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	HomeIs_Source_HomeIs_HomeIsGameMode_h_12_PRIVATE_PROPERTY_OFFSET \
-	HomeIs_Source_HomeIs_HomeIsGameMode_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	HomeIs_Source_HomeIs_HomeIsGameMode_h_12_INCLASS_NO_PURE_DECLS \
-	HomeIs_Source_HomeIs_HomeIsGameMode_h_12_ENHANCED_CONSTRUCTORS \
+	HomeIs_Source_HomeIs_HomeIsGameMode_h_14_PRIVATE_PROPERTY_OFFSET \
+	HomeIs_Source_HomeIs_HomeIsGameMode_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	HomeIs_Source_HomeIs_HomeIsGameMode_h_14_INCLASS_NO_PURE_DECLS \
+	HomeIs_Source_HomeIs_HomeIsGameMode_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\HomeIs.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{A887145C-14AC-44ED-AC00-D81B97C5AA8D}</UniqueIdentifier>
+			<UniqueIdentifier>{FFA4ACBC-9A44-4481-9AD5-F57FD29BE113}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\HomeIs.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{9516976F-9025-4ABE-84D2-7F35CA1DAC6A}</UniqueIdentifier>
+			<UniqueIdentifier>{C9B8AD49-74BA-4385-B726-2BED33532367}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\HomeIs">
-			<UniqueIdentifier>{0A016840-E58C-4428-B36F-C0593F24DA0C}</UniqueIdentifier>
+			<UniqueIdentifier>{BFDAEED8-B115-4C56-A783-44A8D28885A1}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Source\HomeIs\Barricade.cpp">
 			<Filter>Source\HomeIs</Filter>
@@ -109,8 +109,14 @@
 			<Filter>Source\HomeIs</Filter>
 		</ClInclude >
 		<Filter Include="Source\HomeIs\Private">
-			<UniqueIdentifier>{536286BE-AADF-46E8-87C9-0DD77780A0BC}</UniqueIdentifier>
+			<UniqueIdentifier>{6BA864C9-EE92-400C-9B84-00AEE5C339A1}</UniqueIdentifier>
 		</Filter>
+		<ClCompile Include="..\..\Source\HomeIs\Private\Furniture.cpp">
+			<Filter>Source\HomeIs\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\HomeIs\Private\Pickup.cpp">
+			<Filter>Source\HomeIs\Private</Filter>
+		</ClCompile >
 		<ClCompile Include="..\..\Source\HomeIs\Private\TestBox.cpp">
 			<Filter>Source\HomeIs\Private</Filter>
 		</ClCompile >
@@ -118,8 +124,14 @@
 			<Filter>Source\HomeIs\Private</Filter>
 		</ClCompile >
 		<Filter Include="Source\HomeIs\Public">
-			<UniqueIdentifier>{66BC0195-EFD7-43B9-8514-120530CFBC43}</UniqueIdentifier>
+			<UniqueIdentifier>{0B3FDB5C-0728-47FB-9BB4-CA7CB3F08D6E}</UniqueIdentifier>
 		</Filter>
+		<ClInclude Include="..\..\Source\HomeIs\Public\Furniture.h">
+			<Filter>Source\HomeIs\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\HomeIs\Public\Pickup.h">
+			<Filter>Source\HomeIs\Public</Filter>
+		</ClInclude >
 		<ClInclude Include="..\..\Source\HomeIs\Public\TestBox.h">
 			<Filter>Source\HomeIs\Public</Filter>
 		</ClInclude >

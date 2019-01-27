@@ -38,4 +38,28 @@ public:
 	void DealDamage(float damageDealt);
 	void Repair(int repairAmmount);
 	void Interact();
+
+	void SetModel(int hp);
+
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health Stages")
+	UStaticMeshComponent * MeshComponent;
+
+	//--------------------------------------------------------------------------------------------------
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health Stages")
+	UStaticMesh* sixHP;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health Stages")
+	UStaticMesh* fiveHP;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health Stages")
+	UStaticMesh* fourHP;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health Stages")
+	UStaticMesh* threeHP;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health Stages")
+	UStaticMesh* twoHP;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health Stages")
+	UStaticMesh* oneHP;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "Health Stages")
+	UStaticMesh* zeroHP;
+	//--------------------------------------------------------------------------------------------------
+
+
 };

@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "EngineMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Meteor.generated.h"
 
@@ -26,6 +27,13 @@ public:
 	/** Projectile movement component */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
 		class UProjectileMovementComponent* ProjectileMovement;
+
+	UPROPERTY(EditAnywhere, Category = "Collision")
+	TSubclassOf<class ADestructibleActor> destructible;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Pickup")
+	TSubclassOf<class APickup> pickupClass;
+
 
 public:
 

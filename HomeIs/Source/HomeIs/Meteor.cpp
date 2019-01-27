@@ -3,6 +3,10 @@
 #include "Meteor.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Components/SphereComponent.h"
+#include "DestructibleActor.h"
+#include "DestructibleComponent.h"
+#include "Pickup.h"
+
 
 AMeteor::AMeteor()
 {
@@ -36,6 +40,21 @@ void AMeteor::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitive
 	// Only add impulse and destroy projectile if we hit a physics
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL))
 	{
+		UWorld* const World = GetWorld();
+		if (World != NULL)
+		{
+			const FRotator SpawnRotation = {0.0f, 0.0f, 0.0f};
+			// MuzzleOffset is in camera space, so transform it to world space before offsetting from the character location to find the final muzzle position
+			const FVector SpawnLocation = this->GetActorLocation();
+
+			//Set Spawn Collision Handling Override
+			FActorSpawnParameters ActorSpawnParams;
+			ActorSpawnParams.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+			// spawn the projectile at the muzzle
+			World->SpawnActor<APickup>(pickupClass, SpawnLocation, SpawnRotation, ActorSpawnParams);
+		}
+
 		Destroy();
 	}
 }

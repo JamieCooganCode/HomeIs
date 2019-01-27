@@ -22,6 +22,9 @@ void EmptyLinkFunctionForGeneratedCodeMeteor() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	HOMEIS_API UClass* Z_Construct_UClass_APickup_NoRegister();
+	APEXDESTRUCTION_API UClass* Z_Construct_UClass_ADestructibleActor_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UProjectileMovementComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
@@ -118,6 +121,14 @@ void EmptyLinkFunctionForGeneratedCodeMeteor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_pickupClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_pickupClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_destructible_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_destructible;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ProjectileMovement_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ProjectileMovement;
@@ -143,6 +154,20 @@ void EmptyLinkFunctionForGeneratedCodeMeteor() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMeteor_Statics::NewProp_pickupClass_MetaData[] = {
+		{ "Category", "Pickup" },
+		{ "ModuleRelativePath", "Meteor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMeteor_Statics::NewProp_pickupClass = { UE4CodeGen_Private::EPropertyClass::Class, "pickupClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010001, 1, nullptr, STRUCT_OFFSET(AMeteor, pickupClass), Z_Construct_UClass_APickup_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMeteor_Statics::NewProp_pickupClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMeteor_Statics::NewProp_pickupClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMeteor_Statics::NewProp_destructible_MetaData[] = {
+		{ "Category", "Collision" },
+		{ "ModuleRelativePath", "Meteor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMeteor_Statics::NewProp_destructible = { UE4CodeGen_Private::EPropertyClass::Class, "destructible", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000001, 1, nullptr, STRUCT_OFFSET(AMeteor, destructible), Z_Construct_UClass_ADestructibleActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_AMeteor_Statics::NewProp_destructible_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMeteor_Statics::NewProp_destructible_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMeteor_Statics::NewProp_ProjectileMovement_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Movement" },
@@ -162,6 +187,8 @@ void EmptyLinkFunctionForGeneratedCodeMeteor() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMeteor_Statics::NewProp_CollisionComp = { UE4CodeGen_Private::EPropertyClass::Object, "CollisionComp", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000b0009, 1, nullptr, STRUCT_OFFSET(AMeteor, CollisionComp), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMeteor_Statics::NewProp_CollisionComp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMeteor_Statics::NewProp_CollisionComp_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMeteor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMeteor_Statics::NewProp_pickupClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMeteor_Statics::NewProp_destructible,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMeteor_Statics::NewProp_ProjectileMovement,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMeteor_Statics::NewProp_CollisionComp,
 	};
@@ -188,7 +215,7 @@ void EmptyLinkFunctionForGeneratedCodeMeteor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMeteor, 125176911);
+	IMPLEMENT_CLASS(AMeteor, 3146611489);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMeteor(Z_Construct_UClass_AMeteor, &AMeteor::StaticClass, TEXT("/Script/HomeIs"), TEXT("AMeteor"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMeteor);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
