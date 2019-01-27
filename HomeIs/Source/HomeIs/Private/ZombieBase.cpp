@@ -77,10 +77,7 @@ void AZombieBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 FVector AZombieBase::GetTargetPosition()
 {
-	if (_targetActor)
-		return _targetActor->GetActorLocation();
-	else
-		return FVector();
+	return _targetActor->GetActorLocation();
 }
 
 void AZombieBase::GoToTarget(float deltaTime)
@@ -109,6 +106,14 @@ void AZombieBase::GoToTarget(float deltaTime)
 	{
 		FindTarget();
 	}
+}
+
+bool AZombieBase::CheckCanMoveTowardsTargetPosition()
+{
+	if (GetTargetPosition().Size() != 0)
+		return true;
+	else
+		return false;
 }
 
 void AZombieBase::FindTarget()

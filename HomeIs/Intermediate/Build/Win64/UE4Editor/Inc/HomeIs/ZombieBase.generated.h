@@ -33,6 +33,14 @@ class AActor;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execCheckCanMoveTowardsTargetPosition) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->CheckCanMoveTowardsTargetPosition(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGoToTarget) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_deltaTime); \
@@ -84,6 +92,14 @@ class AActor;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(bool*)Z_Param__Result=P_THIS->CheckIfNearTarget(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execCheckCanMoveTowardsTargetPosition) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->CheckCanMoveTowardsTargetPosition(); \
 		P_NATIVE_END; \
 	} \
  \

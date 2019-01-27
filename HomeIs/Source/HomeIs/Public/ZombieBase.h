@@ -52,6 +52,8 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "Target")
 	void GoToTarget(float deltaTime);
+	UFUNCTION(BlueprintCallable, Category = "Target")
+	bool CheckCanMoveTowardsTargetPosition();
 	void FindTarget();
 	UFUNCTION(BlueprintCallable, Category = "Target")
 	bool CheckIfNearTarget();
