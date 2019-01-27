@@ -33,11 +33,11 @@ class AActor;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execCheckCanMoveTowardsTargetPosition) \
+	DECLARE_FUNCTION(execCheckHasTarget) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->CheckCanMoveTowardsTargetPosition(); \
+		*(bool*)Z_Param__Result=P_THIS->CheckHasTarget(); \
 		P_NATIVE_END; \
 	} \
  \
@@ -95,11 +95,11 @@ class AActor;
 		P_NATIVE_END; \
 	} \
  \
-	DECLARE_FUNCTION(execCheckCanMoveTowardsTargetPosition) \
+	DECLARE_FUNCTION(execCheckHasTarget) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->CheckCanMoveTowardsTargetPosition(); \
+		*(bool*)Z_Param__Result=P_THIS->CheckHasTarget(); \
 		P_NATIVE_END; \
 	} \
  \

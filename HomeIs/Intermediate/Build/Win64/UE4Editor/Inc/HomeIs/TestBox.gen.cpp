@@ -32,6 +32,11 @@ void EmptyLinkFunctionForGeneratedCodeTestBox() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp__health_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp__health;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const UE4CodeGen_Private::FImplementedInterfaceParams InterfaceParams[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -46,6 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeTestBox() {}
 		{ "ModuleRelativePath", "Public/TestBox.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ATestBox_Statics::NewProp__health_MetaData[] = {
+		{ "Category", "TestBox" },
+		{ "ModuleRelativePath", "Public/TestBox.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ATestBox_Statics::NewProp__health = { UE4CodeGen_Private::EPropertyClass::Float, "_health", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ATestBox, _health), METADATA_PARAMS(Z_Construct_UClass_ATestBox_Statics::NewProp__health_MetaData, ARRAY_COUNT(Z_Construct_UClass_ATestBox_Statics::NewProp__health_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ATestBox_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ATestBox_Statics::NewProp__health,
+	};
 		const UE4CodeGen_Private::FImplementedInterfaceParams Z_Construct_UClass_ATestBox_Statics::InterfaceParams[] = {
 			{ Z_Construct_UClass_UIAttackable_NoRegister, (int32)VTABLE_OFFSET(ATestBox, IIAttackable), false },
 		};
@@ -57,7 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeTestBox() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_ATestBox_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ATestBox_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		InterfaceParams, ARRAY_COUNT(InterfaceParams),
@@ -72,7 +87,7 @@ void EmptyLinkFunctionForGeneratedCodeTestBox() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ATestBox, 2197673429);
+	IMPLEMENT_CLASS(ATestBox, 1251264209);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ATestBox(Z_Construct_UClass_ATestBox, &ATestBox::StaticClass, TEXT("/Script/HomeIs"), TEXT("ATestBox"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ATestBox);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

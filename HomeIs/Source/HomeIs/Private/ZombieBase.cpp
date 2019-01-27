@@ -16,6 +16,7 @@ AZombieBase::AZombieBase()
 	_damageReach = 100.0f;
 	_movementSpeed = 50.0f;
 	_radius = 1000.0f;
+	hasTarget = false;
 
 	_viewSphere = CreateDefaultSubobject<USphereComponent>(TEXT("Sphere"));
 	_viewSphere->SetupAttachment(RootComponent);
@@ -33,6 +34,7 @@ void AZombieBase::PostInitializeComponents()
 {
 	Super::PostInitializeComponents();
 	_viewSphere->SetSphereRadius(_radius);
+	_viewSphere->SetCollisionProfileName("ZombieSphere");
 	this->SetActorHiddenInGame(false);
 }
 
@@ -41,9 +43,6 @@ void AZombieBase::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
-	UE_LOG(LogTemp, Warning, TEXT("%f"), _health);
-
-	//GoToTarget(DeltaTime);
 
 	if (_health <= 0.0f)
 	{
@@ -77,7 +76,12 @@ void AZombieBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 FVector AZombieBase::GetTargetPosition()
 {
-	return _targetActor->GetActorLocation();
+	if (_targetActor)
+		return _targetActor->GetActorLocation();
+	else
+		hasTarget = false;
+
+	return this->GetActorLocation();
 }
 
 void AZombieBase::GoToTarget(float deltaTime)
@@ -87,6 +91,7 @@ void AZombieBase::GoToTarget(float deltaTime)
 	if (_targetActor != nullptr)
 	{
 		_vectorBetween = _targetActor->GetActorLocation() - this->GetActorLocation();
+		UE_LOG(LogTemp, Warning, TEXT("%f"), _vectorBetween.Size());
 
 		if (_vectorBetween.Size() < _radius)
 		{
@@ -108,12 +113,9 @@ void AZombieBase::GoToTarget(float deltaTime)
 	}
 }
 
-bool AZombieBase::CheckCanMoveTowardsTargetPosition()
+bool AZombieBase::CheckHasTarget()
 {
-	if (GetTargetPosition().Size() != 0)
-		return true;
-	else
-		return false;
+	return hasTarget;
 }
 
 void AZombieBase::FindTarget()
@@ -133,18 +135,21 @@ void AZombieBase::FindTarget()
 		for (auto Object = HitObjects.CreateIterator(); Object; Object++)
 		{
 			IIAttackable* target = Cast<IIAttackable>((*Object).GetActor());
-			if (target)
+			if (hasTarget == false && target != nullptr)
 			{
 				if (target != this)
 				{
 					AZombieBase* zombieTest = Cast<AZombieBase>((*Object).GetActor());
 					if (zombieTest)
-						break;
-
-					_targetActor = Cast<AActor>(target);
+					{
+						hasTarget = false;
+					}
+					else
+					{	
+						_targetActor = Cast<AActor>(target);
+						hasTarget = true;
+					}
 				}
-
-				
 			}
 		}
 	}

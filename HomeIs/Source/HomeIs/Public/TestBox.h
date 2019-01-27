@@ -12,11 +12,14 @@ class HOMEIS_API ATestBox : public AActor, public IIAttackable
 {
 	GENERATED_BODY()
 private:
-	float _health;
+
 
 public:	
 	// Sets default values for this actor's properties
 	ATestBox();
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+	float _health;
 
 protected:
 	// Called when the game starts or when spawned

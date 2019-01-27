@@ -53,7 +53,7 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "Target")
 	void GoToTarget(float deltaTime);
 	UFUNCTION(BlueprintCallable, Category = "Target")
-	bool CheckCanMoveTowardsTargetPosition();
+	bool CheckHasTarget();
 	void FindTarget();
 	UFUNCTION(BlueprintCallable, Category = "Target")
 	bool CheckIfNearTarget();
@@ -65,5 +65,6 @@ private:
 	FVector _vectorBetween;
 	FVector newLocation;
 	FRotator rotation;
+	bool hasTarget;
 	
 };

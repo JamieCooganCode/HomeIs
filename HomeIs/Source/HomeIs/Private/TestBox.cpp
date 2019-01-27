@@ -29,5 +29,10 @@ void ATestBox::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (_health <= 0)
+		if(this->Destroy())
+			UE_LOG(LogTemp, Warning, TEXT("Already marked for destroy."));
+
+
 }
 

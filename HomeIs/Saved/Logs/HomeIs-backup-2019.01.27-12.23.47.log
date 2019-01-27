@@ -1,0 +1,1766 @@
+﻿Log file open, 01/27/19 12:08:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: HomeIs
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.535286
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin ApexDestruction
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.514s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Xeon(R) CPU E5-1620 v3 @ 3.50GHz, GPU: NVIDIA GeForce GTX 970
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Epic/UE4/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.011s to delete old logs.
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPerson! Old: /Script/MyProject2.TP_FirstPerson, New: /Script/HomeIs.TP_FirstPerson
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for /Script/TP_FirstPerson! Old: /Script/MyProject2, New: /Script/HomeIs
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonProjectile! Old: MyProject2Projectile, New: HomeIsProjectile
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonProjectile! Old: MyProject2Projectile, New: HomeIsProjectile
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonHUD! Old: MyProject2HUD, New: HomeIsHUD
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonHUD! Old: MyProject2HUD, New: HomeIsHUD
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonGameMode! Old: MyProject2GameMode, New: HomeIsGameMode
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonGameMode! Old: MyProject2GameMode, New: HomeIsGameMode
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonCharacter! Old: MyProject2Character, New: HomeIsCharacter
+LogLinker: Error: AddRedirectList(C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Config/Windows/Engine.ini) found conflicting redirectors for TP_FirstPersonCharacter! Old: MyProject2Character, New: HomeIsCharacter
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.01.27-12.08.11:696][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.27-12.08.11:696][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.01.27-12.08.11:721][  0]LogHAL: Display: Platform has ~ 16 GB [17092038656 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.01.27-12.08.11:721][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.01.27-12.08.11:721][  0]LogInit: Going up to parent DeviceProfile []
+[2019.01.27-12.08.11:721][  0]LogInit: Computer: D102-13
+[2019.01.27-12.08.11:721][  0]LogInit: User: r017093h
+[2019.01.27-12.08.11:721][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.01.27-12.08.11:722][  0]LogInit: High frequency timer resolution =3.410067 MHz
+[2019.01.27-12.08.11:722][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.01.27-12.08.11:722][  0]LogMemory: Platform Memory Stats for Windows
+[2019.01.27-12.08.11:722][  0]LogMemory: Process Physical Memory: 102.11 MB used, 102.11 MB peak
+[2019.01.27-12.08.11:722][  0]LogMemory: Process Virtual Memory: 90.44 MB used, 90.44 MB peak
+[2019.01.27-12.08.11:722][  0]LogMemory: Physical Memory: 5591.07 MB used,  10709.17 MB free, 16300.24 MB total
+[2019.01.27-12.08.11:722][  0]LogMemory: Virtual Memory: 4639.85 MB used,  10709.17 MB free, 134217728.00 MB total
+[2019.01.27-12.08.11:867][  0]LogInit: Using OS detected language (en-US).
+[2019.01.27-12.08.11:867][  0]LogInit: Using OS detected locale (en-GB).
+[2019.01.27-12.08.11:869][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.01.27-12.08.12:299][  0]LogStreaming: Display: Took  0.432s to InitEngineTextLocalization.
+[2019.01.27-12.08.12:299][  0]LogInit: Setting process to per monitor DPI aware
+[2019.01.27-12.08.12:371][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.01.27-12.08.12:371][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.01.27-12.08.12:704][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.27-12.08.12:704][  0]LogD3D11RHI: D3D11 adapters:
+[2019.01.27-12.08.12:783][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2019.01.27-12.08.12:783][  0]LogD3D11RHI:       4043/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.01.27-12.08.12:789][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.01.27-12.08.12:789][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.01.27-12.08.12:789][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.01.27-12.08.12:799][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.01.27-12.08.12:799][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2019.01.27-12.08.12:799][  0]LogWindows: EnumDisplayDevices:
+[2019.01.27-12.08.12:800][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2019.01.27-12.08.12:800][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2019.01.27-12.08.12:800][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.27-12.08.12:801][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2019.01.27-12.08.12:801][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.01.27-12.08.12:801][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2019.01.27-12.08.12:801][  0]LogD3D11RHI:   Driver Version: 398.82 (internal:24.21.13.9882, unified:398.82)
+[2019.01.27-12.08.12:801][  0]LogD3D11RHI:      Driver Date: 7-30-2018
+[2019.01.27-12.08.12:801][  0]LogRHI: Texture pool is 2830 MB (70% of 4043 MB)
+[2019.01.27-12.08.12:872][  0]LogD3D11RHI: Async texture creation enabled
+[2019.01.27-12.08.12:890][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.01.27-12.08.12:893][  0]LogShaderCompilers: Guid format shader working directory is -8 characters bigger than the processId version (../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Intermediate/Shaders/WorkingDirectory/13108/).
+[2019.01.27-12.08.12:894][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/r017093h/AppData/Local/Temp/UnrealShaderWorkingDir/EB3F5DDB4F4439521BED85A172A944DB/'.
+[2019.01.27-12.08.13:257][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.01.27-12.08.13:277][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.01.27-12.08.13:297][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.01.27-12.08.13:318][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.01.27-12.08.13:339][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.01.27-12.08.13:360][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.01.27-12.08.13:381][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.01.27-12.08.13:402][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.01.27-12.08.13:415][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.01.27-12.08.13:526][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:527][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:528][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:528][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:528][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.01.27-12.08.13:534][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.01.27-12.08.13:619][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.27-12.08.13:619][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.01.27-12.08.13:656][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.27-12.08.13:656][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.01.27-12.08.13:675][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.01.27-12.08.13:693][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.01.27-12.08.13:710][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.01.27-12.08.13:735][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.01.27-12.08.13:749][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.01.27-12.08.13:749][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.01.27-12.08.13:943][  0]LogXGEController: Cleaning working directory: C:/Users/r017093h/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.01.27-12.08.13:943][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.01.27-12.08.13:943][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.01.27-12.08.13:944][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.01.27-12.08.14:979][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.01.27-12.08.15:098][  0]LogDerivedDataCache: Loaded boot cache 0.12s 73MB C:/Users/r017093h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.27-12.08.15:102][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/r017093h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.01.27-12.08.15:102][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.01.27-12.08.15:102][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.01.27-12.08.15:102][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.01.27-12.08.15:102][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.01.27-12.08.15:115][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.01.27-12.08.15:129][  0]LogDerivedDataCache: Using Local data cache path C:/Users/r017093h/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.01.27-12.08.15:129][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.01.27-12.08.15:129][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.01.27-12.08.15:149][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.01.27-12.08.15:151][  0]LogSlate: Using FreeType 2.6.0
+[2019.01.27-12.08.15:152][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.01.27-12.08.15:241][  0]LogAssetRegistry: FAssetRegistry took 0.0292 seconds to start up
+[2019.01.27-12.08.15:658][  0]LogInit: Selected Device Profile: [Windows]
+[2019.01.27-12.08.15:866][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.01.27-12.08.15:880][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.01.27-12.08.15:880][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.01.27-12.08.15:880][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.01.27-12.08.15:880][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.01.27-12.08.15:903][  0]LogNetVersion: HomeIs 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 4178729889)
+[2019.01.27-12.08.16:786][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.371753 seconds
+[2019.01.27-12.08.16:793][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.01.27-12.08.16:793][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.01.27-12.08.16:794][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.01.27-12.08.18:025][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.01.27-12.08.18:042][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.01.27-12.08.18:558][  0]SourceControl: Source control is disabled
+[2019.01.27-12.08.18:559][  0]SourceControl: Source control is disabled
+[2019.01.27-12.08.18:564][  0]SourceControl: Source control is disabled
+[2019.01.27-12.08.18:568][  0]SourceControl: Source control is disabled
+[2019.01.27-12.08.18:872][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.01.27-12.08.19:010][  0]LogOcInput: OculusInput pre-init called
+[2019.01.27-12.08.19:098][  0]LogEngine: Initializing Engine...
+[2019.01.27-12.08.19:099][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.01.27-12.08.19:101][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.27-12.08.19:101][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.27-12.08.19:101][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.27-12.08.19:101][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.27-12.08.19:348][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.01.27-12.08.19:370][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.01.27-12.08.19:390][  0]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.08.19:409][  0]LogInit: FAudioDevice initialized.
+[2019.01.27-12.08.19:410][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.01.27-12.08.19:509][  0]LogDerivedDataCache: Saved boot cache 0.10s 73MB C:/Users/r017093h/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.01.27-12.08.19:516][  0]LogInit: Texture streaming: Enabled
+[2019.01.27-12.08.19:557][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.01.27-12.08.19:575][  0]LogInit: Transaction tracking system initialized
+[2019.01.27-12.08.19:628][  0]BlueprintLog: New page: Editor Load
+[2019.01.27-12.08.19:860][  0]LocalizationService: Localization service is disabled
+[2019.01.27-12.08.20:265][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.01.27-12.08.20:265][  0]LogCook: Display: Mobile HDR setting 1
+[2019.01.27-12.08.20:265][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.01.27-12.08.20:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.01.27-12.08.20:265][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.01.27-12.08.20:266][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.01.27-12.08.20:266][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.01.27-12.08.20:500][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/' took 0.03s
+[2019.01.27-12.08.20:500][  0]SourceControl: Source control is disabled
+[2019.01.27-12.08.20:500][  0]Cmd: MAP LOAD FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.01.27-12.08.20:501][  0]LightingResults: New page: Lighting Build
+[2019.01.27-12.08.20:506][  0]MapCheck: New page: Map Check
+[2019.01.27-12.08.20:506][  0]LightingResults: New page: Lighting Build
+[2019.01.27-12.08.21:688][  0]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.08.21:767][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.01.27-12.08.21:804][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.01.27-12.08.22:064][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 260.236ms to complete.
+[2019.01.27-12.08.22:064][  0]LogFileHelpers: Loading map 'FirstPersonExampleMap' took 1.564
+[2019.01.27-12.08.22:245][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.08.22:254][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.08.22:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.08.22:271][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.08.22:284][  0]LogCollectionManager: Loaded 0 collections in 0.003442 seconds
+[2019.01.27-12.08.22:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r017093h/Documents/HomeIs/HomeIs/Saved/Collections/' took 0.01s
+[2019.01.27-12.08.22:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/Developers/r017093h/Collections/' took 0.01s
+[2019.01.27-12.08.22:339][  0]LogFileCache: Scanning file cache for directory 'C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/Collections/' took 0.01s
+[2019.01.27-12.08.22:339][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.01.27-12.08.22:350][  0]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2594 classes and 611 folders.
+[2019.01.27-12.08.22:360][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.01.27-12.08.22:451][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.01.27-12.08.22:462][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.01.27-12.08.22:479][  0]LogSlate: Took 0.000299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.01.27-12.08.22:483][  0]LogSlate: Took 0.000296 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.01.27-12.08.22:490][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.01.27-12.08.22:615][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.01.27-12.08.22:688][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.27-12.08.22:770][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.01.27-12.08.22:770][  0]LogLoad: (Engine Initialization) Total time: 15.13 seconds
+[2019.01.27-12.08.22:770][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.01.27-12.08.22:780][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.01.27-12.08.22:809][  0]LogActor: Warning: MyBarricade_C /Engine/Transient.World_1:PersistentLevel.MyBarricade_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.01.27-12.08.22:830][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.01.27-12.08.22:887][  1]LogAssetRegistry: Asset discovery search completed in 7.6708 seconds
+[2019.01.27-12.08.22:890][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.01.27-12.08.22:890][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000149 seconds (updated 0 objects)
+[2019.01.27-12.08.26:577][417]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.08.26:651][426]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.08.26:680][426]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.08.26:680][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.08.26:695][426]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:08:26)
+[2019.01.27-12.08.26:695][426]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.08.26:744][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048637s)
+[2019.01.27-12.08.26:745][426]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.08.26:746][426]LogPlayLevel: PIE: World Init took: (0.001508s)
+[2019.01.27-12.08.26:746][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.051076s)
+[2019.01.27-12.08.26:784][426]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.08.26:796][426]LogInit: FAudioDevice initialized.
+[2019.01.27-12.08.26:843][426]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.08.26:848][426]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.08.26
+[2019.01.27-12.08.26:849][426]LogWorld: Bringing up level for play took: 0.004342
+[2019.01.27-12.08.26:872][426]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2019.01.27-12.08.26:874][426]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.142
+[2019.01.27-12.08.26:875][426]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.08.26:885][426]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.26:886][426]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.26:973][427]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.26:974][427]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.26:999][428]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.26:999][428]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:016][429]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:016][429]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:032][430]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:032][430]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:047][431]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:047][431]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:063][432]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:063][432]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:082][433]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:083][433]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:103][434]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:103][434]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:127][435]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:127][435]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:151][436]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:151][436]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:168][437]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:168][437]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:186][438]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:186][438]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:200][439]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:200][439]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:229][440]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:229][440]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:243][441]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:243][441]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:258][442]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:258][442]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:273][443]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:273][443]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:307][444]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:307][444]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:324][445]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:324][445]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:340][446]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:340][446]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:355][447]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:355][447]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:372][448]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:372][448]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:388][449]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:388][449]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:403][450]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:403][450]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:417][451]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:417][451]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:432][452]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:432][452]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:448][453]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:448][453]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:463][454]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:463][454]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:478][455]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:478][455]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:493][456]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:493][456]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:508][457]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:508][457]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:523][458]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:523][458]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:537][459]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:537][459]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:552][460]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:552][460]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:567][461]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:567][461]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:583][462]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:583][462]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:598][463]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:598][463]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:614][464]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:614][464]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:628][465]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:628][465]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:648][466]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:648][466]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:663][467]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:663][467]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:678][468]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:679][468]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:693][469]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:693][469]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:711][470]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:711][470]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:725][471]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:725][471]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:752][472]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:752][472]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:769][473]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:769][473]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:787][474]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:787][474]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:803][475]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:803][475]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:819][476]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:819][476]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:834][477]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:834][477]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:849][478]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:849][478]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:864][479]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:864][479]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:879][480]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:879][480]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:884][481]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/r017093h/Documents/HomeIs/HomeIs/Content/' took 5.09s
+[2019.01.27-12.08.27:896][481]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:896][481]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:911][482]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:911][482]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:926][483]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:926][483]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:941][484]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:941][484]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:956][485]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:957][485]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:972][486]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:972][486]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:992][487]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.27:992][487]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:009][488]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:009][488]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:024][489]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:024][489]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:039][490]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:039][490]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:054][491]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:054][491]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:069][492]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:070][492]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:084][493]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:084][493]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:098][494]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:098][494]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:112][495]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:113][495]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:126][496]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:126][496]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:141][497]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:141][497]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:169][498]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:169][498]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:188][499]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:189][499]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:207][500]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:207][500]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:235][501]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:235][501]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:255][502]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:255][502]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:274][503]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:275][503]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:293][504]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:293][504]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:335][505]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:335][505]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:350][506]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:350][506]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:365][507]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:365][507]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:381][508]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:381][508]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:397][509]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:397][509]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:412][510]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:412][510]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:429][511]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:429][511]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:445][512]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:445][512]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:460][513]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:460][513]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:475][514]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:475][514]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:492][515]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:493][515]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:508][516]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:508][516]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:523][517]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:523][517]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:538][518]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:538][518]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:553][519]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:553][519]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:568][520]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:568][520]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:582][521]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:582][521]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:596][522]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:597][522]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:612][523]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:612][523]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:627][524]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:627][524]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:642][525]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:642][525]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:659][526]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:660][526]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:674][527]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:674][527]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:689][528]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:690][528]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:704][529]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:704][529]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:731][530]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:731][530]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:746][531]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:746][531]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:761][532]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:762][532]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:780][533]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:780][533]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:799][534]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:799][534]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:822][535]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:822][535]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:845][536]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:845][536]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:864][537]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:865][537]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:883][538]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:884][538]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:905][539]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:906][539]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:925][540]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:925][540]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:945][541]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:945][541]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:967][542]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:967][542]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:982][543]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:982][543]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:998][544]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.28:998][544]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:026][545]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:026][545]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:043][546]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:043][546]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:062][547]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:062][547]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:080][548]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:080][548]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:098][549]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:098][549]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:113][550]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:113][550]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:129][551]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:130][551]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:145][552]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:145][552]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:160][553]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:161][553]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:181][554]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:181][554]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:200][555]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:200][555]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:221][556]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:221][556]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:239][557]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:239][557]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:259][558]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:259][558]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:278][559]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:278][559]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:308][560]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:308][560]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:324][561]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:324][561]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:359][562]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:359][562]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:375][563]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:375][563]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:391][564]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:392][564]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:407][565]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:407][565]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:423][566]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:423][566]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:443][567]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:444][567]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:464][568]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:464][568]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:481][569]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:481][569]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:499][570]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:500][570]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:515][571]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:515][571]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:531][572]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:531][572]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:545][573]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:545][573]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:560][574]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:560][574]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:575][575]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:575][575]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:591][576]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:591][576]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:606][577]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:606][577]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:621][578]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:621][578]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:637][579]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:637][579]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:656][580]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:656][580]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:675][581]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:675][581]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:691][582]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:691][582]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:706][583]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:706][583]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:721][584]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:721][584]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:740][585]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:741][585]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:769][586]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:769][586]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:785][587]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:785][587]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:801][588]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:801][588]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:816][589]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:816][589]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:834][590]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:834][590]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:851][591]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:851][591]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:866][592]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:866][592]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:880][593]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:882][593]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:896][594]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:896][594]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:911][595]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:911][595]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:926][596]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:926][596]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:942][597]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:942][597]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:958][598]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:958][598]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:973][599]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:974][599]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:988][600]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.29:989][600]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:005][601]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:005][601]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:022][602]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:022][602]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:038][603]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:038][603]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:054][604]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:054][604]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:070][605]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:070][605]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:085][606]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:085][606]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:100][607]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:100][607]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:118][608]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:118][608]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:135][609]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:135][609]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:150][610]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:150][610]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:164][611]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:164][611]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:179][612]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:179][612]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:193][613]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:193][613]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:208][614]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:208][614]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:235][615]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:235][615]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:252][616]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:252][616]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:273][617]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:273][617]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:290][618]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:290][618]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:306][619]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:306][619]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:322][620]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:322][620]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:338][621]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:338][621]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:353][622]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:353][622]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:384][623]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:385][623]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:399][624]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:399][624]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:413][625]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:414][625]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:429][626]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:429][626]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:445][627]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:445][627]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:460][628]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:461][628]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:477][629]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:477][629]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:492][630]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:492][630]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:508][631]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:508][631]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:524][632]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:524][632]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:539][633]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:539][633]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:555][634]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:555][634]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:572][635]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:572][635]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:589][636]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:590][636]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:606][637]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:606][637]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:622][638]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:623][638]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:638][639]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:639][639]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:657][640]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:657][640]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:675][641]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:675][641]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:691][642]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:691][642]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:707][643]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:708][643]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:727][644]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:728][644]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:744][645]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:744][645]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:761][646]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:761][646]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:780][647]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:780][647]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:795][648]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:795][648]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:821][649]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:821][649]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:838][650]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:838][650]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:856][651]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:856][651]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:873][652]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:873][652]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:888][653]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:888][653]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:905][654]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:905][654]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:919][655]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:920][655]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:935][656]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:935][656]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:951][657]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:951][657]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:965][658]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:965][658]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:983][659]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:983][659]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:997][660]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.30:998][660]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:012][661]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:012][661]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:027][662]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:028][662]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:046][663]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:046][663]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:061][664]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:061][664]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:077][665]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:077][665]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:094][666]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:095][666]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:111][667]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:111][667]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:125][668]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:125][668]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:144][669]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:145][669]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:161][670]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:161][670]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:176][671]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:176][671]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:191][672]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:192][672]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:209][673]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:209][673]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:225][674]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:225][674]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:240][675]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:241][675]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:257][676]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:257][676]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:274][677]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:274][677]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:290][678]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:290][678]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:304][679]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:304][679]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:321][680]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.31:321][680]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.41:188][681]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.41:188][681]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.41:521][682]LogTemp: Warning: 100.000000
+[2019.01.27-12.08.41:521][682]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.24:340][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.09.24:379][683]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.24:379][683]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.24:691][684]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.24:691][684]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.27:819][685]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.27:819][685]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:118][686]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:118][686]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:448][687]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:448][687]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:785][688]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:786][688]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:807][689]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:807][689]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:831][690]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:831][690]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:857][691]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:857][691]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:882][692]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:882][692]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:908][693]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:908][693]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:934][694]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:934][694]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:966][695]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:966][695]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.28:994][696]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:000][696]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:022][697]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:023][697]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:070][698]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:070][698]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:095][699]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:095][699]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:112][700]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:112][700]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:130][701]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:130][701]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:147][702]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:148][702]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:164][703]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:164][703]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:181][704]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:181][704]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:197][705]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:197][705]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:215][706]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:215][706]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:237][707]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:237][707]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:263][708]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:263][708]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:355][718]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:355][718]LogTemp: Warning: 100.000000
+[2019.01.27-12.09.29:356][718]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.09.29:357][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.09.29:394][718]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.09.29:394][718]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.09.29:422][718]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.09.29:464][720]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.01.27-12.09.49:661][903]Candidate modules for hot reload:
+[2019.01.27-12.09.49:661][903]  HomeIs
+[2019.01.27-12.09.49:661][903]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HomeIs,6054 Win64 Development -TargetType=Editor -Project="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" -canskiplink "C:/Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" ]
+[2019.01.27-12.09.49:667][903]Warning: Starting HotReload took  0.0s.
+[2019.01.27-12.09.56:570][702]CompilerResultsLog: New page: Compilation - 27 Jan 2019 12:09:56
+[2019.01.27-12.09.56:571][702]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-12.09.56:571][702]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-12.09.56:571][702]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-12.09.56:571][702]CompilerResultsLog:   [1/3] ZombieBase.cpp
+[2019.01.27-12.09.56:571][702]CompilerResultsLog:   [2/3] UE4Editor-HomeIs-6054.lib
+[2019.01.27-12.09.56:571][702]CompilerResultsLog:      Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-6054.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-6054.exp
+[2019.01.27-12.09.56:571][702]CompilerResultsLog:   [3/3] UE4Editor-HomeIs-6054.dll
+[2019.01.27-12.09.56:571][702]CompilerResultsLog:      Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-6054.suppressed.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-6054.suppressed.exp
+[2019.01.27-12.09.56:571][702]CompilerResultsLog: Total build time: 6.55 seconds (Parallel executor: 2.77 seconds)
+[2019.01.27-12.09.56:571][702]LogMainFrame: MainFrame: Module compiling took 6.919 seconds
+[2019.01.27-12.09.56:649][702]LogClass: Type HotReload.
+[2019.01.27-12.09.56:656][702]LogContentBrowser: Native class hierarchy updated for 'HomeIs' in 0.0007 seconds. Added 13 classes and 3 folders.
+[2019.01.27-12.09.56:659][702]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.01.27-12.09.56:796][702]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2595 classes and 613 folders.
+[2019.01.27-12.09.56:796][702]Display: HotReload took  7.2s.
+[2019.01.27-12.10.27:804][327]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.10.27:834][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.10.27:834][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.10.27:834][327]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:10:27)
+[2019.01.27-12.10.27:834][327]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.10.27:857][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022049s)
+[2019.01.27-12.10.27:858][327]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.10.27:858][327]LogPlayLevel: PIE: World Init took: (0.001215s)
+[2019.01.27-12.10.27:858][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.023758s)
+[2019.01.27-12.10.27:898][327]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.10.27:912][327]LogInit: FAudioDevice initialized.
+[2019.01.27-12.10.27:950][327]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.10.27:953][327]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.10.27
+[2019.01.27-12.10.27:954][327]LogWorld: Bringing up level for play took: 0.003062
+[2019.01.27-12.10.27:969][327]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.953
+[2019.01.27-12.10.27:970][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.10.27:979][327]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.27:979][327]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:037][328]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:038][328]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:060][329]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:060][329]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:111][330]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:111][330]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:127][331]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:127][331]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:143][332]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:143][332]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:160][333]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:160][333]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:177][334]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:177][334]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:194][335]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:194][335]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:209][336]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:209][336]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:228][337]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:229][337]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:246][338]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:246][338]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:263][339]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:263][339]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:282][340]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:282][340]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:308][341]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:308][341]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:329][342]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:329][342]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:348][343]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:348][343]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:364][344]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:364][344]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:381][345]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:381][345]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:405][346]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:405][346]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:426][347]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:426][347]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:444][348]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:444][348]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:462][349]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:462][349]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:478][350]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:478][350]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:494][351]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:495][351]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:510][352]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:510][352]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:537][353]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:537][353]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:554][354]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:554][354]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:569][355]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:569][355]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:584][356]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:584][356]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:599][357]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:599][357]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:614][358]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:614][358]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:630][359]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:630][359]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:647][360]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:647][360]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:662][361]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:662][361]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:677][362]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:677][362]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:692][363]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:692][363]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:708][364]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:708][364]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:724][365]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:724][365]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:741][366]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:741][366]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:760][367]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:761][367]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:784][368]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:784][368]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:817][369]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:817][369]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:835][370]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:835][370]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:853][371]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:853][371]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:868][372]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:868][372]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:883][373]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:884][373]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:904][374]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:904][374]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:921][375]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:921][375]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:938][376]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:939][376]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:957][377]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:957][377]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:977][378]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.28:977][378]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:001][379]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:002][379]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:025][380]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:026][380]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:048][381]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:049][381]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:066][382]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:066][382]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:083][383]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:083][383]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:105][384]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:105][384]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:143][385]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:144][385]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:159][386]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:159][386]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:174][387]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:174][387]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:190][388]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:191][388]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:211][389]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:211][389]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:227][390]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:227][390]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:243][391]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:244][391]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:265][392]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:266][392]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:283][393]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:283][393]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:301][394]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:301][394]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:316][395]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:316][395]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:331][396]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:331][396]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:357][397]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:357][397]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:379][398]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:379][398]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:395][399]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:395][399]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:413][400]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:413][400]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:431][401]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:431][401]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:453][402]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:453][402]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:471][403]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:471][403]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:486][404]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:486][404]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:503][405]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:503][405]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:521][406]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:522][406]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:540][407]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:540][407]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:558][408]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:558][408]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:574][409]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:574][409]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:589][410]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:590][410]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:607][411]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:607][411]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:624][412]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:625][412]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:644][413]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:644][413]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:660][414]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:661][414]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:677][415]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:677][415]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:693][416]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:693][416]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:710][417]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:710][417]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:728][418]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:728][418]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:746][419]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:746][419]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:773][420]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:773][420]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:789][421]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:790][421]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:805][422]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:806][422]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:822][423]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:822][423]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:840][424]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:840][424]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:858][425]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:858][425]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:873][426]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:873][426]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:889][427]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:889][427]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:904][428]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:904][428]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:920][429]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:920][429]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:936][430]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:936][430]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:952][431]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:953][431]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:969][432]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:969][432]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:983][433]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:983][433]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:998][434]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.29:998][434]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:014][435]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:014][435]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:031][436]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:031][436]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:048][437]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:048][437]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:063][438]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:064][438]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:079][439]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:079][439]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:094][440]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:094][440]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:110][441]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:110][441]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:126][442]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:126][442]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:161][443]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:162][443]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:176][444]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:176][444]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:191][445]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:191][445]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:217][446]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:218][446]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:234][447]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:234][447]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:250][448]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:250][448]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:265][449]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:265][449]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:279][450]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:280][450]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:294][451]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:294][451]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:309][452]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:309][452]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:324][453]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:324][453]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:339][454]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:339][454]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:354][455]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:354][455]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:369][456]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:370][456]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:384][457]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:384][457]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:401][458]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:401][458]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:416][459]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:416][459]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:431][460]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:431][460]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:447][461]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:447][461]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:462][462]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:462][462]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:477][463]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:477][463]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:492][464]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:492][464]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:507][465]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:507][465]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:522][466]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:523][466]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:539][467]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:540][467]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:555][468]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:555][468]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:570][469]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:570][469]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:585][470]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:585][470]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:600][471]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:600][471]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:614][472]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:614][472]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:631][473]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:631][473]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:649][474]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:649][474]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:666][475]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:667][475]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:684][476]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:684][476]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:699][477]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:699][477]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:713][478]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:713][478]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:728][479]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:728][479]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:743][480]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:743][480]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:769][481]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:769][481]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:785][482]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:785][482]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:800][483]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:800][483]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:815][484]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:815][484]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:830][485]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:830][485]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:845][486]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:845][486]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:860][487]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:860][487]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:877][488]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:877][488]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:893][489]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:893][489]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:908][490]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:908][490]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:923][491]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:923][491]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:939][492]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:939][492]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:954][493]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:954][493]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:968][494]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:968][494]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:983][495]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:983][495]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:998][496]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.30:998][496]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:013][497]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:013][497]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:028][498]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:028][498]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:044][499]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:044][499]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:060][500]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:060][500]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:076][501]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:077][501]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:093][502]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:094][502]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:108][503]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:108][503]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:123][504]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:123][504]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:138][505]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:138][505]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:153][506]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:153][506]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:190][507]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:190][507]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:205][508]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:205][508]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:220][509]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:221][509]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:236][510]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:237][510]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:253][511]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:253][511]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:270][512]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:270][512]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:289][513]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:289][513]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:306][514]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.31:306][514]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.54:117][515]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.54:118][515]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.54:455][516]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.54:455][516]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.56:874][517]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.56:874][517]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.57:209][518]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.57:209][518]LogTemp: Warning: 99.000000
+[2019.01.27-12.10.57:546][519]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.57:546][519]LogTemp: Warning: 98.000000
+[2019.01.27-12.10.57:871][520]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.57:871][520]LogTemp: Warning: 97.000000
+[2019.01.27-12.10.57:899][521]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.57:899][521]LogTemp: Warning: 96.000000
+[2019.01.27-12.10.58:246][522]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.58:246][522]LogTemp: Warning: 96.000000
+[2019.01.27-12.10.58:457][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.10.58:561][523]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.58:561][523]LogTemp: Warning: 95.000000
+[2019.01.27-12.10.58:580][524]LogTemp: Warning: 100.000000
+[2019.01.27-12.10.58:581][524]LogTemp: Warning: 94.000000
+[2019.01.27-12.10.58:581][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.10.58:582][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.10.58:623][524]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.10.58:623][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.10.58:649][524]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.10.58:682][526]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.01.27-12.11.56:434][590]Candidate modules for hot reload:
+[2019.01.27-12.11.56:434][590]  HomeIs
+[2019.01.27-12.11.56:435][590]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HomeIs,1429 Win64 Development -TargetType=Editor -Project="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" -canskiplink "C:/Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" ]
+[2019.01.27-12.11.56:490][590]Warning: Starting HotReload took  0.1s.
+[2019.01.27-12.12.02:977][361]CompilerResultsLog: New page: Compilation - 27 Jan 2019 12:12:02
+[2019.01.27-12.12.02:977][361]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-12.12.02:977][361]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-12.12.02:977][361]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-12.12.02:977][361]CompilerResultsLog:   [1/3] ZombieBase.cpp
+[2019.01.27-12.12.02:978][361]CompilerResultsLog:   [2/3] UE4Editor-HomeIs-1429.lib
+[2019.01.27-12.12.02:978][361]CompilerResultsLog:      Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-1429.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-1429.exp
+[2019.01.27-12.12.02:978][361]CompilerResultsLog:   [3/3] UE4Editor-HomeIs-1429.dll
+[2019.01.27-12.12.02:978][361]CompilerResultsLog:      Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-1429.suppressed.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-1429.suppressed.exp
+[2019.01.27-12.12.02:978][361]CompilerResultsLog: Total build time: 6.12 seconds (Parallel executor: 2.55 seconds)
+[2019.01.27-12.12.02:978][361]LogMainFrame: MainFrame: Module compiling took 6.551 seconds
+[2019.01.27-12.12.03:059][361]LogClass: Type HotReload.
+[2019.01.27-12.12.03:068][361]LogContentBrowser: Native class hierarchy updated for 'HomeIs' in 0.0007 seconds. Added 13 classes and 3 folders.
+[2019.01.27-12.12.03:071][361]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.01.27-12.12.03:131][361]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2595 classes and 613 folders.
+[2019.01.27-12.12.03:131][361]Display: HotReload took  6.7s.
+[2019.01.27-12.12.09:509][123]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.12.09:532][123]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.12.09:532][123]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.12.09:532][123]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:12:09)
+[2019.01.27-12.12.09:532][123]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.12.09:552][123]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019313s)
+[2019.01.27-12.12.09:553][123]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.12.09:553][123]LogPlayLevel: PIE: World Init took: (0.001446s)
+[2019.01.27-12.12.09:553][123]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021171s)
+[2019.01.27-12.12.09:592][123]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.12.09:603][123]LogInit: FAudioDevice initialized.
+[2019.01.27-12.12.09:641][123]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.12.09:644][123]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.12.09
+[2019.01.27-12.12.09:645][123]LogWorld: Bringing up level for play took: 0.003207
+[2019.01.27-12.12.09:663][123]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.647
+[2019.01.27-12.12.09:663][123]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.12.13:053][344]LogTemp: Warning: 635.875183
+[2019.01.27-12.12.13:502][374]LogTemp: Warning: 628.729675
+[2019.01.27-12.12.13:930][403]LogTemp: Warning: 627.565735
+[2019.01.27-12.12.14:529][445]LogTemp: Warning: 622.920288
+[2019.01.27-12.12.15:012][477]LogTemp: Warning: 646.008179
+[2019.01.27-12.12.15:592][512]LogTemp: Warning: 815.967468
+[2019.01.27-12.12.16:020][542]LogTemp: Warning: 996.733643
+[2019.01.27-12.12.23:118][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.12.23:119][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.12.23:159][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.12.23:160][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.12.23:193][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.12.23:224][  1]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.01.27-12.12.36:043][114]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.12.36:132][114]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.12.36:159][114]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.12.36:159][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.12.36:160][114]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:12:36)
+[2019.01.27-12.12.36:160][114]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.12.36:180][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019776s)
+[2019.01.27-12.12.36:181][114]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.12.36:181][114]LogPlayLevel: PIE: World Init took: (0.001155s)
+[2019.01.27-12.12.36:181][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021351s)
+[2019.01.27-12.12.36:220][114]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.12.36:232][114]LogInit: FAudioDevice initialized.
+[2019.01.27-12.12.36:269][114]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.12.36:272][114]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.12.36
+[2019.01.27-12.12.36:273][114]LogWorld: Bringing up level for play took: 0.002914
+[2019.01.27-12.12.36:289][114]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.727
+[2019.01.27-12.12.36:289][114]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.12.52:733][320]LogTemp: Warning: 668.428284
+[2019.01.27-12.13.08:147][322]LogTemp: Warning: 226.466949
+[2019.01.27-12.13.08:158][323]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.13.08:513][324]LogTemp: Warning: 85.564323
+[2019.01.27-12.13.09:181][326]LogTemp: Warning: 85.564323
+[2019.01.27-12.13.09:616][348]LogTemp: Warning: 85.193733
+[2019.01.27-12.13.10:083][383]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.13.10:083][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.13.10:119][383]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.13.10:119][383]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.13.10:150][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.13.10:190][385]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.01.27-12.14.13:340][912]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.14.13:632][912]Candidate modules for hot reload:
+[2019.01.27-12.14.13:632][912]  HomeIs
+[2019.01.27-12.14.13:632][912]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HomeIs,6845 Win64 Development -TargetType=Editor -Project="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" -canskiplink "C:/Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" ]
+[2019.01.27-12.14.13:642][912]Warning: Starting HotReload took  0.0s.
+[2019.01.27-12.14.19:996][646]CompilerResultsLog: New page: Compilation - 27 Jan 2019 12:14:19
+[2019.01.27-12.14.19:996][646]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-12.14.19:996][646]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-12.14.19:996][646]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.01.27-12.14.19:996][646]CompilerResultsLog:   [1/3] ZombieBase.cpp
+[2019.01.27-12.14.19:996][646]CompilerResultsLog:   [2/3] UE4Editor-HomeIs-6845.lib
+[2019.01.27-12.14.19:996][646]CompilerResultsLog:      Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-6845.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-6845.exp
+[2019.01.27-12.14.19:996][646]CompilerResultsLog:   [3/3] UE4Editor-HomeIs-6845.dll
+[2019.01.27-12.14.19:996][646]CompilerResultsLog:      Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-6845.suppressed.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-6845.suppressed.exp
+[2019.01.27-12.14.19:996][646]CompilerResultsLog: Total build time: 5.99 seconds (Parallel executor: 2.43 seconds)
+[2019.01.27-12.14.19:996][646]LogMainFrame: MainFrame: Module compiling took 6.382 seconds
+[2019.01.27-12.14.20:074][646]LogClass: Type HotReload.
+[2019.01.27-12.14.20:082][646]LogContentBrowser: Native class hierarchy updated for 'HomeIs' in 0.0007 seconds. Added 13 classes and 3 folders.
+[2019.01.27-12.14.20:086][646]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.01.27-12.14.20:148][646]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2595 classes and 613 folders.
+[2019.01.27-12.14.20:148][646]Display: HotReload took  6.5s.
+[2019.01.27-12.14.22:458][917]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.14.22:481][917]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.14.22:481][917]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.14.22:481][917]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:14:22)
+[2019.01.27-12.14.22:481][917]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.14.22:500][917]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018403s)
+[2019.01.27-12.14.22:501][917]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.14.22:501][917]LogPlayLevel: PIE: World Init took: (0.001149s)
+[2019.01.27-12.14.22:501][917]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.019905s)
+[2019.01.27-12.14.22:537][917]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.14.22:548][917]LogInit: FAudioDevice initialized.
+[2019.01.27-12.14.22:585][917]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.14.22:591][917]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.14.22
+[2019.01.27-12.14.22:593][917]LogWorld: Bringing up level for play took: 0.006166
+[2019.01.27-12.14.22:614][917]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap -0.402
+[2019.01.27-12.14.22:615][917]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.14.25:429][ 90]LogTemp: Warning: 552.147278
+[2019.01.27-12.14.25:872][118]LogTemp: Warning: 322.080505
+[2019.01.27-12.14.26:341][151]LogTemp: Warning: 85.193588
+[2019.01.27-12.14.41:278][153]LogTemp: Warning: 85.193588
+[2019.01.27-12.14.41:918][155]LogTemp: Warning: 85.193588
+[2019.01.27-12.14.42:152][169]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.14.42:225][175]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.14.42:225][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.14.42:262][175]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.14.42:262][175]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.14.42:299][175]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.14.42:333][177]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.01.27-12.14.53:101][392]LogEditorViewport: Clicking on Actor (LMB): Zombie_C (Zombie)
+[2019.01.27-12.14.55:651][628]LogEditorViewport: Clicking on Actor (LMB): MyBarricade_C (MyBarricade2)
+[2019.01.27-12.15.00:991][159]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.15.12:411][433]LogSlate: Took 0.000385 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.01.27-12.15.19:071][433]LogSlate: Window 'Pick Parent Class' being destroyed
+[2019.01.27-12.15.27:960][427]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.01.27-12.15.28:520][489]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-12.15.29:213][571]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.01.27-12.15.29:215][571]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HalsStuffFuckOff/TestBox.TestBox
+[2019.01.27-12.15.29:750][571]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 116 classes and 0 folders.
+[2019.01.27-12.15.30:978][571]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.01.27-12.15.42:955][768]BlueprintLog: New page: Compile TestBox
+[2019.01.27-12.15.46:957][174]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.15.46:996][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.15.46:996][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.15.46:996][174]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:15:46)
+[2019.01.27-12.15.46:996][174]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.15.47:016][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019715s)
+[2019.01.27-12.15.47:017][174]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.15.47:017][174]LogPlayLevel: PIE: World Init took: (0.001051s)
+[2019.01.27-12.15.47:017][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.021131s)
+[2019.01.27-12.15.47:054][174]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.15.47:065][174]LogInit: FAudioDevice initialized.
+[2019.01.27-12.15.47:100][174]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.15.47:106][174]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.15.47
+[2019.01.27-12.15.47:108][174]LogWorld: Bringing up level for play took: 0.005872
+[2019.01.27-12.15.47:125][174]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.109
+[2019.01.27-12.15.47:125][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.15.47:969][220]LogTemp: Warning: 526.228821
+[2019.01.27-12.15.48:449][251]LogTemp: Warning: 239.913223
+[2019.01.27-12.15.48:870][278]LogTemp: Warning: 120.695915
+[2019.01.27-12.15.49:397][310]LogTemp: Warning: 120.695915
+[2019.01.27-12.15.49:476][315]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.15.49:476][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.15.49:521][315]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.15.49:522][315]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.15.49:583][315]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.15.49:625][316]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.01.27-12.15.51:893][524]LogEditorViewport: Clicking on Actor (LMB): MyBarricade_C (MyBarricade2)
+[2019.01.27-12.15.55:274][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.15.55:340][767]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.15.55:364][767]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.15.55:364][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.15.55:364][767]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:15:55)
+[2019.01.27-12.15.55:364][767]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.15.55:379][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015706s)
+[2019.01.27-12.15.55:380][767]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.15.55:380][767]LogPlayLevel: PIE: World Init took: (0.000870s)
+[2019.01.27-12.15.55:381][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016945s)
+[2019.01.27-12.15.55:415][767]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.15.55:426][767]LogInit: FAudioDevice initialized.
+[2019.01.27-12.15.55:463][767]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.15.55:469][767]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.15.55
+[2019.01.27-12.15.55:471][767]LogWorld: Bringing up level for play took: 0.005781
+[2019.01.27-12.15.55:491][767]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.475
+[2019.01.27-12.15.55:492][767]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.15.56:392][813]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.15.56:393][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.15.56:433][813]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.15.56:434][813]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.15.56:465][813]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.15.56:495][814]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.01.27-12.15.57:337][907]LogEditorViewport: Clicking on Actor (LMB): TestBox_C (TestBox)
+[2019.01.27-12.15.59:160][ 84]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.15.59:268][ 94]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.15.59:291][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.15.59:292][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.15.59:292][ 94]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:15:59)
+[2019.01.27-12.15.59:292][ 94]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.15.59:307][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015093s)
+[2019.01.27-12.15.59:308][ 94]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.15.59:309][ 94]LogPlayLevel: PIE: World Init took: (0.001389s)
+[2019.01.27-12.15.59:309][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.016879s)
+[2019.01.27-12.15.59:342][ 94]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.15.59:355][ 94]LogInit: FAudioDevice initialized.
+[2019.01.27-12.15.59:388][ 94]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.15.59:391][ 94]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.15.59
+[2019.01.27-12.15.59:392][ 94]LogWorld: Bringing up level for play took: 0.003166
+[2019.01.27-12.15.59:408][ 94]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.392
+[2019.01.27-12.15.59:408][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.16.01:171][202]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.16.01:171][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.16.01:214][202]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.16.01:215][202]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.16.01:244][202]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.16.01:276][203]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.01.27-12.16.03:790][418]LogEditorViewport: Clicking on Actor (LMB): TestBox_C (TestBox)
+[2019.01.27-12.16.16:384][667]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.18.10:976][473]Candidate modules for hot reload:
+[2019.01.27-12.18.10:976][473]  HomeIs
+[2019.01.27-12.18.10:976][473]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HomeIs,2640 Win64 Development -TargetType=Editor -Project="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" -canskiplink "C:/Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" ]
+[2019.01.27-12.18.10:982][473]Warning: Starting HotReload took  0.0s.
+[2019.01.27-12.18.24:345][597]BlueprintLog: New page: Compile TestBox
+[2019.01.27-12.18.27:978][896]CompilerResultsLog: New page: Compilation - 27 Jan 2019 12:18:27
+[2019.01.27-12.18.27:978][896]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-12.18.27:978][896]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-12.18.27:978][896]CompilerResultsLog: Parsing headers for HomeIsEditor
+[2019.01.27-12.18.27:978][896]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\r017093h\Documents\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.27-12.18.27:978][896]CompilerResultsLog: Error: C:/Users/r017093h/Documents/HomeIs/HomeIs/Source/HomeIs/Public/TestBox.h(15)  : LogCompile: Error: BlueprintReadWrite should not be used on private members
+[2019.01.27-12.18.27:978][896]CompilerResultsLog: UnrealHeaderTool failed for target 'HomeIsEditor' (platform: Win64, module info: C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest).
+[2019.01.27-12.18.27:978][896]LogMainFrame: MainFrame: Module compiling took 17.011 seconds
+[2019.01.27-12.18.27:978][896]Warning: HotReload failed, recompile failed
+[2019.01.27-12.18.33:517][417]LogSlate: Window 'Message Log' being destroyed
+[2019.01.27-12.18.33:521][417]LogSlate: Window 'Message Log' being destroyed
+[2019.01.27-12.18.45:383][511]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.18.45:536][511]Candidate modules for hot reload:
+[2019.01.27-12.18.45:537][511]  HomeIs
+[2019.01.27-12.18.45:537][511]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HomeIs,4350 Win64 Development -TargetType=Editor -Project="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" -canskiplink "C:/Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" ]
+[2019.01.27-12.18.45:543][511]Warning: Starting HotReload took  0.0s.
+[2019.01.27-12.19.06:378][664]CompilerResultsLog: New page: Compilation - 27 Jan 2019 12:19:06
+[2019.01.27-12.19.06:378][664]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-12.19.06:378][664]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-12.19.06:378][664]CompilerResultsLog: Parsing headers for HomeIsEditor
+[2019.01.27-12.19.06:378][664]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\r017093h\Documents\HomeIs\HomeIs\HomeIs.uproject" "C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\HomeIsEditor\Development\HomeIsEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.01.27-12.19.06:378][664]CompilerResultsLog: Reflection code generated for HomeIsEditor in 13.2526674 seconds
+[2019.01.27-12.19.06:379][664]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.01.27-12.19.06:379][664]CompilerResultsLog:   [1/6] HomeIs.init.gen.cpp
+[2019.01.27-12.19.06:379][664]CompilerResultsLog:   [2/6] TestBox.cpp
+[2019.01.27-12.19.06:379][664]CompilerResultsLog:   [3/6] TestBox.gen.cpp
+[2019.01.27-12.19.06:379][664]CompilerResultsLog:   [4/6] ZombieBase.cpp
+[2019.01.27-12.19.06:379][664]CompilerResultsLog:   [5/6] UE4Editor-HomeIs-4350.lib
+[2019.01.27-12.19.06:379][664]CompilerResultsLog:      Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-4350.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-4350.exp
+[2019.01.27-12.19.06:379][664]CompilerResultsLog:   [6/6] UE4Editor-HomeIs-4350.dll
+[2019.01.27-12.19.06:379][664]CompilerResultsLog:      Creating library C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-4350.suppressed.lib and object C:\Users\r017093h\Documents\HomeIs\HomeIs\Intermediate\Build\Win64\UE4Editor\Development\HomeIs\UE4Editor-HomeIs-4350.suppressed.exp
+[2019.01.27-12.19.06:380][664]CompilerResultsLog: Total build time: 20.34 seconds (Parallel executor: 2.74 seconds)
+[2019.01.27-12.19.06:380][664]LogMainFrame: MainFrame: Module compiling took 20.852 seconds
+[2019.01.27-12.19.06:466][664]LogClass: Could not find existing class TestBox in package /Script/HomeIs for HotReload, assuming new class
+[2019.01.27-12.19.06:474][664]LogClass: Type HotReload.
+[2019.01.27-12.19.06:488][664]LogHotReload: Re-instancing TestBox after hot-reload.
+[2019.01.27-12.19.06:746][664]LogContentBrowser: Native class hierarchy updated for 'HomeIs' in 0.0008 seconds. Added 13 classes and 3 folders.
+[2019.01.27-12.19.06:750][664]Display: HotReload successful (9 functions remapped  0 scriptstructs remapped)
+[2019.01.27-12.19.07:150][664]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2595 classes and 613 folders.
+[2019.01.27-12.19.07:150][664]Display: HotReload took 21.6s.
+[2019.01.27-12.19.33:848][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.19.33:937][835]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.19.33:962][835]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.19.33:962][835]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.19.33:963][835]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:19:33)
+[2019.01.27-12.19.33:963][835]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.19.33:983][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020142s)
+[2019.01.27-12.19.33:984][835]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.19.33:985][835]LogPlayLevel: PIE: World Init took: (0.001413s)
+[2019.01.27-12.19.33:985][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.022011s)
+[2019.01.27-12.19.34:053][835]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.19.34:068][835]LogInit: FAudioDevice initialized.
+[2019.01.27-12.19.34:105][835]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.19.34:108][835]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.19.34
+[2019.01.27-12.19.34:109][835]LogWorld: Bringing up level for play took: 0.002850
+[2019.01.27-12.19.34:123][835]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 1.115
+[2019.01.27-12.19.34:124][835]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.19.34:135][835]LogTemp: Warning: Already marked for destroy.
+[2019.01.27-12.19.35:652][910]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.19.35:652][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.19.35:701][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.19.35:701][910]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.19.35:735][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.19.35:796][911]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.01.27-12.19.36:690][  4]LogEditorViewport: Clicking on Actor (LMB): TestBox_C (TestBox)
+[2019.01.27-12.19.39:063][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.19.57:196][113]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/FirstPersonExampleMap89B2538545B1227D24756C9544F4FAEC.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/FirstPersonCPP/Maps/FirstPersonExampleMap.umap'
+[2019.01.27-12.19.57:507][133]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.19.59:622][323]BlueprintLog: New page: Compile TestBox
+[2019.01.27-12.20.00:637][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/HalsStuffFuckOff/TestBox" FILE="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/TestBox.uasset" SILENT=true
+[2019.01.27-12.20.00:674][390]LogSavePackage: Moving '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Saved/TestBox902387024D3ADB1A15E231962C2A841F.tmp' to '../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/Content/HalsStuffFuckOff/TestBox.uasset'
+[2019.01.27-12.20.02:015][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.20.02:101][507]Candidate modules for hot reload:
+[2019.01.27-12.20.02:101][507]  HomeIs
+[2019.01.27-12.20.02:101][507]Launching UnrealBuildTool... [C:/Epic/UE4/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=HomeIs,1014 Win64 Development -TargetType=Editor -Project="../../../../../../Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" -canskiplink "C:/Users/r017093h/Documents/HomeIs/HomeIs/HomeIs.uproject" ]
+[2019.01.27-12.20.02:106][507]Warning: Starting HotReload took  0.0s.
+[2019.01.27-12.20.06:239][852]CompilerResultsLog: New page: Compilation - 27 Jan 2019 12:20:06
+[2019.01.27-12.20.06:239][852]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.01.27-12.20.06:239][852]CompilerResultsLog: Compiling game modules for hot reload
+[2019.01.27-12.20.06:239][852]CompilerResultsLog: Target is up to date
+[2019.01.27-12.20.06:239][852]CompilerResultsLog: Total build time: 3.79 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2019.01.27-12.20.06:240][852]LogMainFrame: MainFrame: Module compiling took 4.145 seconds
+[2019.01.27-12.20.06:574][852]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2595 classes and 613 folders.
+[2019.01.27-12.20.06:574][852]Display: HotReload took  4.5s.
+[2019.01.27-12.20.08:943][ 68]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.20.08:967][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.20.08:968][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.20.08:968][ 68]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:20:08)
+[2019.01.27-12.20.08:968][ 68]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.20.08:986][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018384s)
+[2019.01.27-12.20.08:988][ 68]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.20.08:988][ 68]LogPlayLevel: PIE: World Init took: (0.001788s)
+[2019.01.27-12.20.08:988][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.020587s)
+[2019.01.27-12.20.09:076][ 68]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.20.09:096][ 68]LogInit: FAudioDevice initialized.
+[2019.01.27-12.20.09:137][ 68]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.20.09:139][ 68]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.20.09
+[2019.01.27-12.20.09:140][ 68]LogWorld: Bringing up level for play took: 0.003028
+[2019.01.27-12.20.09:155][ 68]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.148
+[2019.01.27-12.20.09:156][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.20.09:165][ 68]LogTemp: Warning: Already marked for destroy.
+[2019.01.27-12.20.23:583][775]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.01.27-12.20.23:688][785]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.20.23:689][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.20.23:733][785]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.01.27-12.20.23:733][785]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.20.23:777][785]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.01.27-12.20.23:842][786]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.01.27-12.20.38:046][341]BlueprintLog: New page: Compile TestBox
+[2019.01.27-12.20.39:195][448]LogTemp: Repeating last play command: Selected Viewport
+[2019.01.27-12.20.39:223][448]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.20.39:223][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.01.27-12.20.39:223][448]PIE: New page: PIE session: FirstPersonExampleMap (27 Jan 2019 12:20:39)
+[2019.01.27-12.20.39:224][448]LogPlayLevel: Creating play world package: /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap
+[2019.01.27-12.20.39:240][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016207s)
+[2019.01.27-12.20.39:241][448]LogAIModule: Creating AISystem for world FirstPersonExampleMap
+[2019.01.27-12.20.39:241][448]LogPlayLevel: PIE: World Init took: (0.001095s)
+[2019.01.27-12.20.39:241][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap to /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap (0.017681s)
+[2019.01.27-12.20.39:293][448]LogInit: XAudio2 using 'Speakers (Logitech G430 Gaming Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.01.27-12.20.39:305][448]LogInit: FAudioDevice initialized.
+[2019.01.27-12.20.39:343][448]LogLoad: Game class is 'HomeIsGameMode'
+[2019.01.27-12.20.39:347][448]LogWorld: Bringing World /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap.FirstPersonExampleMap up for play (max tick rate 0) at 2019.01.27-12.20.39
+[2019.01.27-12.20.39:348][448]LogWorld: Bringing up level for play took: 0.004117
+[2019.01.27-12.20.39:363][448]PIE: Play in editor start time for /Game/FirstPersonCPP/Maps/UEDPIE_0_FirstPersonExampleMap 0.358
+[2019.01.27-12.20.39:364][448]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap' with GeneratedClass '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap_C' with ClassGeneratedBy '/Game/FirstPersonCPP/Maps/FirstPersonExampleMap.FirstPersonExampleMap:PersistentLevel.FirstPersonExampleMap'
+[2019.01.27-12.20.40:160][486]LogTemp: Warning: 398.950836
+[2019.01.27-12.20.40:240][491]LogTemp: Warning: 778.715515
+[2019.01.27-12.20.40:584][511]LogTemp: Warning: 180.548141
+[2019.01.27-12.20.40:767][521]LogTemp: Warning: 465.344513
+[2019.01.27-12.20.41:108][538]LogTemp: Warning: 131.102768
+[2019.01.27-12.20.41:363][553]LogTemp: Warning: 142.474915
+[2019.01.27-12.20.41:682][571]LogTemp: Warning: 131.102768
+[2019.01.27-12.20.41:872][582]LogTemp: Warning: 118.566971
+[2019.01.27-12.20.42:038][592]LogTemp: Warning: 1
+[2019.01.27-12.20.42:038][592]LogTemp: Warning: 2Sphere
+[2019.01.27-12.20.42:038][592]LogTemp: Warning: 3
+[2019.01.27-12.20.42:215][600]LogTemp: Warning: 131.102768
+[2019.01.27-12.20.42:355][608]LogTemp: Warning: 102.231781
+[2019.01.27-12.20.42:644][624]LogTemp: Warning: 133.016525
+[2019.01.27-12.20.42:872][637]LogTemp: Warning: 96.266975
+[2019.01.27-12.20.43:092][649]LogTemp: Warning: 145.599503
+[2019.01.27-12.20.43:311][660]LogTemp: Warning: 98.721779
+[2019.01.27-12.20.43:582][677]LogTemp: Warning: 155.877243
+[2019.01.27-12.20.43:916][698]LogTemp: Warning: 126.848640
+[2019.01.27-12.20.44:192][714]LogTemp: Warning: 137.583191
+[2019.01.27-12.20.44:353][724]LogTemp: Warning: 104.679237
+[2019.01.27-12.20.44:715][746]LogTemp: Warning: 89.157272
+[2019.01.27-12.20.44:891][757]LogTemp: Warning: 88.840233
+[2019.01.27-12.20.45:276][779]LogTemp: Warning: 88.473892
+[2019.01.27-12.20.45:307][781]LogTemp: Warning: 91.398094
+[2019.01.27-12.20.45:855][815]LogTemp: Warning: 93.012199
+[2019.01.27-12.20.45:887][817]LogTemp: Warning: 91.394112
+[2019.01.27-12.20.46:346][845]LogTemp: Warning: 99.623505
+[2019.01.27-12.20.46:428][850]LogTemp: Warning: 94.050781
+[2019.01.27-12.20.46:855][870]LogTemp: Warning: 95.679047
+[2019.01.27-12.20.46:969][877]LogTemp: Warning: 98.730049
+[2019.01.27-12.20.47:462][902]LogTemp: Warning: 94.264488
+[2019.01.27-12.20.47:534][906]LogTemp: Warning: 94.232048
+[2019.01.27-12.20.47:949][928]LogTemp: Warning: 98.309982
+[2019.01.27-12.20.47:966][929]LogTemp: Warning: Already marked for destroy.
+[2019.01.27-12.20.47:982][930]LogTemp: Warning: 93.058746
+[2019.01.27-12.20.48:423][957]LogTemp: Warning: 59.608433
+[2019.01.27-12.20.48:440][958]LogTemp: Warning: 65.818848
+[2019.01.27-12.20.48:871][985]LogTemp: Warning: 59.608433
+[2019.01.27-12.20.48:966][991]LogTemp: Warning: 65.818848
+[2019.01.27-12.20.49:432][ 19]LogTemp: Warning: 59.608433
+[2019.01.27-12.20.49:463][ 21]LogTemp: Warning: 65.818848
